@@ -1,6 +1,6 @@
 ---
 title: "Clubs & Teams"
-layout: page
+layout: clubs
 ---
 
 
