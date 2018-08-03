@@ -1,6 +1,6 @@
 ---
 title: "Rules"
-layout: about
+layout: page
 ---
 
 {% include rules/01.html %}
