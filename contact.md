@@ -6,6 +6,7 @@ title: Rother League Contact
 <form id="formaction" method="POST">
     <p>Name: </p><input type="text" name="name" required><br />
     <p>Email: </p><input type="email" name="email" required><br />
+    <p>Message: </p><input type="email" name="email" required><br />
     <input type="text" name="_gotcha" style="display:none" />
     <input type="submit" value="Send">
     <input type="hidden" name="_next" value="//path/thanks.html" />
@@ -14,3 +15,102 @@ title: Rother League Contact
     var contactform =  document.getElementById('formaction');
     contactform.setAttribute('action', '//formspree.io/' + 'rotherleague' + '@' + 'gmail' + '.' + 'com');
 </script>
+
+
+<form action="/contact-us/" class="form-horizontal bootstrap-validator-form" enctype="multipart/form-data" id="formContact" method="post" name="formContact"><input name="__RequestVerificationToken" type="hidden" value="fYn3HkhGIkGrJo20HmRsiz8knR-sXafe8-mbeSt2NmmVqDl_Ix4ZDqDBa6t9FNJERmT6N9ibLTp42VNB2R6UN8GOzJTq9nHH_ft0-OZ-kng1" />    <fieldset>
+
+            <legend>Your Details</legend>
+            <div class="form-group">
+                <div class="col-xs-12 col-sm-8">
+                    <p>
+                </div>
+            </div>
+
+        <div class="form-group has-feedback  ">
+            <label class="col-xs-12 col-sm-3 control-label text-right" for="FirstName">First Name</label>
+            <div class="col-xs-12 col-sm-8">
+                <input class="form-control success" data-val="true" data-val-length="The first name must be more than 2 and less than 40 characters long" data-val-length-max="40" data-val-minlength="The first name must be more than 2 and less than 40 characters long" data-val-minlength-min="3" data-val-required="The First Name field is required." id="FirstName" name="FirstName" placeholder="Your First Name" required="required" tabindex="1" type="text" value="" />
+                    <span class="glyphicon glyphicon-ok form-control-feedback hidden"></span>
+                <span class="field-validation-valid help-block" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+
+        <div class="form-group has-feedback  ">
+            <label class="col-xs-12 col-sm-3 control-label text-right" for="LastName">Last Name</label>
+            <div class="col-xs-12 col-sm-8">
+                <input class="form-control success" data-val="true" data-val-length="The last name must be more than 2 and less than 40 characters long" data-val-length-max="40" data-val-minlength="The last name must be more than 2 and less than 40 characters long" data-val-minlength-min="3" data-val-required="The Last Name field is required." id="LastName" name="LastName" placeholder="Your Last Name" required="required" tabindex="1" type="text" value="" />
+                    <span class="glyphicon glyphicon-ok form-control-feedback hidden"></span>
+                <span class="field-validation-valid help-block" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+
+        <div class="form-group has-feedback  ">
+            <label class="col-xs-12 col-sm-3 control-label text-right" for="Email">Email</label>
+            <div class="col-xs-12 col-sm-8">
+                <input class="form-control success" data-val="true" data-val-email="The Email Address field is not a valid e-mail address." data-val-length="The email address must be more than 5 and less than 60 characters long" data-val-length-max="60" data-val-minlength="The email address must be more than 5 and less than 60 characters long" data-val-minlength-min="6" data-val-required="The Email Address field is required." id="Email" name="Email" placeholder="Email Address" required="required" tabindex="2" type="text" value="" />
+                    <span class="glyphicon glyphicon-ok form-control-feedback hidden"></span>
+
+                <span class="field-validation-valid help-block" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+
+
+        <div class="form-group has-feedback  ">
+            <label class="col-xs-12 col-sm-3 control-label text-right" for="QueryAbout">What is your query about?</label>
+            <div class="col-xs-12 col-sm-8">
+
+
+                <select class="form-control success" data-val="true" data-val-required="The What is your query about? field is required." id="QueryAbout" name="QueryAbout" required="required" tabindex="2"><option value="">-- Select Query --</option>
+<option value="1">Website Content</option>
+<option value="2">Registration</option>
+<option value="3">Results &amp; Fixtures</option>
+<option value="4">Advertise with us</option>
+<option value="5">Website feedback and errors</option>
+<option value="6">General Enquiries</option>
+</select>
+
+                    <span class="glyphicon glyphicon-ok form-control-feedback hidden"></span>
+                <span class="field-validation-valid help-block" data-valmsg-for="QueryAbout" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+
+        <div class="form-group has-feedback  ">
+            <label class="col-xs-12 col-sm-3 control-label text-right" for="Message">Message</label>
+            <div class="col-xs-12 col-sm-8">
+                <textarea class="form-control success" cols="80" data-val="true" data-val-length="The message must be more than 20 and less than 2000 characters long" data-val-length-max="2000" data-val-minlength="Your message is less than 20 characters. Please provide more details to your message." data-val-minlength-min="20" data-val-required="The Message field is required." id="Message" name="Message" placeholder="Your Message" required="required" rows="10" tabindex="3">
+</textarea>
+                    <span class="glyphicon glyphicon-ok form-control-feedback hidden"></span>
+
+                <span class="field-validation-valid help-block" data-valmsg-for="Message" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-xs-12 col-sm-3"></div>
+
+            <div class="col-xs-12 col-sm-8">
+                <label>
+                    <input class="" data-val="true" data-val-required="The MailingList field is required." id="MailingList" name="MailingList" tabindex="4" type="checkbox" value="true" /><input name="MailingList" type="hidden" value="false" />
+
+                    <span>If you would prefer not to receive emails from the Rother League please click here </span>
+
+                </label>
+            </div>
+        </div>
+
+        <!-- Render recaptcha control with default properties. -->
+
+        <div class="form-group">
+            <div class="col-xs-12 col-sm-3"></div>
+            <div class="col-xs-12 col-sm-8">
+                <hr/>
+                <input Value="/contact-us/" id="IPAddress" name="IPAddress" type="hidden" value="" />
+                <button type="submit" name="formSubmit" id="formSubmit" class="btn btn-primary" tabindex="5">Send</button>
+
+            </div>
+        </div>
+
+    </fieldset>
+                    <p>&nbsp;</p>
+<input name='ufprt' type='hidden' value='76B774091E6DA03E0D38F9563D4A981F8DAC3E96DD1D8C7DEE7C757244BDFABC1E8318214FFD49D2C4502A88539EE002ECB4EB2A37073D47E4B1891F9F34EFE53149787FC4CAE6B4DAB70FEC005228E1E95A3A384B3B81A50EE49CD01AE734C5E3E2C914EAEB8EE86F12538648FC2DD101D50A81C87D721E254D1C41FE0D06A74406ABC7D3DDF56A5A89FB3B65659824E46A7B7D4A219975F85313C70F12E686AD435BE2D3EE4B0F031A3611452598BE' /></form>
+
