@@ -47,6 +47,7 @@ plugins: # previously gems
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-pwa-plugin
 feed:
   path: atom.xml
 
@@ -75,7 +76,21 @@ collections:
     output: true
     permalink:  /:year/:month/:day/:title.html
 
-
+# Progressive Web App
+pwa:
+  sw_src_filepath: service-worker.js # Optional
+  sw_dest_filename: service-worker.js # Optional
+  dest_js_directory: assets/js # Required
+  precache_recent_posts_num: 5 # Optional
+  precache_glob_directory: / # Optional
+  precache_glob_patterns: # Optional
+    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
+    - index.html
+  precache_glob_ignores: # Optional
+    - sw-register.js
+    - "fonts/**/*"
+    
+    
 # Front Matter Defaults
 defaults:
   # _posts
