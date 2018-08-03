@@ -1,10 +1,6 @@
 ---
-title: Rules
-layout: collection
-permalink: /rules/
-collection: rules
-entries_layout: grid
+title: "Rules"
+layout: about
 ---
-
 
 {% include rules/01.html %}
