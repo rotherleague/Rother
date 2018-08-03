@@ -1,8 +1,16 @@
 {
-  "name": "Rother League",
-  "short_name": "RYFL",
-  "theme_color": "#2196f3",
-  "background_color": "#2196f3",
-  "display": "browser",
-  "scope": "/",
-  "start_url": "/https://rotherleague.github.io/example/"
+    "dir": "ltr",
+    "lang": "en-US",
+    "name": "Basically Basic",
+    "scope": "/example/",
+    "display": "browser",
+    "start_url": "https://rotherleague.github.io/example/",
+    "short_name": "Basically Basic",
+    "theme_color": "transparent",
+    "description": "Your new default Jekyll theme",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": []
+}
