@@ -31,8 +31,8 @@ google_fonts:
 
 navigation_pages:
   - posts.md
-  - recipes.md
+  - winners.md
   - about.md
-  - cv.md
+  - rules.md
   - tags.md
   - categories.md
