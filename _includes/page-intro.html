@@ -7,7 +7,7 @@
     {% assign intro_image = intro_image | escape %}
     <div class="intro-image">
       <picture>
-      <source srcset="{{ intro_image | replace:'.jpg','.webp' } }} " type="image/webp">
+      <source srcset="{{ intro_image | replace:'.jpg','.webp'}} " type="image/webp">
       <img src="{{ intro_image }}" alt="{{ page.title }}">
     </picture>
     </div>
