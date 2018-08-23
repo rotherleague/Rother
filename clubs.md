@@ -3,7 +3,7 @@ title: "Clubs & Teams"
 layout: clubs
 ---
 
-{% include clubs/as_eastbourne.md %}
+{% include clubs/as_eastbourne.html %}
 {% include clubs/battle.html %}
 {% include clubs/beckley.html %}
 {% include clubs/bexhill.html %}
