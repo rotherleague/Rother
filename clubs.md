@@ -3,8 +3,6 @@ title: "Clubs & Teams"
 layout: clubs
 ---
 
-
-{% include kit/as_eastbourne.html %}
 {% include clubs/as_eastbourne.html %}
 
 {% include clubs/battle.html %}
