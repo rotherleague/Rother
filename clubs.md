@@ -22,14 +22,14 @@ layout: clubs
 {% include clubs/hollington.html %}
 {% include clubs/hooe.html %}
 {% include clubs/hurst_green.html %}
-{% include clubs/hooe.html %}
+
 {% include clubs/junior_club_tackleway.html %}
 {% include clubs/kingston_village.html %}
 {% include clubs/little_common.html %}
 {% include clubs/ringmer_rovers.html %}
 {% include clubs/robertsbridge.html %}
 {% include clubs/rye_bay.html %}
-{% include clubs/sc_pass_mov.html %}
+{% include clubs/sc_pass_move.html %}
 {% include clubs/sedlescombe.html %}
 {% include clubs/wadhurst.html %}
 {% include clubs/weald_wolves.html %}
