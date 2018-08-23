@@ -4,7 +4,6 @@ layout: clubs
 ---
 
 {% include clubs/as_eastbourne.html %}
-
 {% include clubs/battle.html %}
 {% include clubs/beckley.html %}
 {% include clubs/bexhill.html %}
@@ -20,7 +19,6 @@ layout: clubs
 {% include clubs/hollington.html %}
 {% include clubs/hooe.html %}
 {% include clubs/hurst_green.html %}
-
 {% include clubs/junior_club_tackleway.html %}
 {% include clubs/kingston_village.html %}
 {% include clubs/little_common.html %}
