@@ -15,14 +15,14 @@
 # in the templates via {{ site.myvariable }}.
 lang: en-US
 title: Rother League
-email: nigel@pixelagent.co.uk
-description: "Rother League"
+email: rotherleague@gmail.com
+description: "Rother Youth Football League"
 baseurl: "/example"  # the subpath of your site, e.g. /blog
 url: ""  # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: Nigel Morris
   twitter: rotherleague
-  picture: https://api.adorable.io/avatars/285/johndoe.png
+  picture: https://api.adorable.io/avatars/285/football.png
 twitter_username: rotherleague
 github_username: rotherleague
 logo: /assets/icons/basically-basic-logo-light.svg
