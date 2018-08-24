@@ -1,6 +1,6 @@
 ---
 title: "Registration"
-layout: about
+layout: page
 ---
 
 <div class="row">
