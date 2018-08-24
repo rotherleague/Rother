@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+e# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
@@ -100,10 +100,10 @@ defaults:
     values:
       layout: post
       read_time: true
-  # _recipes
+  # _newsletters
   - scope:
-      path: "_recipes"
-      type: recipes
+      path: "_newsletters"
+      type: newsletters
     values:
       layout: post
       read_time: true
