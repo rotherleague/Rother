@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 lang: en-US
 title: Rother League
-email: rotherleague@gmail.com
+email: nigel@pixelagent.co.uk
 description: "Rother League"
 baseurl: "/example"  # the subpath of your site, e.g. /blog
 url: ""  # the base hostname & protocol for your site, e.g. http://example.com
