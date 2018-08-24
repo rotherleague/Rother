@@ -69,7 +69,7 @@ paginate_path: /page:num/
 
 # Collections
 collections:
-  recipes:
+  newsletters:
     output: true
     permalink: /:collection/:path/
   posts:
