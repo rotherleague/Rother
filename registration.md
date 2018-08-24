@@ -2,8 +2,7 @@
 title: "Registration"
 layout: page
 introduction: |
-  Register your club and team for the coming season
-
+  Register your club and team for the coming season:
   - Clean responsive design with six customizable skins
   - Curriculum Vitæ/Resume layout powered by [JSON data](http://registry.jsonresume.org/)
   - About page layout
