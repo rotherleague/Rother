@@ -18,8 +18,8 @@ title: Rother League
 email: rotherleague@gmail.com
 description: "Rother Youth Football League"
 baseurl: "/example"  # the subpath of your site, e.g. /blog
-url: ""  # the base hostname & protocol for your site, e.g. http://example.com
-author:
+url: "http://www.rotherleague.org.uk"  # the base hostname & protocol for your site, e.g. http://example.com
+author: Nigel Morris
   name: Nigel Morris
   twitter: rotherleague
   picture: https://api.adorable.io/avatars/285/football.png
