@@ -4,7 +4,7 @@ paginate: true
 alt_title: "Rother League"
 sub_title: "Welcome to the Rother League Website"
 image: assets/images/banner.jpg
----
+
 
 ###FA Full time
 
@@ -23,4 +23,4 @@ Thanks also go to the various Committee members who run the League and give up l
 Finally, my thanks go to you, the players, parents, supporters, managers and other Club Officials who make all of this possible. I do hope that, whatever the result, you enjoy your special day and that the game is played in the spirit in which it is intended.</em> </p>
 Richard Hubble</em><br><em>Rother League Vice President</em></p>
 
-
+---
