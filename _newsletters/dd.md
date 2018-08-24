@@ -1,5 +1,5 @@
 ---
-title: "Chocolate Chip Cookies"
+title: "Example Page"
 image: 
   path: /assets/images/chocolate-chip-cookies-lg.jpg
   thumbnail: /assets/images/chocolate-chip-cookies-400x200.jpg
