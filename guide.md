@@ -34,7 +34,7 @@ Both teams must complete an online Match Return (including the provision of mark
 
 Any discrepancy between the two match returns will be addressed and resolved as quickly as possible by the League’s Management Committee.
 
-<h4>Registering players…
+<h4>Registering players…</h4>
 Make certain when completing a Player Registration Form that all sections outside of the shaded areas are properly completed.   It is important to note that you must never assume that because a Registration Form has been posted that the player in question has been registered.  
 
 If you have not received the completed Registration acknowledgement (and the ID Card, if the player is an U10 or older) from the League’s Registrations Secretary, we would strongly suggest that you make contact to confirm the registration has been accepted and actioned.  Failure to follow these simple guidelines may well result in you playing an unregistered player, which means you could forfeit the match and be fined.
