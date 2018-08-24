@@ -1,9 +1,9 @@
 ---
-title: Recipes
+title: Newsletters
 layout: collection
-permalink: /recipes/
-collection: recipes
+permalink: /newsletters/
+collection: newsletters
 entries_layout: grid
 ---
 
-Sample document listing for the collection `_recipes`.
+Sample document listing for the collection `_newsletters`.
