@@ -1,3 +1,7 @@
+---
+title: "Registration"
+layout: about
+---
 
 <div class="row">
    <div class="col-md-6">
