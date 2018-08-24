@@ -1,3 +1,9 @@
+---
+title: "Guide"
+layout: about
+---
+
+
 <h2>An idiot’s guide to the League! </h2>  
 
 <h4>A week before the game…,</h4>
