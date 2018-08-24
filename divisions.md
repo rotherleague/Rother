@@ -1,6 +1,6 @@
 ---
 title: "Divisions"
-layout: clubs
+layout: divisions
 ---
 
 <h2> Under 15s</h2>
