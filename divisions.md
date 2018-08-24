@@ -7,7 +7,7 @@ layout: divisions
 {% include divisions/u15.html %}
 
 <h2 id="u14"> Under 14s</h2>
-{% include divisions/uu14.html %}
+{% include divisions/u14.html %}
 
 <h2 id="u13"> Under 13s</h2>
 {% include divisions/u13.html %}
