@@ -19,7 +19,7 @@
 .entry-sidebar {
    @include list-unstyled;
 
-   a{
+   li a{
     color: inherit;
     
     display: block;
@@ -32,7 +32,8 @@
 
     &:hover {
       background-color: tint($accent-color, 20%);
-    }
+      }
+   }
 }
 
 /*
