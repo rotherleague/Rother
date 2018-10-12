@@ -18,19 +18,25 @@
 
 .entry-sidebar {
    @include list-unstyled;
+   
+   list-style-type: none;
+   
+   li{
+    margin-bottom:0.1em;  
+   }
 
    li a {
     display: block;
-    padding: 1em;
+    padding: 0.5em;
     border-radius: $border-radius;
-    background-color: $accent-color;
-    color: #fff;
+    background-color: tint($accent-color, 20%);
+    color: #000;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
 
     &:hover {
-      background-color: tint($accent-color, 20%);
+      background-color: tint($accent-color, 1%);
     }
   }
 }
