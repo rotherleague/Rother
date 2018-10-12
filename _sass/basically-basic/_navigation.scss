@@ -19,22 +19,22 @@
 .entry-sidebar {
    @include list-unstyled;
 
-   li a{
-    color: inherit;
-    
+   li a {
     display: block;
     padding: 1em;
     border-radius: $border-radius;
     background-color: $accent-color;
+    color: #fff;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
 
     &:hover {
       background-color: tint($accent-color, 20%);
-      }
-   }
+    }
+  }
 }
+
 
 /*
    Skip links
