@@ -3,6 +3,11 @@
 {% endif %}
 
 <script async src="{{ '/assets/javascripts/main.js' | relative_url }}"></script>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript"src="{{ '/assets/javascripts/jquery.sticky-kit.js' | relative_url"></script>
+
+
 
 {% if site.search %}
   {%- assign search_provider = site.search_provider | default: "lunr" -%}
