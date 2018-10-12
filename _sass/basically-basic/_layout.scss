@@ -21,6 +21,29 @@
   backface-visibility: hidden;
 }
 
+.entry-wrap {
+ grid-area: content;
+}
+
+.intro {
+  grid-area: header;
+}
+.entry-sidebar {
+  grid-area: sidebar;
+}
+
+.wrapper {
+   display: grid;
+   grid-gap: 10px;
+   grid-template-columns: 40%  30%  30%;
+   grid-template-areas:
+      "header header  header"
+      "sidebar content content";
+   background-color: #ccc;
+   color: #444;
+}
+
+
 .intro,
 main {
   > .inner {
