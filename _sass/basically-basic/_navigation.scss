@@ -17,13 +17,10 @@
    ========================================================================== */
 
 .entry-sidebar {
-   @include list-unstyled;
    
-   
-   
-   li{
-    margin-bottom:0.3em; 
-    list-style-type: none;
+   ul li{
+    @include list-unstyled;
+    padding-bottom:0.3em; 
    }
 
    li a {
@@ -37,7 +34,7 @@
     text-decoration: none;
 
     &:hover {
-      background-color: tint($accent-color, 10%);
+      background-color: tint($accent-color, 90%);
     }
   }
 }
