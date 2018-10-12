@@ -13,10 +13,10 @@
 }
 
 /*
-   Skip links
+   Sidebar links
    ========================================================================== */
 
-aside {
+.entry-sidebar {
    @include list-unstyled;
 
    a{
