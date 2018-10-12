@@ -21,15 +21,15 @@
   backface-visibility: hidden;
 }
 
-.entry-content {
+.page-menu .entry-content {
  grid-area: content;
 }
 
-.entry-sidebar {
+.page-menu .entry-sidebar {
   grid-area: sidebar;
 }
 
-.entry-wrap {
+.page-menu .entry-wrap {
    display: grid;
    grid-gap: 10px;
    grid-template-columns: 40%  60%;
