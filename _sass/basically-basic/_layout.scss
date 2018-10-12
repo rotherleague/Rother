@@ -35,8 +35,6 @@
    grid-template-columns: 40%  60%;
    grid-template-areas:
       "sidebar content";
-   background-color: #ccc;
-   color: #444;
 }
 
 
@@ -66,6 +64,8 @@ main {
     }
   }
 }
+
+
 
 main {
   section {
