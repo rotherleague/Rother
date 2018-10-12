@@ -29,14 +29,14 @@
     display: block;
     padding: 0.5em;
     border-radius: $border-radius;
-    background-color: tint($accent-color, 20%);
+    background-color: #fff;
     color: #000;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
 
     &:hover {
-      background-color: tint($accent-color, 1%);
+      background-color: tint($accent-color, 10%);
     }
   }
 }
