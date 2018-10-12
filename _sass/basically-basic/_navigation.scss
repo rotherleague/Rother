@@ -9,6 +9,30 @@
     color: inherit;
     text-decoration: none;
   }
+
+}
+
+/*
+   Skip links
+   ========================================================================== */
+
+aside {
+   @include list-unstyled;
+
+   a{
+    color: inherit;
+    
+    display: block;
+    padding: 1em;
+    border-radius: $border-radius;
+    background-color: $accent-color;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+
+    &:hover {
+      background-color: tint($accent-color, 20%);
+    }
 }
 
 /*
