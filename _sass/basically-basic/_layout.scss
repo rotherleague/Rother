@@ -101,6 +101,8 @@ main {
       order: initial;
       -ms-flex-order: initial;
     }
+     
+     
 
     .author-picture {
       margin: 0 0 2rem;
@@ -133,6 +135,13 @@ main {
         width: span(11 of 16);
       }
     }
+     
+    .entry-sidebar {
+      @include breakpoint($medium) {
+        float: right;
+        width: span(5 of 16);
+      }
+     }
   }
 
   .entry {
