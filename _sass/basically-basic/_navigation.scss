@@ -19,10 +19,11 @@
 .entry-sidebar {
    @include list-unstyled;
    
-   list-style-type: none;
+   
    
    li{
-    margin-bottom:0.1em;  
+    margin-bottom:0.1em; 
+    list-style-type: none;
    }
 
    li a {
