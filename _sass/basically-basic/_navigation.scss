@@ -12,6 +12,34 @@
 }
 
 /*
+   Sidebar links
+   ========================================================================== */
+
+.entry-sidebar {
+   
+   ul li{
+    @include list-unstyled;
+    padding-bottom:0.3em; 
+   }
+
+   li a {
+    display: block;
+    padding: 0.3em;
+    border-radius: $border-radius;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+
+    &:hover {
+      background-color: tint($accent-color, 90%);
+    }
+  }
+}
+
+
+/*
    Skip links
    ========================================================================== */
 

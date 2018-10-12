@@ -21,6 +21,18 @@
   backface-visibility: hidden;
 }
 
+.page-menu .entry-content {
+ grid-area: content;
+}
+.page-menu .entry-sidebar {
+  grid-area: sidebar;
+}
+.page-menu .entry-wrap {
+   display: grid;
+   grid-gap: 10px;
+   grid-template-columns: 40%  60%;
+   grid-template-areas: "sidebar content";
+}
 .intro,
 main {
   > .inner {
@@ -131,6 +143,13 @@ main {
       @include breakpoint($medium) {
         float: right;
         width: span(11 of 16);
+      }
+    }
+     
+    .entry-sidebar {
+      @include breakpoint($medium) {
+        float: right;
+        width: span(5 of 16);
       }
     }
   }
