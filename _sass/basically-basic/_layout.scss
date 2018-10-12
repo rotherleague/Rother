@@ -21,10 +21,6 @@
   backface-visibility: hidden;
 }
 
-.intro {
-  grid-area: header;
-}
-
 .entry-content {
  grid-area: content;
 }
@@ -38,7 +34,6 @@
    grid-gap: 10px;
    grid-template-columns: 40%  30%  30%;
    grid-template-areas:
-      "header header  header"
       "sidebar content content";
    background-color: #ccc;
    color: #444;
