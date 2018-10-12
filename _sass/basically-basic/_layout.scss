@@ -21,18 +21,19 @@
   backface-visibility: hidden;
 }
 
-.entry-wrap {
- grid-area: content;
-}
-
 .intro {
   grid-area: header;
 }
+
+.entry-content {
+ grid-area: content;
+}
+
 .entry-sidebar {
   grid-area: sidebar;
 }
 
-.wrapper {
+.entry-wrap {
    display: grid;
    grid-gap: 10px;
    grid-template-columns: 40%  30%  30%;
