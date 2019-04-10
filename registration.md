@@ -7,10 +7,10 @@ introduction: |
 actions:
   - label: "Club"
     icon: download
-    url: "//www.rotherleague.org.uk/registration/club"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLScATmiFKb21A7HJPLHXO7PxWz-yCc5W9FOHl7Mvem_yOhTBRQ/viewform"
   - label: "Team"
     icon: download
-    url: "//www.rotherleague.org.uk/registration/team"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSezVC5bjacFtLDYBBG8v2Zf3w0vIxssV-J8G-p-syieT2zB5w/viewform"
 ---
 
 
