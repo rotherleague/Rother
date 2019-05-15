@@ -26,7 +26,7 @@ author:
 twitter_username: rotherleague
 github_username: rotherleague
 logo: /assets/icons/basically-basic-logo-light.svg
-search: true
+search: false
 search_full_content: true
 search_provider: algolia
 algolia:
