@@ -1,11 +1,11 @@
 ---
-title: "Example Page"
+title: "Rother League Newsletter"
 image: 
-  path: /assets/images/chocolate-chip-cookies-lg.jpg
-  thumbnail: /assets/images/chocolate-chip-cookies-400x200.jpg
+  path: /assets/images/ball-football-boots-soccer-35781.jpg
+  thumbnail: /assets/images/ball-football-boots-soccer-35781_thumb.jpg
   caption: "Photo from [Pexels](https://www.pexels.com)"
 ---
 
-A chocolate chip cookie is a drop cookie that originated in the United States and features chocolate chips as its distinguishing ingredient.
+Rother League Newsletter
 
 {{ page.pdf_url }}
