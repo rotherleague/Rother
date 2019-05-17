@@ -33,7 +33,7 @@
     {% include head-feed.html %}
   {% endif %}
   
-  <link rel="manifest" href="/manifest.json">
-  <script src="/example/assets/javascripts/manup.min.js"></script>
-  <script src="/example/pwabuilder-sw-register.js"></script>
+  <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
+  <script src="{{ '/assets/javascripts/manup.min.js' | relative_url }}"></script>
+  <script src="{{ '/pwabuilder-sw-register.js' | relative_url }}"></script>
 </head>
