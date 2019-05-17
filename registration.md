@@ -2,8 +2,10 @@
 title: "Registration"
 layout: page
 introduction: |
-  Register your club and team for the coming season:
-  - Please complet ethe following forms
+  Register your club and team for the coming season.
+  - Please complete the following forms:
+  
+  
 actions:
   - label: "Club"
     icon: download
