@@ -86,61 +86,43 @@ layout: page
 <br>
 “Youth Football” means those participating at ages under 11s to under 18s.
 <ol>
+<li>Unless stated otherwise, terms referring to natural persons are applicable to both genders. Any term in the singular applies to the plural and vice-versa.
+<br>
+(D) All Clubs shall adhere to the Rules.  Every Club shall be deemed, as a member of the Competition to have accepted the Rules and to have agreed to abide by the decisions of the Management Committee in relation thereto, subject to the provisions of Rule 16.
+<br>
 
-	<li>Unless stated otherwise, terms referring to natural persons are applicable to both genders. Any term in the singular applies to the plural and vice-versa.
-	<br>
-
-	(D)	All Clubs shall adhere to the Rules.  Every Club shall be deemed, as a member of the Competition to have accepted the Rules and to have agreed to abide by the decisions of the Management Committee in relation thereto, subject to the provisions of Rule 16.
-	<br>
-
-	(E) The Competition will be known as ROTHER YOUTH LEAGUE.  The Clubs participating in the Competition must be members of the Competition.  A Club which ceases to exist or which ceases to be entitled to play in the Competition for any reason whatsoever shall thereupon automatically cease to be a member of the Competition.
-	<br>
-
-	(F)	The administration of the Competition under these Rules will be carried out by the Competition acting (save where otherwise specifically mentioned herein) through the Management Committee in accordance with the rules, regulations and policies of The FA.
+(E) The Competition will be known as ROTHER YOUTH LEAGUE.  The Clubs participating in the Competition must be members of the Competition.  A Club which ceases to exist or which ceases to be entitled to play in the Competition for any reason whatsoever shall thereupon automatically cease to be a member of the Competition.
+<br>
+(F) The administration of the Competition under these Rules will be carried out by the Competition acting (save where otherwise specifically mentioned herein) through the Management Committee in accordance with the rules, regulations and policies of The FA.
 </li>
 </ol>
 
 <strong>  2. GOVERNANCE RULES, COMPETITION NAME AND CONSTITUTION</strong> 
 <ol>
-	
-	<li>The Competition will be known as Rother Youth League (or such other name as the Competition may adopt). The Clubs participating in the Competition must be members of the Competition. A Club which ceases to exist, or which ceases to be entitled to play in the Competition for any reason whatsoever shall thereupon automatically cease to be a member of the Competition.
-	
-	<li>This Competition shall consist of not more than 50 Clubs approved by the Sanctioning Authority.
-	
-	<li>The geographical area covered by the Competition membership shall be East Sussex and Kent.
-	
-	<li>The administration of the Competition under these Rules will be carried out by the Competition acting (save where otherwise specifically mentioned herein) through the Management Committee in accordance with the rules, regulations and policies of The FA.
-	
-	<li>All Clubs shall adhere to the Rules. Every Club shall be deemed, as a member of the Competition to have accepted the Rules and to have agreed to abide by the decisions of the Management Committee in relation thereto, subject to the provisions of Rule 7.
-	
-	<li>The Rules are taken from the Standard Code of Rules for Youth Competitions (the “Standard Code”) determined by The FA from time to time. In the event of any omissions from the Standard Code then the requirements of the Standard Code shall be deemed to apply to the Competition.
-	
-	<li>All Clubs must be affiliated to an Affiliated Association and their names and particulars shall be returned annually by the appointed date in a manner prescribed by the Sanctioning Authority and must have a constitution approved by the Sanctioning Authority. Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff.
-	<br>
-
-	This Competition shall apply annually for sanction to the Sanctioning Authority and the constituent Teams of Clubs may be grouped in divisions, <em>each not exceeding 50  in number.</em>
-	<ol>
-
-	<li>Inclusivity and Non-discrimination  
-	<ol>
-	
-	<li>The Competition and each Club must be committed to promoting inclusivity and to eliminating all forms of discrimination and should abide and adhere to The FA Equality Policy and any legislative requirements (to include those contained in the Equality Act 2010).
-	
-	<li>This Competition and each Club must make every effort to promote equality by treating people fairly and with respect, by recognising that inequalities may exist, by taking steps to address them and by providing access and opportunities for all members of the community, irrespective of age, gender, gender reassignment, sexual orientation, marital status, race, nationality, ethnic origin, colour, religion or belief, ability or disability or otherwise.
-	
-	<li>Any alleged breach of the Equality Act 2010 legislation must be referred to the appropriate Sanctioning Authority for investigation.
+<li>The Competition will be known as Rother Youth League (or such other name as the Competition may adopt). The Clubs participating in the Competition must be members of the Competition. A Club which ceases to exist, or which ceases to be entitled to play in the Competition for any reason whatsoever shall thereupon automatically cease to be a member of the Competition.
+<li>This Competition shall consist of not more than 50 Clubs approved by the Sanctioning Authority.
+<li>The geographical area covered by the Competition membership shall be East Sussex and Kent.
+<li>The administration of the Competition under these Rules will be carried out by the Competition acting (save where otherwise specifically mentioned herein) through the Management Committee in accordance with the rules, regulations and policies of The FA.
+<li>All Clubs shall adhere to the Rules. Every Club shall be deemed, as a member of the Competition to have accepted the Rules and to have agreed to abide by the decisions of the Management Committee in relation thereto, subject to the provisions of Rule 7.
+<li>The Rules are taken from the Standard Code of Rules for Youth Competitions (the “Standard Code”) determined by The FA from time to time. In the event of any omissions from the Standard Code then the requirements of the Standard Code shall be deemed to apply to the Competition.
+<li>All Clubs must be affiliated to an Affiliated Association and their names and particulars shall be returned annually by the appointed date in a manner prescribed by the Sanctioning Authority and must have a constitution approved by the Sanctioning Authority. Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff.
+<br>
+This Competition shall apply annually for sanction to the Sanctioning Authority and the constituent Teams of Clubs may be grouped in divisions, <em>each not exceeding 50  in number.</em>
+<ol>
+<li>Inclusivity and Non-discrimination  
+<ol>
+<li>The Competition and each Club must be committed to promoting inclusivity and to eliminating all forms of discrimination and should abide and adhere to The FA Equality Policy and any legislative requirements (to include those contained in the Equality Act 2010).
+<li>This Competition and each Club must make every effort to promote equality by treating people fairly and with respect, by recognising that inequalities may exist, by taking steps to address them and by providing access and opportunities for all members of the community, irrespective of age, gender, gender reassignment, sexual orientation, marital status, race, nationality, ethnic origin, colour, religion or belief, ability or disability or otherwise.
+<li>Any alleged breach of the Equality Act 2010 legislation must be referred to the appropriate Sanctioning Authority for investigation.
 </li>  
 </ol>
 </li>  
 </ol>
 
 <li>Clubs must comply with the provisions of any initiatives of The FA which are adopted by the Competition including, but not limited to, Charter Standard and RESPECT programmes. Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff.
-
-	<li>All Participants shall abide by The Football Association Regulations for Safeguarding Children as determined by The FA from time to time.
-
-	<li>Clubs shall not enter any of their Teams playing at a particular age group in the Competition in any other competition (with the exception of FA and County FA Competitions) except with the written consent of the Management Committee. Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff.
-
-	<li>At the AGM or a SGM called for the purpose, a majority of the delegates present shall have power to decide or adjust the constitution of the divisions at their discretion.  When necessary this Rule shall take precedence over Rule 22.
+<li>All Participants shall abide by The Football Association Regulations for Safeguarding Children as determined by The FA from time to time.
+<li>Clubs shall not enter any of their Teams playing at a particular age group in the Competition in any other competition (with the exception of FA and County FA Competitions) except with the written consent of the Management Committee. Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff.
+<li>At the AGM or a SGM called for the purpose, a majority of the delegates present shall have power to decide or adjust the constitution of the divisions at their discretion.  When necessary this Rule shall take precedence over Rule 22.
 </li>
 </ol>
 </h1>
@@ -148,48 +130,36 @@ layout: page
 <tr>
 	<td>
 		<ol>
-
-			<li><strong>CLUB NAME </strong>
-			Any Club wishing to change its name must obtain permission from the Sanctioning Authority and from the Management Committee. Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff.
-			</li>
-			</ol>
-
-
-			<ol>
-
-			<li><strong>ENTRY FEE, SUBSCRIPTION, DEPOSIT</strong>
-			(A) Applications by Clubs for admission to the Competition or the entry of an additional Team(s) from the same Club must be made in writing to the Secretary and must be accompanied by an entry fee per Team as set out in the Fees Tariff, which shall be returned in the event of non-election.
-			<br>
-
-			At the discretion of the voting members present applications, of which due notice has been given, may be received at the AGM or a SGM or on a date agreed by the Management Committee. 
-			<ol>
-			
-			<li>The annual subscription shall be payable in accordance with the Fees Tariff per <em>Club/Team (where a Club has more than one Team in membership of the Competition) </em>and shall be payable on or before 1<sup>st</sup> September in each year.
-			
-			<li><em>A Deposit of £100 shall be payable in accordance with the Fees Tariff per Club/Team (where a Club provides more than one Team in membership of the Competition) and shall be payable on or before 1<sup>st</sup> September in each year. Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff.</em>
-			
-			<li>A Club shall not participate in this Competition until the entry fee, annual subscription and Deposit (if required) have been paid.
-			
-			<li>If requested by the Competition, Clubs must advise annually to the Secretary in writing by 1<sup>st</sup> September of its Sanctioning Authority affiliation number for the forthcoming Playing Season. Clubs must advise the Secretary in writing, or on the prescribed form, of details of its headquarters, its Officers and any other information required by the Competition. Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff.
-		</li> 
-	</ol>
+<li><strong>CLUB NAME </strong>
+Any Club wishing to change its name must obtain permission from the Sanctioning Authority and from the Management Committee. Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff.
+</li>
+</ol>
+<ol>
+<li><strong>ENTRY FEE, SUBSCRIPTION, DEPOSIT</strong>
+(A) Applications by Clubs for admission to the Competition or the entry of an additional Team(s) from the same Club must be made in writing to the Secretary and must be accompanied by an entry fee per Team as set out in the Fees Tariff, which shall be returned in the event of non-election.
+<br>
+At the discretion of the voting members present applications, of which due notice has been given, may be received at the AGM or a SGM or on a date agreed by the Management Committee. 
+<ol>
+<li>The annual subscription shall be payable in accordance with the Fees Tariff per <em>Club/Team (where a Club has more than one Team in membership of the Competition) </em>and shall be payable on or before 1<sup>st</sup> September in each year.
+<li><em>A Deposit of £100 shall be payable in accordance with the Fees Tariff per Club/Team (where a Club provides more than one Team in membership of the Competition) and shall be payable on or before 1<sup>st</sup> September in each year. Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff.</em>
+<li>A Club shall not participate in this Competition until the entry fee, annual subscription and Deposit (if required) have been paid.
+<li>If requested by the Competition, Clubs must advise annually to the Secretary in writing by 1<sup>st</sup> September of its Sanctioning Authority affiliation number for the forthcoming Playing Season. Clubs must advise the Secretary in writing, or on the prescribed form, of details of its headquarters, its Officers and any other information required by the Competition. Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff.
+</li> 
+</ol>
 </li> 
 </ol>
 
 
 <ol>
-
-	<li><strong>MANAGEMENT, NOMINATION, ELECTION</strong>
-	(A) The Management Committee shall comprise the Officers of the Competition and 4 members who shall all be elected at the AGM.  
-	<ol>
+<li><strong>MANAGEMENT, NOMINATION, ELECTION</strong>
+(A) The Management Committee shall comprise the Officers of the Competition and 4 members who shall all be elected at the AGM.  
+<ol>
 	
-	<li>Retiring Officers shall be eligible to become candidates for re-election without nomination provided that the Officer notifies the Secretary in writing not later than 1<sup>st</sup> June in each year.
-	<br>
-
-	All other candidates for election as Officers of the Competition or members of the Management Committee shall be nominated to the Secretary in writing, signed by the secretaries of two Clubs, not later than 1<sup>st</sup> June in each year. Names of the candidates for election shall be circulated with the notice of the AGM. In the event of there being no nomination in accordance with the foregoing for any office, nominations may be received at the AGM. 
-	<ol>
-	
-	<li>The Management Committee shall meet as and when required, save that no more than three calendar months shall pass between each meeting.
+<li>Retiring Officers shall be eligible to become candidates for re-election without nomination provided that the Officer notifies the Secretary in writing not later than 1<sup>st</sup> June in each year.
+<br>
+All other candidates for election as Officers of the Competition or members of the Management Committee shall be nominated to the Secretary in writing, signed by the secretaries of two Clubs, not later than 1<sup>st</sup> June in each year. Names of the candidates for election shall be circulated with the notice of the AGM. In the event of there being no nomination in accordance with the foregoing for any office, nominations may be received at the AGM. 
+<ol>
+<li>The Management Committee shall meet as and when required, save that no more than three calendar months shall pass between each meeting.
 	<br>
 
 	On receiving a requisition signed by two-thirds (2/3) of the members of the Management Committee the Secretary shall convene a meeting of the Management Committee. 
