@@ -5,7 +5,7 @@ introduction: |
   Register your club and team for the coming season.
   - Please complete the following forms:
   
-  
+ <!-- 
 actions:
   - label: "Club"
     icon: download
@@ -15,4 +15,4 @@ actions:
     url: "https://docs.google.com/forms/d/e/1FAIpQLSezVC5bjacFtLDYBBG8v2Zf3w0vIxssV-J8G-p-syieT2zB5w/viewform"
 ---
 
-
+-->
