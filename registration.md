@@ -11,9 +11,11 @@ actions:
   - label: "Club"
     icon: download
     url: ""
+    disabled: disabled
   - label: "Team"
     icon: download
     url: ""
+    disabled: disabled
 ---
 
 
