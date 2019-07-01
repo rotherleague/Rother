@@ -3,7 +3,8 @@ title: "Registration"
 layout: page
 introduction: |
   __Registration has now ended for the 2019/2020 season.__
-  - 
+  
+---
   
   
   
