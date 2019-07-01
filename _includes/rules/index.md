@@ -1,8 +1,8 @@
 # INDEX 
 
 | RULE | SCHEDULE B |
-| Rule 1 | Definitions |
 |---|---|
+| Rule 1 | Definitions |
 | | GOVERNANCE RULES |
 | Rule 2 | 	Name and Constitution |
 | Rule 3 | 	Club Name |
