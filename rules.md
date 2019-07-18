@@ -36,3 +36,7 @@ layout: page
 {% include rules/30.md %}
 {% include rules/31.md %}
 {% include rules/32.md %}
+{% include rules/33.md %}
+{% include rules/34.md %}
+{% include rules/35.md %}
+{% include rules/36.md %}
