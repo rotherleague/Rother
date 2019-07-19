@@ -3,7 +3,7 @@ title: "Rules"
 layout: page
 ---
 
-
+{% include rules/index.md %}
 {% include rules/01.md %}
 {% include rules/02.md %}
 {% include rules/03.md %}
