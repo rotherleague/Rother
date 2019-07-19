@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby '2.5.1'
+
 # use local theme gem for testing
 # gem "jekyll-theme-basically-basic", path: "../"
 
@@ -9,7 +9,7 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-paginate"
-  gem "jekyll-algolia"
+  #gem "jekyll-algolia"
   gem "jekyll-pdf"
 end
 
