@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # use local theme gem for testing
-# gem "jekyll-theme-basically-basic", path: "../"
+gem "jekyll-theme-time-machine", path: "../"
 
 # Jekyll plugins
 group :jekyll_plugins do
@@ -15,4 +15,4 @@ end
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-gem 'github-pages'
+# gem 'github-pages'
