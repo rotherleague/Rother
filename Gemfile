@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-
+ruby '2.5.1'
 # use local theme gem for testing
 # gem "jekyll-theme-basically-basic", path: "../"
 
