@@ -5,23 +5,26 @@ $(document).ready( function() {
     var code = '1hWUOoG_-EpOk0Nay3VBHzG-yJiwkRaLEl2OJLmDsXP0';
 
     // loop through spreadsheet with Tabletop
-      Tabletop.init({ 
-         key: code,
-         callback: showInfo,
-         wanted: [ "clubs" ],
-         debug: true ,
-         simpleSheet: true,
-         orderby: 'clubname',
-         reverse: false } )
-      })
-        
+    Tabletop.init({ 
+        key: code,
+        callback: showInfo,
+        wanted: [ "clubs" ],
+        debug: true ,
+        simpleSheet: true,
+        orderby: 'clubname',
+        reverse: false 
+    })
+})
+      
 
-      function showInfo(data, tabletop) {
+function showInfo(data, tabletop) {
 
         var cat = '';
         var cat_li = '';
         var list_li = '';
         var content_li = '';
+        var nav_li = '';
+        var navlist_li = '';
 
         var i = 4;
 
@@ -32,6 +35,24 @@ $(document).ready( function() {
         $("#table_info").append("<p>" + sheet.name + " has " + sheet.column_names.join(", ") + "</p>");
         });
         */
+
+       $.each( tabletop.sheets("clubs").all(), function(i, clubs) {
+
+            nav_li = $('<div></div>');
+
+            if (clubs.clubname != 'Name Of Club'){
+
+                navlist_li = '<a href="#ref'+ clubs.clubname.replace(/\s/g,'-').toLowerCase() +'" class="nav-link">'+ clubs.clubname +'</a>';
+          
+            }
+            nav_li.append('<li class="list-group-item p-0">'+ navlist_li + '</li>');
+                
+             //Combine content
+             nav_li.appendTo("#nav");
+
+             navlist_li = '';
+
+        });
 
         $.each( tabletop.sheets("clubs").all(), function(i, clubs) {
 
@@ -47,26 +68,18 @@ $(document).ready( function() {
             
                 if  (cat != clubs.clubname){
                     
-                    
-                    
-                    
-                    cat_li = '<br><div class="list-group-item list-group-item-action active" id="ref'+ clubs.clubname +'">'+
+                    cat_li = '<br><div class="list-group-item list-group-item-action active" id="ref'+ clubs.clubname.replace(/\s/g,'-').toLowerCase() +'">'+
                     '<div class="d-flex w-100 justify-content-between">'+
                             '<h1>' + clubs.clubname +'</h1>' +
                         '</div>' +
                     '</div>';
                 }
-            
 
-                
                 /*
                 if (map.description != ''){
                     content_li ='<p class="mb-1">' +map.agegroupinwhichteamwillparticipatethisseason.replace(/\n/g, "<br />") + '</p>';
                 }
                 */
-                
-                
-                
 
                 //Manager Details
                 content_li = content_li +'<strong>Club Secretary:</strong> ';
@@ -104,7 +117,7 @@ $(document).ready( function() {
             content_li = '';
 
             
-        })
+        });
       }
 
 

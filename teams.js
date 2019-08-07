@@ -5,18 +5,19 @@ $(document).ready( function() {
     var code = '1Bu7pPIs72_I6ortPv-3APqOuSL3d4A8fRXOHyrnDdMY';
 
     // loop through spreadsheet with Tabletop
-      Tabletop.init({ 
-         key: code,
-         callback: showInfo,
-         wanted: [ "clubs" ],
-         debug: true ,
-         simpleSheet: true,
-         orderby: 'clubname',
-         reverse: false } )
-      })
+    Tabletop.init({ 
+        key: code,
+        callback: showInfo,
+        wanted: [ "clubs" ],
+        debug: true ,
+        simpleSheet: true,
+        orderby: 'clubname',
+        reverse: false 
+    })
+})
         
 
-      function showInfo(data, tabletop) {
+function showInfo(data, tabletop) {
 
         var cat = '';
         var cat_li = '';
@@ -132,7 +133,7 @@ $(document).ready( function() {
 
             
         })
-      }
+}
 
 
 function titleCase(str){
