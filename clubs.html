@@ -49,21 +49,21 @@
 <body>
  
 
-<section class="mbr-section article content12 cid-rfkeKysjtb" id="content12-18" id="list">
+<section class="article" id="list">
 
     <div class="container-fluid">
-        <div class="media-container-row row">
-            <div class="mbr-text counter-container col-12 col-md-8 mbr-fonts-style display-7">
+        <div class="row">
+            <div class="col-12 col-md-8">
                 <div class="row align-items-start">
 
                 
-                   <section class="col-sm-8 flex-column" data-spy="scroll" data-target="#navbar-clubs">     
+                   <section class="col-sm-8" data-spy="scroll" data-target="#navbar-clubs">     
                     <h2>Clubs</h2>
                     <div id="clubs" class="list-group"></div>
                    </section>
                     
-                   <nav id="navbar-clubs" class="col-sm-4 nav flex-column">
-                      <ul id="nav" class="list-group flex-column"></ul>
+                   <nav id="navbar-clubs" class="col-sm-4 nav ">
+                      <ul id="nav" class="list-group"></ul>
                     </nav>
                 </div>
              
@@ -73,17 +73,14 @@
 </section>
     
   <script src="assets/jquery.min.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script> 
   <script src="https://rawgit.com/bassjobsen/affix/master/assets/js/affix.js"></script>
+  <script>
+      $('#navbar-clubs').affix({
+          offset: {top:25, bottom:50}
+      });
+  </script> 
   <script type="text/javascript" src="assets/tabletop.min.js"></script>
   <script type="text/javascript" src="clubs.js"></script>
-  <script>
-    $('#navbar-clubs').affix({
-        offset: {top:25, bottom:50}
-    });
-  </script>    
-    
-  
 </body>
 </html>

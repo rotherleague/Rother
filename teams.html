@@ -18,7 +18,22 @@
   .list-group-item.active {
     background-color: #1d2071;
     border-color: #1d2071;
-}
+  }
+
+  #navbar-clubs.affix-top, #navbar-clubs.affix {
+        position: fixed;
+        top: 50px;
+        right:0;
+        width: 100%;
+      }
+
+      #navbar-clubs.affix-bottom {
+        position: fixed;
+        bottom: 50px;
+        right:0;
+        width: 100%;
+      }
+
   </style>
 </head>
 <body>
@@ -26,20 +41,23 @@
 
 
 
-<section class="mbr-section article content12 cid-rfkeKysjtb" id="content12-18" id="list">
+<section class="article" id="list">
      
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-10">
+            <div class="row align-items-start">
 
-    <div class="container">
-        <div class="media-container-row">
-            <div class="mbr-text counter-container col-12 col-md-8 mbr-fonts-style display-7">
-                
-                    <div id="table_info"></div>
-                    
-                    <h2>Teams</h2>
-                    <div id="teams" class="list-group"></div>
+                <section class="col-sm-8 " data-spy="scroll" data-target="#navbar-clubs">      
+                  <h2>Teams</h2>
+                  <div id="teams" class="list-group"></div>
+                </section>
 
-                   
-      
+                <nav id="navbar-clubs" class="col-sm-4 nav" >
+                  <ul id="nav" class="list-group" data-spy="affix"></ul>
+                </nav>
+
+              </div>
             </div>
         </div>
     </div>
@@ -48,10 +66,13 @@
 
   <script src="assets/jquery.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  
-  
+  <script src="https://rawgit.com/bassjobsen/affix/master/assets/js/affix.js"></script>
+  <script>
+      $('#navbar-clubs').affix({
+          offset: {top:25, bottom:50}
+      });
+    </script>  
   <script type="text/javascript" src="assets/tabletop.min.js"></script>
   <script type="text/javascript" src="teams.js"></script>
-  
 </body>
 </html>

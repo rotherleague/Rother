@@ -14,8 +14,46 @@ $(document).ready( function() {
         orderby: 'clubname',
         reverse: false 
     })
+
+    // add var "code"
+    var code = '1hWUOoG_-EpOk0Nay3VBHzG-yJiwkRaLEl2OJLmDsXP0';
+
+    // loop through spreadsheet with Tabletop
+    Tabletop.init({ 
+        key: code,
+        callback: showClubs,
+        wanted: [ "clubs" ],
+        debug: true ,
+        simpleSheet: true,
+        orderby: 'clubname',
+        reverse: false 
+    })
+
 })
-        
+
+function showClubs(data, tabletop) {
+
+    var nav_li = '';
+    var navlist_li = '';
+
+    $.each( tabletop.sheets("clubs").all(), function(i, clubs) {
+
+        nav_li = $('<div></div>');
+
+        if (clubs.clubname != 'Name of Club' || clubs.clubname != ''){
+            navlist_li = '<a href="#ref-'+ clubs.clubname.replace(/\s/g,'-').toLowerCase() +'" class="nav-link">'+ clubs.clubname +'</a>'; 
+        }
+
+        if (clubs.clubname != ''){
+            nav_li.append('<li class="list-group-item p-0">'+ navlist_li + '</li>');
+        }    
+        //Combine content
+        nav_li.appendTo("#nav");
+
+        navlist_li = '';
+
+    });
+}
 
 function showInfo(data, tabletop) {
 
@@ -23,6 +61,7 @@ function showInfo(data, tabletop) {
         var cat_li = '';
         var list_li = '';
         var content_li = '';
+        
 
         var i = 4;
 
@@ -33,6 +72,10 @@ function showInfo(data, tabletop) {
         $("#table_info").append("<p>" + sheet.name + " has " + sheet.column_names.join(", ") + "</p>");
         });
         */
+
+                
+   
+
 
         $.each( tabletop.sheets("clubs").all(), function(i, clubs) {
 
@@ -48,14 +91,14 @@ function showInfo(data, tabletop) {
             
                 if  (cat != clubs.clubname){
                     
+                    if (clubs.visible.toLowerCase() === "show"){ 
                     
-                    
-                    
-                    cat_li = '<br><div class="list-group-item list-group-item-action active" id="ref'+ clubs.clubname +'">'+
-                    '<div class="d-flex w-100 justify-content-between">'+
-                            '<h1>' + clubs.clubname +'</h1>' +
-                        '</div>' +
-                    '</div>';
+                        cat_li = '<br><div class="list-group-item list-group-item-action active" id="ref-'+ clubs.clubname.replace(/\s/g,'-').toLowerCase() +'">'+
+                        '<div class="d-flex w-100 justify-content-between">'+
+                                '<h1>' + clubs.clubname +'</h1>' +
+                            '</div>' +
+                        '</div>';
+                    }
                 }
             
 
