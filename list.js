@@ -47,9 +47,15 @@ $(document).ready( function() {
 
             
                 if  (cat != clubs.clubname){
+                    
+                    if (clubs.teamname != ''){   
+                        cat_team = ' - ' + titleCase(clubs.teamname);
+                    }
+                    
+                    
                     cat_li = '<br><div class="list-group-item list-group-item-action active" id="ref'+ clubs.clubname +'">'+
                     '<div class="d-flex w-100 justify-content-between">'+
-                            '<h1>' + clubs.clubname + '</h1>' +
+                            '<h1>' + titleCase(clubs.clubname) + cat_team +'</h1>' +
                         '</div>' +
                     '</div>';
                 }
@@ -86,10 +92,10 @@ $(document).ready( function() {
                 // only show ticked items
                 if (clubs.visible.toLowerCase() === "show"){
                     if (clubs.phone != ''){
-                        content_li = content_li +'<strong>Tel:</strong> ' + clubs.phone + '<br>';
+                        content_li = content_li +'<strong>Tel:</strong> <a href="tel:'+clubs.phone.replace(" ", "")+'">' + clubs.phone + '</a><br>';
                     }
                     if (clubs.email != ''){
-                        content_li = content_li +'<strong>Email:</strong> ' + clubs.email + '<br>';
+                        content_li = content_li +'<strong>Email:</strong> <a href="mailto:'+clubs.email+'">' + clubs.email + '</a><br>';
                     }
                 }
 
@@ -119,9 +125,22 @@ $(document).ready( function() {
     
             // Set current category for loop
             cat = clubs.clubname;
+            cat_team = '';
             cat_li = '';
             content_li = '';
 
             
         })
       }
+
+
+function titleCase(str){
+   str = str.toLowerCase().split(' ');
+   let final = [];
+
+    for(let  word of str){
+      final.push(word.charAt(0).toUpperCase()+ word.slice(1));
+    }
+
+  return final.join(' ')
+}
