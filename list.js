@@ -48,14 +48,12 @@ $(document).ready( function() {
             
                 if  (cat != clubs.clubname){
                     
-                    if (clubs.teamname != ''){   
-                        cat_team = ' - ' + titleCase(clubs.teamname);
-                    }
+                    
                     
                     
                     cat_li = '<br><div class="list-group-item list-group-item-action active" id="ref'+ clubs.clubname +'">'+
                     '<div class="d-flex w-100 justify-content-between">'+
-                            '<h1>' + titleCase(clubs.clubname) + cat_team +'</h1>' +
+                            '<h1>' + clubs.clubname +'</h1>' +
                         '</div>' +
                     '</div>';
                 }
@@ -113,8 +111,12 @@ $(document).ready( function() {
 
                 content_li = content_li  + '<br>';
 
+                if (clubs.teamname != ''){   
+                    cat_team = ' - ' + clubs.teamname;
+                }
+
                 //Combine content
-                list_li.append('<div class="list-group-item list-group-item-action">'+ '<div  class="d-flex w-100 justify-content-between">'+ '<h5 class="mb-1">' + clubs.clubname + ' <span class="badge badge-secondary">' + clubs.age + '</span></h5></div>'+ content_li + '</div>');
+                list_li.append('<div class="list-group-item list-group-item-action">'+ '<div  class="d-flex w-100 justify-content-between">'+ '<h5 class="mb-1">' + clubs.clubname + cat_team +' <span class="badge badge-secondary">' + clubs.age + '</span></h5></div>'+ content_li + '</div>');
                 
                 list_li.prepend(cat_li);
 
