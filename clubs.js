@@ -45,7 +45,11 @@ function showInfo(data, tabletop) {
                 navlist_li = '<a href="#ref'+ clubs.clubname.replace(/\s/g,'-').toLowerCase() +'" class="nav-link">'+ clubs.clubname +'</a>';
           
             }
-            nav_li.append('<li class="list-group-item p-0">'+ navlist_li + '</li>');
+           
+            if (clubs.visible.toLowerCase() === "show"){ 
+                nav_li.append('<li class="list-group-item p-0">'+ navlist_li + '</li>');
+            }    
+
                 
              //Combine content
              nav_li.appendTo("#nav");

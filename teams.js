@@ -44,7 +44,7 @@ function showClubs(data, tabletop) {
             navlist_li = '<a href="#ref-'+ clubs.clubname.replace(/\s/g,'-').toLowerCase() +'" class="nav-link">'+ clubs.clubname +'</a>'; 
         }
 
-        if (clubs.clubname != ''){
+        if (clubs.visible.toLowerCase() === "show"){ 
             nav_li.append('<li class="list-group-item p-0">'+ navlist_li + '</li>');
         }    
         //Combine content
@@ -91,14 +91,14 @@ function showInfo(data, tabletop) {
             
                 if  (cat != clubs.clubname){
                     
-                    if (clubs.visible.toLowerCase() === "show"){ 
+                    //if (clubs.visible.toLowerCase() === "show"){ 
                     
                         cat_li = '<br><div class="list-group-item list-group-item-action active" id="ref-'+ clubs.clubname.replace(/\s/g,'-').toLowerCase() +'">'+
                         '<div class="d-flex w-100 justify-content-between">'+
                                 '<h1>' + clubs.clubname +'</h1>' +
                             '</div>' +
                         '</div>';
-                    }
+                    //}
                 }
             
 
