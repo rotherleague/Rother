@@ -41,71 +41,80 @@ $(document).ready( function() {
             // link to the clubs
             list_li = $('<div></div>');
 
+            
+
             if (clubs.clubname != 'Club Name'){
 
             
-            if  (cat != clubs.clubname){
-                cat_li = '<br><div class="list-group-item list-group-item-action active" id="ref'+ clubs.clubname +'">'+
-                '<div class="d-flex w-100 justify-content-between">'+
-                        '<h1>' + clubs.clubname + '</h1>' +
-                    '</div>' +
-                '</div>';
-            }
-            
-            /*
-            if (map.description != ''){
-                content_li ='<p class="mb-1">' +map.agegroupinwhichteamwillparticipatethisseason.replace(/\n/g, "<br />") + '</p>';
-            }
-            */
-            
-            //Kit Details
-            if (clubs.hometop != ''){
-                content_li = content_li  + '#'+ clubs.hometop;
-            }
-            if (clubs.homeshorts != ''){
-                content_li = content_li  + ', #'+ clubs.homeshorts;
-            }
-            if (clubs.homesocks != ''){
-                content_li = content_li  + ', #'+ clubs.homesocks;
-            }
-
-            content_li = content_li  + '<br>';
+                if  (cat != clubs.clubname){
+                    cat_li = '<br><div class="list-group-item list-group-item-action active" id="ref'+ clubs.clubname +'">'+
+                    '<div class="d-flex w-100 justify-content-between">'+
+                            '<h1>' + clubs.clubname + '</h1>' +
+                        '</div>' +
+                    '</div>';
+                }
             
 
-            //Manager Details
-             content_li = content_li +'<strong>Manager:</strong> ';
-            
-            if (clubs.firstname != ''){
-                content_li = content_li  + clubs.firstname + ' '+ clubs.lastname + '<br>';
-            }
-            if (clubs.phone != ''){
-                content_li = content_li +'<strong>Tel:</strong> ' + clubs.phone + '<br>';
-            }
-            if (clubs.email != ''){
-                content_li = content_li +'<strong>Email:</strong> ' + clubs.email + '<br>';
-            }
+                
+                /*
+                if (map.description != ''){
+                    content_li ='<p class="mb-1">' +map.agegroupinwhichteamwillparticipatethisseason.replace(/\n/g, "<br />") + '</p>';
+                }
+                */
+                
+                //Kit Details
+                if (clubs.hometop != ''){
+                    content_li = content_li  + '#'+ clubs.hometop;
+                }
+                if (clubs.homeshorts != ''){
+                    content_li = content_li  + ', #'+ clubs.homeshorts;
+                }
+                if (clubs.homesocks != ''){
+                    content_li = content_li  + ', #'+ clubs.homesocks;
+                }
 
-            //Ground Details
-            content_li = content_li  + '<strong>Location:</strong>';
-            if (clubs.groundname != ''){
-                content_li = content_li  + ' '+ clubs.groundname;
-            }
-            if (clubs.groundnumber != ''){
-                content_li = content_li  + ', '+ clubs.groundnumber;
-            }
-            if (clubs.postcode != ''){
-                content_li = content_li  + ', '+ clubs.postcode;
-            }
+                content_li = content_li  + '<br>';
+                
 
-            content_li = content_li  + '<br>';
+                //Manager Details
+                content_li = content_li +'<strong>Manager:</strong> ';
+                
+                if (clubs.firstname != ''){
+                    content_li = content_li  + clubs.firstname + ' '+ clubs.lastname + '<br>';
+                }
 
-            //Combine content
-            list_li.append('<div class="list-group-item list-group-item-action">'+ '<div  class="d-flex w-100 justify-content-between">'+ '<h5 class="mb-1">' + clubs.clubname + ' <span class="badge badge-secondary">' + clubs.age + '</span></h5></div>'+ content_li + '</div>');
-            
-            list_li.prepend(cat_li);
+                // only show ticked items
+                if (clubs.visible.toLowerCase() === "show"){
+                    if (clubs.phone != ''){
+                        content_li = content_li +'<strong>Tel:</strong> ' + clubs.phone + '<br>';
+                    }
+                    if (clubs.email != ''){
+                        content_li = content_li +'<strong>Email:</strong> ' + clubs.email + '<br>';
+                    }
+                }
 
-            list_li.appendTo("#teams");
+                //Ground Details
+                content_li = content_li  + '<strong>Location:</strong>';
+                if (clubs.groundname != ''){
+                    content_li = content_li  + ' '+ clubs.groundname;
+                }
+                if (clubs.groundnumber != ''){
+                    content_li = content_li  + ', '+ clubs.groundnumber;
+                }
+                if (clubs.postcode != ''){
+                    content_li = content_li  + ', '+ clubs.postcode;
+                }
 
+                content_li = content_li  + '<br>';
+
+                //Combine content
+                list_li.append('<div class="list-group-item list-group-item-action">'+ '<div  class="d-flex w-100 justify-content-between">'+ '<h5 class="mb-1">' + clubs.clubname + ' <span class="badge badge-secondary">' + clubs.age + '</span></h5></div>'+ content_li + '</div>');
+                
+                list_li.prepend(cat_li);
+
+                list_li.appendTo("#teams");
+
+                
             }
     
             // Set current category for loop
