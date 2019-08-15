@@ -117,7 +117,7 @@ function showInfo(data, tabletop) {
                 }
                 
                 content_li = content_li  + "<strong>Team:</strong> ";
-                content_li = content_li  + clubs.clubname + "-" + cat_team;
+                content_li = content_li  + clubs.clubname + cat_team;
                 
                 content_li = content_li  + '</li>';
                 content_li = content_li  + '<li>';
