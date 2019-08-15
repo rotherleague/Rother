@@ -163,7 +163,6 @@ function showInfo(data, tabletop) {
                     content_li = content_li  + clubs.firstname + ' '+ clubs.lastname + '<br>';
                 }
 
-
                 // only show ticked items
                 if (clubs.visible.toLowerCase() === "show"){
                     if (clubs.phone != ''){
