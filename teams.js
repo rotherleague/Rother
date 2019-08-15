@@ -111,13 +111,13 @@ function showInfo(data, tabletop) {
                 
                 content_li = content_li = "<ul><li>";
                 
-                //Tream Name
+                //Team Name
                 if (clubs.teamname != ''){   
                     cat_team = ' - ' + clubs.teamname;
                 }
                 
                 content_li = content_li  + "<strong>Team:</strong> ";
-                content_li = content_li  + cat_team;
+                content_li = content_li  + clubs.clubname + "-" + cat_team;
                 
                 content_li = content_li  + '</li>';
                 content_li = content_li  + '<li>';
@@ -126,14 +126,16 @@ function showInfo(data, tabletop) {
                 content_li = content_li  + "<strong>Colours:<strong> ";
                 
                 if (clubs.hometop != ''){
-                    content_li = content_li  + '#'+ clubs.hometop;
+                    content_li = content_li  + ''+ clubs.hometop;
                 }
                 if (clubs.homeshorts != ''){
-                    content_li = content_li  + ', #'+ clubs.homeshorts;
+                    content_li = content_li  + ' / '+ clubs.homeshorts;
                 }
+                /*
                 if (clubs.homesocks != ''){
-                    content_li = content_li  + ', #'+ clubs.homesocks;
+                    content_li = content_li  + '  / '+ clubs.homesocks;
                 }
+                */
 
                 content_li = content_li  + '</li>';
                 content_li = content_li  + '<li>';
