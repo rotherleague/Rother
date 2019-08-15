@@ -180,6 +180,67 @@ function showInfo(data, tabletop) {
                 
 
                 content_li = content_li  + '</ul>';
+                
+                
+                
+               content_li = content_li  + '<ul><li><div style="position:relative;left:0px;top:0px;width:100px;height:120px;margin:0 auto;padding:0;background:#f4f4f4">
+     
+<div style="position:absolute;left:0;top:0;width:31px;height:59px;background:'+ clubs.hometop +';">
+     <img alt="Kit left arm.svg" 
+          src="https://raw.githubusercontent.com/rotherleague/example/master/_includes/kit/left-arm.svg" 
+          width="31" 
+          height="59" 
+          style="vertical-align: top" 
+          srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Kit_left_arm.svg/47px-Kit_left_arm.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Kit_left_arm.svg/62px-Kit_left_arm.svg.png 2x" 
+          data-file-width="31" 
+          data-file-height="59">
+  </div>
+  
+<div style="position:absolute;left:31px;top:0;width:38px;height:59px;background:'+ clubs.hometop +';">
+     <img alt="Kit body.svg" 
+          src="https://raw.githubusercontent.com/rotherleague/example/master/_includes/kit/top.svg" 
+          width="38" 
+          height="59" 
+          style="vertical-align: top" 
+          srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Kit_body.svg/57px-Kit_body.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Kit_body.svg/76px-Kit_body.svg.png 2x" 
+          data-file-width="38" 
+          data-file-height="59">
+</div>
+  
+<div style="position:absolute;left:69px;top:0;width:31px;height:59px;background:'+ clubs.hometop +';">
+     <img alt="Kit right arm.svg" 
+          src="https://raw.githubusercontent.com/rotherleague/example/master/_includes/kit/right-arm.svg" 
+          width="31" 
+          height="59" 
+          style="vertical-align: top" 
+          srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Kit_right_arm.svg/47px-Kit_right_arm.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Kit_right_arm.svg/62px-Kit_right_arm.svg.png 2x" 
+          data-file-width="31" 
+          data-file-height="59">
+</div>
+  
+<div style="position:absolute;left:0;top:59px;width:100px;height:36px;background:'+ clubs.homeshorts +';">
+     <img alt="Kit shorts.svg" 
+          src="https://raw.githubusercontent.com/rotherleague/example/master/_includes/kit/shorts.svg" 
+          width="100" 
+          height="36" 
+          style="vertical-align: top" 
+          srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Kit_shorts.svg/150px-Kit_shorts.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Kit_shorts.svg/200px-Kit_shorts.svg.png 2x" 
+          data-file-width="100" 
+          data-file-height="36">
+</div>
+     
+<div style="position:absolute;left:0;top:95px;width:100px;height:25px;background:'+ clubs.homeshorts +';">
+       <img alt="Kit socks.svg" 
+            src="https://raw.githubusercontent.com/rotherleague/example/master/_includes/kit/socks.svg" 
+            width="100" 
+            height="25" 
+            style="vertical-align: top" 
+            srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Kit_socks.svg/150px-Kit_socks.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Kit_socks.svg/200px-Kit_socks.svg.png 2x" 
+            data-file-width="100" 
+            data-file-height="25">
+</div>
+</div>
+                </li></ul>';
 
                
 
