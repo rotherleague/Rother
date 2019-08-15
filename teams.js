@@ -123,7 +123,7 @@ function showInfo(data, tabletop) {
                 content_li = content_li  + '<li>';
                 
                 //Kit Details
-                content_li = content_li  + "<strong>Colours:<strong> ";
+                content_li = content_li  + "<strong>Colours:</strong> ";
                 
                 if (clubs.hometop != ''){
                     content_li = content_li  + ''+ clubs.hometop;
