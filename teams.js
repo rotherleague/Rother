@@ -109,7 +109,22 @@ function showInfo(data, tabletop) {
                 }
                 */
                 
+                content_li = content_li = "<ul><li>";
+                
+                //Tream Name
+                if (clubs.teamname != ''){   
+                    cat_team = ' - ' + clubs.teamname;
+                }
+                
+                content_li = content_li  + "<strong>Team:<strong> ";
+                content_li = content_li  + cat_team;
+                
+                content_li = content_li  + '</li>';
+                content_li = content_li  + '<li>';
+                
                 //Kit Details
+                content_li = content_li  + "<strong>Colours:<strong> ";
+                
                 if (clubs.hometop != ''){
                     content_li = content_li  + '#'+ clubs.hometop;
                 }
@@ -120,26 +135,10 @@ function showInfo(data, tabletop) {
                     content_li = content_li  + ', #'+ clubs.homesocks;
                 }
 
-                content_li = content_li  + '<br>';
+                content_li = content_li  + '</li>';
+                content_li = content_li  + '<li>';
                 
-
-                //Manager Details
-                content_li = content_li +'<strong>Manager:</strong> ';
                 
-                if (clubs.firstname != ''){
-                    content_li = content_li  + clubs.firstname + ' '+ clubs.lastname + '<br>';
-                }
-
-                // only show ticked items
-                if (clubs.visible.toLowerCase() === "show"){
-                    if (clubs.phone != ''){
-                        content_li = content_li +'<strong>Tel:</strong> <a href="tel:'+clubs.phone.replace(" ", "")+'">' + clubs.phone + '</a><br>';
-                    }
-                    if (clubs.email != ''){
-                        content_li = content_li +'<strong>Email:</strong> <a href="mailto:'+clubs.email+'">' + clubs.email + '</a><br>';
-                    }
-                }
-
                 //Ground Details
                 content_li = content_li  + '<strong>Location:</strong>';
                 if (clubs.groundname != ''){
@@ -151,12 +150,37 @@ function showInfo(data, tabletop) {
                 if (clubs.postcode != ''){
                     content_li = content_li  + ', '+ clubs.postcode;
                 }
+                
+                content_li = content_li  + '</li></ul>';
+                content_li = content_li  + '<ul><li>';
 
-                content_li = content_li  + '<br>';
-
-                if (clubs.teamname != ''){   
-                    cat_team = ' - ' + clubs.teamname;
+                //Manager Details
+                content_li = content_li +'<strong>Manager:</strong> ';
+                
+                 if (clubs.firstname != ''){
+                    content_li = content_li  + clubs.firstname + ' '+ clubs.lastname + '<br>';
                 }
+
+
+                // only show ticked items
+                if (clubs.visible.toLowerCase() === "show"){
+                    if (clubs.phone != ''){
+                        content_li = content_li  + '<li>';
+                        content_li = content_li +'<strong>Tel:</strong> <a href="tel:'+clubs.phone.replace(" ", "")+'">' + clubs.phone + '</a><br>';
+                        content_li = content_li  + '</li>';
+                    }
+                    if (clubs.email != ''){
+                        content_li = content_li  + '<li>';
+                        content_li = content_li +'<strong>Email:</strong> <a href="mailto:'+clubs.email+'">' + clubs.email + '</a><br>';
+                        content_li = content_li  + '</li>';
+                    }
+                }
+
+                
+
+                content_li = content_li  + '</ul>';
+
+               
 
                 //Combine content
                 list_li.append('<div class="list-group-item list-group-item-action">'+ '<div  class="d-flex w-100 justify-content-between">'+ '<h5 class="mb-1">' + clubs.clubname + cat_team +' <span class="badge badge-secondary">' + clubs.age + '</span></h5></div>'+ content_li + '</div>');
