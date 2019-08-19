@@ -7,8 +7,8 @@
   "orientation": "any",
   "background_color": "#2196f3",
   "display": "fullscreen",
-  "Scope": "/example/",
-  "start_url": "https://rotherleague.github.io/example/",
+  "Scope": "/",
+  "start_url": "https://www.rotherleague.org.uk/",
   "related_applications": [],
   "prefer_related_applications": false,
   "icons": [
