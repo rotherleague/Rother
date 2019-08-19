@@ -88,26 +88,23 @@ main {
   --span: 4/12;
 }
 
+footer{
+   div.flex {
+     display: flex;
+     max-width: 50em;
+     padding: 1em;
+     margin: 1em 0;
 
-/* Float or flex… */
-.flex {
-  display: flex;
+     ul {
+        list-style-type: none;
+     }
+
+     .item {
+      padding: 0.5em;
+     }
+
+   }
 }
-
-.item {
-  outline: 1px solid green;
-  padding: 0.5em;
-}
-
-div.flex {
-  background: white;
-  border: 1px solid;
-  max-width: 50em;
-  padding: 1em;
-  margin: 1em 0;
-}
-
-
 
 /*
    Layout specific adjustments
