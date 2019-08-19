@@ -88,23 +88,22 @@ main {
   --span: 4/12;
 }
 
-footer{
-   div.flex {
+.flex {
      display: flex;
      max-width: 50em;
      padding: 1em;
      margin: 1em 0;
-
-     ul {
-        list-style-type: none;
-     }
-
+   
      .item {
       padding: 0.5em;
      }
-
-   }
+   
+     ul {
+      list-style-type: none;
+     }
 }
+     
+
 
 /*
    Layout specific adjustments
