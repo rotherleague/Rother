@@ -73,6 +73,43 @@ main {
 }
 
 /*
+   Footer
+   ========================================================================== */
+
+
+* {
+  --span: initial; /* avoid inheritance */
+  --percentage: calc(var(--span) * 100%);
+  width: var(--percentage, initial);
+}
+
+
+.four {
+  --span: 4/12;
+}
+
+
+/* Float or flex… */
+.flex {
+  display: flex;
+}
+
+.item {
+  outline: 1px solid green;
+  padding: 0.5em;
+}
+
+div.flex {
+  background: white;
+  border: 1px solid;
+  max-width: 50em;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+
+
+/*
    Layout specific adjustments
    ========================================================================== */
 
@@ -207,34 +244,5 @@ main {
 }
 
 
-
-* {
-  --span: initial; /* avoid inheritance */
-  --percentage: calc(var(--span) * 100%);
-  width: var(--percentage, initial);
-}
-
-
-.four {
-  --span: 4/12;
-}
-
-
-/* Float or flex… */
-.flex {
-  display: flex;
-}
-
-
-.float:after {
-  clear: both;
-  content: ' ';
-  display: table;
-}
-
-.item {
-  outline: 1px solid green;
-  padding: 0.5em;
-}
 
 
