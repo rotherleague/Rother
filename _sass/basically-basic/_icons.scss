@@ -1,6 +1,13 @@
 /* ==========================================================================
    Icons
    ========================================================================== */
+
+.contact-list .icon{
+ display: inline-block  !important;  
+ width: 1em;
+ height: 1em;
+}
+
 a span[class^="icon-"], a span[class*=" icon-"] {
   display: inline-block  !important;
   position: relative;
