@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .icon {
-  display: inline-block;
+  display: inline-block !important;
   position: relative;
   top: -0.05em; /* fine-tune alignment */
   width: 1em;
