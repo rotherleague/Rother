@@ -10,9 +10,9 @@
         <ul class="intro-actions">
           {% for action in page.actions %}
             <li><a href="{{ action.url }}" class="btn">{% if action.icon %}
-              <!--
-              <span class="icon">{% include {{ action.icon | prepend: 'icons/icon-' | append: '.svg' }} %}</span>
-              -->
+              
+              <span class="icon">{% include icons/{{ action.icon | prepend: 'icons/icon-' | append: '.svg' }} %}</span>
+              
               {% endif %}
               {{ action.label }}</a></li>
           {% endfor %}
