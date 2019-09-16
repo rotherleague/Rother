@@ -6,6 +6,8 @@ layout: clubs
 {% include clubs/as_eastbourne.html %}
 {% include clubs/beckley.html %}
 {% include clubs/bexhill.html %}
+{% include clubs/buckswood.html %}
+
 {% include clubs/crowhurst.html %}
 {% include clubs/ds_hastings.html %}
 {% include clubs/eastbourne_borough.html %}
