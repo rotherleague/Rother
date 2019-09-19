@@ -93,7 +93,8 @@ html {
  */
 body {
   margin: 0;
-  line-height: 1.5; }
+  line-height: 1.5; 
+  background-color: #f4f4f4}
 
 /**
  * Add the correct display in IE 9-.
