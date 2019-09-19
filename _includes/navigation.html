@@ -19,12 +19,7 @@
             <span itemprop="name">{{ my_page.title | escape }}</span>
           </a>
           
-          {% if my_page.title = 'clubs' %}
-             <aside class="entry-sidebar">
-               {% include clubs/menu.html %}
-             </aside>
-          {% endif %}
-          
+         
         </li>
       {% endif %}
     {% endfor %}
