@@ -34,8 +34,11 @@
    grid-template-areas: "sidebar content";
 
    @include breakpoint($small) {
-    grid-column: span 2;
     grid-template-columns: 1fr;
+    grid-template-areas:
+        "sidebar sidebar"
+        "content content";
+
   }
 }
 .intro,
