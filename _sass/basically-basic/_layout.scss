@@ -32,6 +32,10 @@
    grid-gap: 10px;
    grid-template-columns: 40%  60%;
    grid-template-areas: "sidebar content";
+
+   @include breakpoint($small) {
+    display: block;
+  }
 }
 .intro,
 main {
@@ -70,36 +74,6 @@ main {
 
 .inner {
   max-width: $large;
-}
-
-/*
-   Footer
-   ========================================================================== */
-
-
-* {
-  --span: initial; /* avoid inheritance */
-  --percentage: calc(var(--span) * 100%);
-  width: var(--percentage, initial);
-}
-
-
-.four {
-  --span: 4/12;
-}
-
-.flex {
-  display: flex;
-  max-width: 50em;
-  padding: 0;
-}
-     
-.item {
-   padding: 0.5em;
-}
-
-.item ul {
-   list-style-type: none;
 }
 
 /*
@@ -235,7 +209,3 @@ main {
     }
   }
 }
-
-
-
-
