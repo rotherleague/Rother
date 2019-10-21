@@ -34,7 +34,7 @@
    grid-template-areas: "sidebar content";
 
    @include breakpoint($small) {
-    display: block;
+    grid-template-columns: 100%;
   }
 }
 .intro,
