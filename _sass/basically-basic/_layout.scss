@@ -36,8 +36,8 @@
    @include breakpoint($small) {
     grid-template-columns: 1fr;
     grid-template-areas:
-        "sidebar sidebar"
-        "content content";
+        "content content"
+        "sidebar sidebar";
 
   }
 }
