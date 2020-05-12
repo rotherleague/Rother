@@ -1,6 +1,7 @@
 ---
 title: "2020/21 Registration"
 excerpt: "Registration for the 2020/21 season is now open
+date: 2020-06-12
 categories:
   - cup
 tags: 
@@ -9,6 +10,7 @@ tags:
   - League
   - Clubs
 ---
+
 
 ### 2020/21 Registration
 
