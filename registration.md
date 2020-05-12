@@ -1,11 +1,10 @@
 ---
 title: "Registration"
 layout: page
-introduction: | Register your club and team for the coming season.
 ---
 
+__Register your club and team for the coming season.
 
----
 actions:
   - label: "Club"
     icon: download
@@ -14,5 +13,3 @@ actions:
   - label: "Team"
     icon: download
     url: "https://forms.gle/qj2QncW69oCCUs859"
-    
- ---
