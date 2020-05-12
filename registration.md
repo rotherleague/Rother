@@ -3,7 +3,8 @@ title: "Registration"
 layout: page
 ---
 
-__Register your club and team for the coming season.
+Register your club and team for the coming season.
+
 
 actions:
   - label: "Club"
