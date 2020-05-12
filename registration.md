@@ -2,10 +2,10 @@
 title: "Registration"
 layout: page
 introduction: | Register your club and team for the coming season.
+---
 
 
-
-
+---
 actions:
   - label: "Club"
     icon: download
