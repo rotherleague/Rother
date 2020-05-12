@@ -21,11 +21,11 @@ actions:
   - label: "Club"
     icon: download
     url: "https://forms.gle/cou6Lcmn8J3qvuU26"
-    disabled: disabled
+    
   - label: "Team"
     icon: download
     url: "https://forms.gle/qj2QncW69oCCUs859"
-    disabled: disabled
+    
 
 
 
