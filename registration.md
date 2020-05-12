@@ -1,20 +1,9 @@
 ---
 title: "Registration"
 layout: page
+introduction: | Register your club and team for the coming season.
 ---
 
-<!---
-__Registration has now ended for the 2019/2020 season.__
- --> 
-
-  
-  
-  
-  
-
-
-__Register your club and team for the coming season.__
-  --- Please complete the following forms: 
 
 
 actions:
