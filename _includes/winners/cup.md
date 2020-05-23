@@ -2,7 +2,7 @@
 
 
 
-|  UNDER 9 CHALLENGE CUP                                                |---|
+|  UNDER 9 CHALLENGE CUP                                                |
 |-----------------------------------------------------------------------|---|
 | 2001/2                                                                | Sedlescombe Rangers Royals     |
 | 2002/3                                                                | Grasshopper Junior             |
@@ -12,7 +12,7 @@
 | 2011/12                                                               | Sedlescombe Rangers Blue       |
 
 
-|  UNDER 10 CHALLENGE CUP                                               |---|
+|  UNDER 10 CHALLENGE CUP                                               |
 |-----------------------------------------------------------------------|---|
 | 1992/3                                                                | Little Common                  |
 | 1993/4                                                                | Langney Sports                 |
@@ -39,7 +39,7 @@
 | 2018/19                                                               | AS Eastbourne                  |
 
 
-|  UNDER 11 FUTON & PINE SHIELD Small\-sided \(7\-a\-side\) Competition |---|
+|  UNDER 11 FUTON & PINE SHIELD Small\-sided \(7\-a\-side\) Competition |
 |-----------------------------------------------------------------------|---|
 | 2000/1                                                                | Ridge Rangers Red              |
 | 2001/2                                                                | Pevensey & Westham Red         |
@@ -49,7 +49,7 @@
 | 2005/6                                                                | New Romney                     |
 
 
-|  UNDER 11 BESURE SECURITY SYSTEMS CUP                                 |---|
+|  UNDER 11 BESURE SECURITY SYSTEMS CUP                                 |
 |-----------------------------------------------------------------------|---|
 | 1992/3                                                                | Bexhill Town Youth             |
 | 1994/5                                                                | Spartan                        |
@@ -79,7 +79,7 @@
 | 2018/19                                                               | Ringmer Rovers                 |
 
 
-|  UNDER 12 WAYNE RUSSELL CUP                                           |---|
+|  UNDER 12 WAYNE RUSSELL CUP                                           |
 |-----------------------------------------------------------------------|---|
 | 1993/4                                                                | Bexhill Town Youth             |
 | 1994/5                                                                | Little Common                  |
@@ -108,7 +108,7 @@
 | 2018/19                                                               | Eastbourne Borough Orange      |
 
 
-|  UNDER 13 TOP FLIGHT TROPHY                                           |---|
+|  UNDER 13 TOP FLIGHT TROPHY                                           |
 |-----------------------------------------------------------------------|---|
 | 1994/5                                                                | Spartan                        |
 | 1995/6                                                                | Little Common                  |
@@ -134,7 +134,7 @@
 | 2018/19                                                               | Junior Club Tackleway          |
 
 
-|  UNDER 14 BESURE SECURITY SYSTEMS CUP                                 |---|
+|  UNDER 14 BESURE SECURITY SYSTEMS CUP                                 |
 |-----------------------------------------------------------------------|---|
 | 1994/5                                                                | Spartan                        |
 | 1995/6                                                                | Winkney                        |
@@ -161,7 +161,7 @@
 | 2018/19                                                               |  Eastbourne Borough Black      |
 
 
-|  UNDER 15 CHALLENGE CUP                                               |---|
+|  UNDER 15 CHALLENGE CUP                                               |
 |-----------------------------------------------------------------------|---|
 | 1994/5                                                                | Little Common                  |
 | 1995/6                                                                | Battle Rangers                 |
@@ -188,7 +188,7 @@
 | 2018/19                                                               | Hastings Rangers Youth         |
  
 
-|  UNDER 16 LAURIE WEBBER CUP                                           |---|
+|  UNDER 16 LAURIE WEBBER CUP                                           |
 |-----------------------------------------------------------------------|---|
 | 1994/5                                                                | Bexhill Town Youth             |
 | 1995/6                                                                | Little Common                  |
@@ -204,7 +204,7 @@
 | 2013/14                                                               | Beckley Rangers                |
 
 
-| UNDER 17 LEAGUE CUP                                                   |---|
+| UNDER 17 LEAGUE CUP                                                   |
 |-----------------------------------------------------------------------|---|
 | 2002/3                                                                | Winchelsea Beach               |
 | 2003/4                                                                | Hastings Town Minors           |
