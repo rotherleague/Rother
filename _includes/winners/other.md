@@ -44,7 +44,7 @@ Presented to the most sporting Team in the League during the season\.
 | 2015/16       | Hastings  Wanderers  U10         |
 | 2016/17       | Robertsbridge United Junior U8   |
 | 2017/18       | Sedlescombe Rangers U7 White     |
-| 2017/18       | Gouldurst Dynamos                |
+| 2018/19       | Gouldurst Dynamos U14            |
 
 
 ### ALF HOLDSTOCK TROPHY
