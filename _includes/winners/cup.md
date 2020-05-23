@@ -1,10 +1,6 @@
 <h1>PREVIOUS CUP WINNERS...</h1>
 
-<!--  
-**********************
-UNDER 09 CHALLENGE CUP
-**********************
--->
+
 
 |  UNDER 9 CHALLENGE CUP                                                |
 |-----------------------------------------------------------------------|
@@ -15,11 +11,6 @@ UNDER 09 CHALLENGE CUP
 | 2010/11                                                               | Hastings United Youth          |
 | 2011/12                                                               | Sedlescombe Rangers Blue       |
 
-<!--  
-**********************
-UNDER 10 CHALLENGE CUP
-**********************
--->
 
 |  UNDER 10 CHALLENGE CUP                                               |
 |-----------------------------------------------------------------------|
@@ -47,11 +38,6 @@ UNDER 10 CHALLENGE CUP
 | 2017/18                                                               |                                |
 | 2018/19                                                               | AS Eastbourne                  |
 
-<!--  
-**********************
-UNDER 11 FUTON & PINE SHIELD - Small-sided (7-a-side) Competition
-**********************
--->
 
 |  UNDER 11 FUTON & PINE SHIELD Small\-sided \(7\-a\-side\) Competition |
 |-----------------------------------------------------------------------|
@@ -62,11 +48,6 @@ UNDER 11 FUTON & PINE SHIELD - Small-sided (7-a-side) Competition
 | 2004/5                                                                | Grasshopper Junior Yellow      |
 | 2005/6                                                                | New Romney                     |
 
-<!--  
-**********************
-UNDER 11 BESURE SECURITY SYSTEMS CUP
-**********************
--->
 
 |  UNDER 11 BESURE SECURITY SYSTEMS CUP                                 |
 |-----------------------------------------------------------------------|
@@ -97,11 +78,6 @@ UNDER 11 BESURE SECURITY SYSTEMS CUP
 | 2017/18                                                               | Hastings United Youth          |
 | 2018/19                                                               | Ringmer Rovers                 |
 
-<!--  
-**********************
-UNDER 12 WAYNE RUSSELL CUP
-**********************
---> 
 
 |  UNDER 12 WAYNE RUSSELL CUP                                           |
 |-----------------------------------------------------------------------|
@@ -131,11 +107,6 @@ UNDER 12 WAYNE RUSSELL CUP
 | 2017/18                                                               | Wadhurst United Juniors        |
 | 2018/19                                                               | Eastbourne Borough Orange      |
 
-<!--  
-**********************
-UNDER 13 TOP FLIGHT TROPHY
-**********************
---> 
 
 |  UNDER 13 TOP FLIGHT TROPHY                                           |
 |-----------------------------------------------------------------------|
@@ -162,11 +133,6 @@ UNDER 13 TOP FLIGHT TROPHY
 | 2017/18                                                               | Westfield Youth                |
 | 2018/19                                                               | Junior Club Tackleway          |
 
-<!--  
-**********************
-UNDER 14 BESURE SECURITY SYSTEMS CUP
-**********************
---> 
 
 |  UNDER 14 BESURE SECURITY SYSTEMS CUP                                 |
 |-----------------------------------------------------------------------|
@@ -194,11 +160,6 @@ UNDER 14 BESURE SECURITY SYSTEMS CUP
 | 2017/18                                                               |  Hawkhurst United Cougars      |
 | 2018/19                                                               |  Eastbourne Borough Black      |
 
-<!--  
-**********************
-UNDER 15 CHALLENGE CUP
-**********************
--->  
 
 |  UNDER 15 CHALLENGE CUP                                               |
 |-----------------------------------------------------------------------|
@@ -225,12 +186,7 @@ UNDER 15 CHALLENGE CUP
 | 2016/17                                                               |  N/A                           |
 | 2017/18                                                               |  N/A                           |
 | 2018/19                                                               | Hastings Rangers Youth         |
-
-<!--  
-**********************
-UNDER 16 LAURIE WEBBER CUP
-**********************
--->   
+ 
 
 |  UNDER 16 LAURIE WEBBER CUP                                           |
 |-----------------------------------------------------------------------|
@@ -247,11 +203,6 @@ UNDER 16 LAURIE WEBBER CUP
 | 2012/13                                                               | Bexhill United                 |
 | 2013/14                                                               | Beckley Rangers                |
 
-<!--  
-**********************
-UNDER 17 LEAGUE CUP
-**********************
--->  
 
 | UNDER 17 LEAGUE CUP                                                   |
 |-----------------------------------------------------------------------|
