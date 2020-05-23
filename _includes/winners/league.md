@@ -1,4 +1,4 @@
-| ** UNDER 9 EAST  **                      |
+| ** UNDER 9 EAST  **                      ||
 |------------------------------------------|--|
 | 2001/2                                   | Glenco Yellow                           |
 | 2002/3                                   | Grasshopper Junior                      |
@@ -6,22 +6,22 @@
 | 2009/10                                  | Guestling Rangers                       |
 
 
-| ** UNDER 9 WEST  **                      |
+| ** UNDER 9 WEST  **                      ||
 |------------------------------------------|--|
 | 2009/10                                  | Little Common Minors                    |
 
 
-| ** UNDER 9 DIVISION  **                  |
+| ** UNDER 9 DIVISION  **                  ||
 |------------------------------------------|--|
 | 2010/11                                  | Hastings Town White                     |
 
 
-| ** UNDER 10 GREEN  **                    |
+| ** UNDER 10 GREEN  **                    ||
 |------------------------------------------|--|
 | 2001/2                                   | Little Common Colts                     |
 
 
-| ** UNDER 10 BLUE  **                     |
+| ** UNDER 10 BLUE  **                     ||
 |------------------------------------------|--|
 | 1993/4                                   | Bexhill Town                            |
 | 1994/5                                   | Little Common                           |
@@ -36,7 +36,7 @@
 | 2012/13                                  | Glenco                                  |
 
 
-| ** UNDER 10 RED  **                      |
+| ** UNDER 10 RED  **                      ||
 |------------------------------------------|--|
 | 1992/3                                   | Little Common                           |
 | 1993/4                                   | Firehills                               |
@@ -57,12 +57,12 @@
 | 2012/13                                  | Sedlescombe Rangers Blue                |
 
 
-| ** UNDER 10 DIVISION  **                 |
+| ** UNDER 10 DIVISION  **                 ||
 |------------------------------------------|--|
 | 2013/14                                  | Hastings United Colts                   |
 
 
-| ** UNDER 11 MINI SOCCER DIVISION  **     |
+| ** UNDER 11 MINI SOCCER DIVISION  **     ||
 |------------------------------------------|--|
 | 2000/1                                   | Brede Bears                             |
 | 2001/2                                   | Princes Park Rangers                    |
@@ -72,13 +72,13 @@
 | 2005/6                                   | Grasshopper Junior                      |
 
 
-| ** UNDER 11 GREEN  **                    |
+| ** UNDER 11 GREEN  **                    ||
 |------------------------------------------|--|
 | 1998/9                                   | Hailsham United                         |
 | 2005/6                                   | Hastings Town Blue                      |
 
 
-| ** UNDER 11 BLUE  **                     |
+| ** UNDER 11 BLUE  **                     ||
 |------------------------------------------|--|
 | 1993/4                                   | Elphinstone Flyers                      |
 | 1994/5                                   | W inkney                                |
@@ -100,7 +100,7 @@
 | 2013/14                                  | Sedlescombe Rangers White               |
 
 
-| ** UNDER 11 RED  **                      |
+| ** UNDER 11 RED  **                      ||
 |------------------------------------------|--|
 | 1992/3                                   | Bexhill Town                            |
 | 1993/4                                   | Little Common                           |
@@ -123,20 +123,20 @@
 | 2013/14                                  | Sedlescombe Rangers Blue                |
 
 
-| ** UNDER 11 DIVISION  **                 |
+| ** UNDER 11 DIVISION  **                 ||
 |------------------------------------------|--|
 | 2010/11                                  | Little Common Rovers                    |
 | 2011/12                                  | Hastings Town Yellow                    |
 | 2012/13                                  | Hastings Town                           |
 
 
-| ** UNDER 12 GREEN  **                    |
+| ** UNDER 12 GREEN  **                    ||
 |------------------------------------------|--|
 | 1999/2000                                | Beckley Rangers                         |
 | 2005/6                                   | Little Common Rovers                    |
 
 
-| ** UNDER 12 BLUE  **                     |
+| ** UNDER 12 BLUE  **                     ||
 |------------------------------------------|--|
 | 1993/4                                   | New Romney                              |
 | 1994/5                                   | Langney Sports                          |
@@ -161,7 +161,7 @@
 | 2018/19                                  | Eastbourne Borough Youth U12 Orange     |
 
 
-| ** UNDER 12 RED  **                      |
+| ** UNDER 12 RED  **                      ||
 |------------------------------------------|--|
 | 1993/4                                   | Spartan                                 |
 | 1994/5                                   | Little Common                           |
@@ -187,19 +187,19 @@
 | 2018/19                                  | Sedlescombe Rangers U12 Blues           |
 
 
-| ** UNDER 12 DIVISION  **                 |
+| ** UNDER 12 DIVISION  **                 ||
 |------------------------------------------|--|
 | 2010/11                                  | Hastings Rangers                        |
 | 2011/12                                  | Little Common                           |
 | 2017/18                                  | AS Eastbourne U11/12                    |
 
 
-| ** UNDER 12/UNDER 13 COMBINATION DIVISION  ** |
+| ** UNDER 12/UNDER 13 COMBINATION DIVISION  ** ||
 |------------------------------------------|--|
 | 2013/14                                  | Bexhill United U12                      |
 
 
-| ** UNDER 13 BLUE  **                     |
+| ** UNDER 13 BLUE  **                     ||
 |------------------------------------------|--|
 | 1994/5                                   | Grasshopper Junior                      |
 | 1995/6                                   | Elphinstone Flyers                      |
@@ -216,7 +216,7 @@
 | 2008/9                                   | Hastings Town White                     |
 
 
-| ** UNDER 13 RED  **                      |
+| ** UNDER 13 RED  **                      ||
 |------------------------------------------|--|
 | 1994/5                                   | Spartan                                 |
 | 1995/6                                   | Little Common                           |
@@ -235,7 +235,7 @@
 | 2008/9                                   | Little Common Minors                    |
 
 
-| ** UNDER 13 DIVISION  **                 |
+| ** UNDER 13 DIVISION  **                 ||
 |------------------------------------------|--|
 | 2009/10                                  | Hastings Gunners                        |
 | 2010/11                                  | Sedlescombe Rangers                     |
@@ -245,14 +245,14 @@
 | 2018/19                                  | The Junior Club Tackleway Youth Titans  |
 
 
-| ** UNDER 13/UNDER 14 COMBINATION DIVISION  ** |
+| ** UNDER 13/UNDER 14 COMBINATION DIVISION  ** ||
 |------------------------------------------|--|
 | 2014/15                                  | JC Tackleway Panthers                   |
 | 2015/16                                  | AS Eastbourne                           |
 | 2016/17                                  | Hastings Town Youth                     |
 
 
-| ** UNDER 14 BLUE  **                      |
+| ** UNDER 14 BLUE  **                     ||
 |------------------------------------------|--|
 | 2000/1                                   | Glenco                                  |
 | 2001/2                                   | Beckley Rangers                         |
@@ -265,7 +265,7 @@
 | 2017/18                                  | Kingston Village                        |
 
 
-| ** UNDER 14 RED  **                      |
+| ** UNDER 14 RED  **                      ||
 |------------------------------------------|--|
 | 1994/5                                   | Spartan                                 |
 | 1995/6                                   | Winkney                                 |
@@ -285,7 +285,7 @@
 | 2017/18                                  | East Peckham United                     |
 
 
-| ** UNDER 14 DIVISION  **                 |
+| ** UNDER 14 DIVISION  **                 ||
 |------------------------------------------|--|
 | 2010/11                                  | Westfield                               |
 | 2011/12                                  | Hastings Rangers                        |
@@ -293,7 +293,7 @@
 | 2018/19                                  | Eastbourne Borough Youth Black          |
 
 
-| ** UNDER 15 BLUE  **                     |
+| ** UNDER 15 BLUE  **                     ||
 |------------------------------------------|--|
 | 2004/5                                   | Guestling Rangers                       |
 | 2006/7                                   | Grasshopper Junior                      |
@@ -301,7 +301,7 @@
 | 2008/9                                   | Eastbourne United Colts                 |
 
 
-| ** UNDER 15 RED  **                      |
+| ** UNDER 15 RED  **                      ||
 |------------------------------------------|--|
 | 1994/5                                   | Stamco Youth                            |
 | 1995/6                                   | Hampden Park Rangers                    |
@@ -317,24 +317,24 @@
 | 2008/9                                   | Hastings Gunners Blue                   |
 
 
-| ** UNDER 15 DIVISION  **                 |
+| ** UNDER 15 DIVISION  **                 ||
 |------------------------------------------|--|
 | 2010/11                                  | Rye Bay                                 |
 | 2011/12                                  | Dynamo Hastings                         |
 | 2018/19                                  | Hastings Rangers Youth U15 Youth        |
 
 
-| ** UNDER 15/UNDER 16 COMBINATION DIVISION  ** |
+| ** UNDER 15/UNDER 16 COMBINATION DIVISION  ** ||
 |------------------------------------------|--|
 | 2013/14                                  | Beckley Rangers U16                     |
 
 
-| ** UNDER 16 BLUE  **                     |
+| ** UNDER 16 BLUE  **                     ||
 |------------------------------------------|--|
 | 2004/5                                   | Junior Club Tackleway                   |
 
 
-| ** UNDER 16 RED  **                      |
+| ** UNDER 16 RED  **                      ||
 |------------------------------------------|--|
 | 1994/5                                   | Rye United                              |
 | 1995/6                                   | Little Common                           |
@@ -347,13 +347,13 @@
 | 2008/9                                   | Hastings United Colts                   |
 
 
-| ** UNDER 16 DIVISION  **                 |
+| ** UNDER 16 DIVISION  **                 ||
 |------------------------------------------|--|
 | 2009/10                                  | Hastings United                         |
 | 2012/13                                  | Bexhill United                          |
 
 
-| ** UNDER 17 DIVISION  **                 |
+| ** UNDER 17 DIVISION  **                 ||
 |------------------------------------------|--|
 | 2002/3                                   | Winchelsea Beach                        |
 | 2003/4                                   | Hastings Town Minors                    |
