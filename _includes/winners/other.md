@@ -1,4 +1,4 @@
-###PAT BLIGH AWARD 
+### PAT BLIGH AWARD 
 Named in honour of the one\-time Secretary of the forerunner to our League, 
 and presented to the Club who have been the most sporting during the season\. 
 
@@ -29,7 +29,7 @@ and presented to the Club who have been the most sporting during the season\.
 | 2018/19       | Sedlescombe Rangers              |
 
 
-###1066 SPORTING TROPHY
+### 1066 SPORTING TROPHY
 Presented to the most sporting Team in the League during the season\. 
       
 |  **1066 SPORTING TROPHY ** ||     
@@ -47,7 +47,7 @@ Presented to the most sporting Team in the League during the season\.
 | 2017/18       | Gouldurst Dynamos                |
 
 
-###ALF HOLDSTOCK TROPHY
+### ALF HOLDSTOCK TROPHY
 Named in honour of the former President of our League and lifelong supporter of youth football\. 
 This trophy is presented by the Management Committee for Services to Local Youth Football\. 
 
