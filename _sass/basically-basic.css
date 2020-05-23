@@ -738,8 +738,15 @@ main section {
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
   max-width: 50em;
   padding: 0; }
+
+
+.flex>.item {
+  flex-grow: 1;
+  width: 33%;
+}
 
 .item {
   padding: 0.5em; }
