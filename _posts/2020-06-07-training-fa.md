@@ -32,6 +32,6 @@ tags:
 </ul>
 
 <p>
-  Read more about it on the <a hrefg="http://www.sussexfa.com/news/2020/jun/02/grassroots-football-guidance-during-covid19">Sussex FA </a>website.
+  Read more about it on the <a href="http://www.sussexfa.com/news/2020/jun/02/grassroots-football-guidance-during-covid19">Sussex FA </a>website.
 </p>
 
