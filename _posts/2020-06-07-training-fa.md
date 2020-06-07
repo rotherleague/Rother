@@ -18,8 +18,6 @@ tags:
 
 ### Latest guidance on permitted grassroots football activity during Covid-19 from 1st June
 
-![Covid-19 training guidance](https://www.rotherleague.org.uk/assets/gfx/covid-19-traning.png)
-
 <p><strong>The Sussex FA have <a href="//www.thefa.com/-/media/thefacom-new/files/get-involved/2020/football-restart-guidance-1-june.ashx?la=en" tabindex="0">issued further guidance to all grassroots football and informal football activity</a> outside the professional game following the Government’s relaxation of COVID-19 restrictions from 1 June 2020.</strong> </p>
 
 <p>Consistent with&nbsp;<a href="https://www.gov.uk/government/publications/coronavirus-covid-19-guidance-on-phased-return-of-sport-and-recreation" target="_blank" tabindex="0">Government advice published on Monday 1 June</a>, the following outdoor football activity is currently permitted:</p>
