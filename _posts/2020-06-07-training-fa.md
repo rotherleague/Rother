@@ -4,6 +4,9 @@ excerpt: "Consistent with Government advice published on Monday 1 June, the foll
 - playing football individually. For example, practice of individual skills or fitness activities;
 - playing football with your family or other people living in your household;
 - football training or fitness activities in groups of no more than six, keeping two metres apart at all times."
+date: 2020-06-07
+categories:
+  - Covid-19
 categories:
   - cup
 tags: 
