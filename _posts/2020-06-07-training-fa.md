@@ -4,8 +4,10 @@ excerpt: "Consistent with Government advice published on Monday 1 June, the foll
 date: 2020-06-07
 categories:
   - Covid-19
-categories:
-  - cup
+image: 
+  path: /assets/gfx/covid-19-traning.png
+  thumbnail: /assets/gfx/covid-19-traning_thumb.png
+  caption: "Photo from [Sussex FA](http://www.sussexfa.com/)"
 tags: 
   - Covid-19
   - Rother
