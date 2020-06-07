@@ -1,7 +1,7 @@
 ---
 title: "2020/21 Registration"
 excerpt: "Registration for the 2020/21 season is now open"
-date: 2020-06-12
+date: 2020-05-12
 categories:
   - cup
 tags: 
