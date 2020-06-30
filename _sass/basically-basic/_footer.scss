@@ -6,6 +6,11 @@
   margin-top: 4rem;
   color: tint($text-color, 40%);
   font-size: 80%;
+   
+  .four {
+     width:33%;
+     display:block;
+     float:left; }   
 
   .inner {
     padding: 0 0.5rem;
