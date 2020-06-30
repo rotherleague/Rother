@@ -732,37 +732,29 @@ main section {
   /* avoid inheritance */
   --percentage: calc(var(--span) * 100%);
   width: var(--percentage, initial); }
-
 .four {
   --span: 4/12; }
-
 .item.four {
-    width: 33%;
-    display: block;
-    float: left;
-}
-
+  width: 33%;
+  display: block;
+  float: left; }
 .flex {
   display: flex;
   flex-wrap: wrap;
   max-width: 50em;
   padding: 0; }
-
-
 .flex>.item {
   flex-grow: 1;
-  width: 33%;
-}
-
+  width: 33%; }
 .item {
   padding: 0.5em; }
-
 .item ul {
   list-style-type: none; }
 
-/*
+/* ==========================================================================
    Layout specific adjustments
    ========================================================================== */
+
 @media (min-width: 64em) {
   .layout--post .entry-content,
   .layout--page .entry-content {
