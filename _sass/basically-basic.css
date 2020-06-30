@@ -736,6 +736,13 @@ main section {
 .four {
   --span: 4/12; }
 
+.item.four {
+    width: 33%;
+    display: block;
+    clear: right;
+    float: left;
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
