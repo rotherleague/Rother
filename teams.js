@@ -2,7 +2,10 @@ $(document).ready( function() {
 
 
     // add var "code"
-    var code = '1Bu7pPIs72_I6ortPv-3APqOuSL3d4A8fRXOHyrnDdMY';
+    //2019
+    //var code = '1Bu7pPIs72_I6ortPv-3APqOuSL3d4A8fRXOHyrnDdMY';
+    //2020
+    var code = '1pgYS3CNDldYrmObJtmK1QDQgDLYRPUV-_w5TCqcqgD8';
 
     // loop through spreadsheet with Tabletop
     Tabletop.init({ 
@@ -16,7 +19,11 @@ $(document).ready( function() {
     })
 
     // add var "code"
-    var code = '1hWUOoG_-EpOk0Nay3VBHzG-yJiwkRaLEl2OJLmDsXP0';
+    //2019
+    //var code = '1hWUOoG_-EpOk0Nay3VBHzG-yJiwkRaLEl2OJLmDsXP0';
+    
+    //2020
+    var code = '1jKbx-IpvuiYahIxUj_MXy85tdp-mrV0oB8g-BSejsYE';
 
     // loop through spreadsheet with Tabletop
     Tabletop.init({ 
