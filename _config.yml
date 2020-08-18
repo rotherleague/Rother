@@ -107,3 +107,10 @@ defaults:
     values:
       layout: post
       read_time: true
+  # _divisions
+  - scope:
+      path: "_divisions"
+      type: divisions
+    values:
+      layout: divisions
+      read_time: true
