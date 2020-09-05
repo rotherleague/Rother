@@ -3,7 +3,14 @@ title: "Clubs & Teams"
 layout: clubs
 ---
 
-<p><a href="https://drive.google.com/file/d/1Lbqyu5Wij9lIGgkun2ps6UX5sr7Cxy3P/view?usp=sharing" class="button">Download Handbook</a></p>
+
+actions:
+  - label: "Download Handbook"
+    icon: download
+    url: "https://drive.google.com/file/d/1Lbqyu5Wij9lIGgkun2ps6UX5sr7Cxy3P/view?usp=sharing"
+    
+    
+
 <hr>
 
 
