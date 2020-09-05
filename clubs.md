@@ -1,7 +1,7 @@
 ---
 title: "Clubs & Teams"
 layout: clubs
----
+
 
 
 actions:
@@ -9,7 +9,7 @@ actions:
     icon: download
     url: "https://drive.google.com/file/d/1Lbqyu5Wij9lIGgkun2ps6UX5sr7Cxy3P/view?usp=sharing"
     
-    
+---   
 
 <hr>
 
