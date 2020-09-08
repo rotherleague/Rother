@@ -17,7 +17,7 @@ layout: divisions
 {% include divisions/2021/u13red.html %}
 
 <h4>Blue</h4>
-{% include divisions/2020/u13blue.html %}
+{% include divisions/2021/u13blue.html %}
 
 <h2 id="u12"> Under 12s</h2>
 <h4>Red</h4>
@@ -39,11 +39,3 @@ layout: divisions
 
 <h4>Blue</h4>
 {% include divisions/2021/u10blue.html %}
-
-<h2 id="u9"> Under 9s</h2>
-<h4>Red</h4>
-{% include divisions/2021/u9red.html %}
-
-<h4>Blue</h4>
-{% include divisions/2021/u9blue.html %}
-
