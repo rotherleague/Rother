@@ -39,3 +39,20 @@ layout: divisions
 
 <h4>Blue</h4>
 {% include divisions/2021/u10blue.html %}
+
+<h2 id="u9"> Under 9s</h2>
+<h4>Red</h4>
+{% include divisions/2021/u9red.html %}
+
+<h4>Blue</h4>
+{% include divisions/2021/u9blue.html %}
+
+<h2 id="u8"> Under 8s</h2>
+<h4>Red</h4>
+{% include divisions/2021/u8red.html %}
+
+<h4>Blue</h4>
+{% include divisions/2021/u8blue.html %}
+
+<h2 id="u7"> Under 7s</h2>
+{% include divisions/2021/u7.html %}
