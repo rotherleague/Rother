@@ -9,6 +9,10 @@ tags:
   - Rother
   - League
   - Tier 4
+image: 
+  path: /assets/gfx/covid-19-traning.png
+  thumbnail: /assets/gfx/covid-19-traning_thumb.png
+  caption: "Photo from [Sussex FA](http://www.sussexfa.com/)"
 ---
 
 ### Tier 4 Update
