@@ -4,6 +4,7 @@ title: Rother League Contact
 ---
 
 <form  class="form-horizontal bootstrap-validator-form"  id="formaction" method="post"  name="formaction">
+            
 <fieldset>
 <legend>Your Details</legend>
             <div class="form-group">
@@ -33,7 +34,7 @@ title: Rother League Contact
         <div class="form-group has-feedback  ">
             <label class="col-xs-12 col-sm-3 control-label text-right" for="Email">Email</label>
             <div class="col-xs-12 col-sm-8">
-                <input class="form-control success" data-val="true" data-val-email="The Email Address field is not a valid e-mail address." data-val-length="The email address must be more than 5 and less than 60 characters long" data-val-length-max="60" data-val-minlength="The email address must be more than 5 and less than 60 characters long" data-val-minlength-min="6" data-val-required="The Email Address field is required." id="Email" name="Email" placeholder="Email Address" required="required" tabindex="2" type="text" value="" />
+                <input class="form-control success" data-val="true" data-val-email="The Email Address field is not a valid e-mail address." data-val-length="The email address must be more than 5 and less than 60 characters long" data-val-length-max="60" data-val-minlength="The email address must be more than 5 and less than 60 characters long" data-val-minlength-min="6" data-val-required="The Email Address field is required." id="_replyto" name="_replyto" placeholder="Email Address" required="required" tabindex="2" type="text" value="" />
                     <span class="glyphicon glyphicon-ok form-control-feedback hidden"></span>
 
                 <span class="field-validation-valid help-block" data-valmsg-for="Email" data-valmsg-replace="true"></span>
@@ -63,7 +64,7 @@ title: Rother League Contact
         <div class="form-group has-feedback  ">
             <label class="col-xs-12 col-sm-3 control-label text-right" for="Message">Message</label>
             <div class="col-xs-12 col-sm-8">
-                <textarea class="form-control success" cols="80" data-val="true" data-val-length="The message must be more than 20 and less than 2000 characters long" data-val-length-max="2000" data-val-minlength="Your message is less than 20 characters. Please provide more details to your message." data-val-minlength-min="20" data-val-required="The Message field is required." id="Message" name="Message" placeholder="Your Message" required="required" rows="10" tabindex="3">
+                <textarea class="form-control success" cols="80" data-val="true" data-val-length="The message must be more than 20 and less than 2000 characters long" data-val-length-max="2000" data-val-minlength="Your message is less than 20 characters. Please provide more details to your message." data-val-minlength-min="20" data-val-required="The Message field is required." id="message" name="message" placeholder="Your Message" required="required" rows="10" tabindex="3">
 </textarea>
                     <span class="glyphicon glyphicon-ok form-control-feedback hidden"></span>
 
@@ -94,12 +95,14 @@ title: Rother League Contact
         </div>
 
     </fieldset>
+            
+  
 
     <input type="text" name="_gotcha" style="display:none" />
     <input type="hidden" name="_next" value="thanks.html" />
 </form>
 <script>
     var contactform =  document.getElementById('formaction');
-    contactform.setAttribute('action', '//formspree.io/' + 'rotherleague' + '@' + 'gmail' + '.' + 'com');
+    contactform.setAttribute('action', '//formspree.io/f/' + 'rotherleague' + '@' + 'gmail' + '.' + 'com');
 </script>
 
