@@ -7,7 +7,7 @@ source "https://rubygems.org"
 # Jekyll plugins
 group :jekyll_plugins do
   gem "jekyll-feed"
-  gem "jekyll-seo-tag"
+  gem 'jekyll-seo-tag', '~> 2.0'
   gem "jekyll-sitemap"
   gem "jekyll-paginate"
   gem "jekyll-pdf"
