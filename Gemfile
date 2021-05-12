@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'jekyll-theme-time-machine'
+
 #Jekyll plugins
 group :jekyll_plugins do
     gem 'jekyll-algolia'
