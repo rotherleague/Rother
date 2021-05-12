@@ -10,7 +10,7 @@ tags:
   - League
   - Under18s
   - Rother
-  - Clubs=
+  - Clubs
 ---
 
 ### 2021/22 Registration
