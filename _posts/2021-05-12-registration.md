@@ -6,14 +6,14 @@ categories:
   - Registration
 tags: 
   - 2021
-  - registration
+  - Registration
   - League
   - Under18s
-image: 
-  path: /assets/images/football-860.jpg
-  thumbnail: /assets/images/football-200.jpg
-  caption: "Registration - 2021/22"
+  - Rother
+  - Clubs=
 ---
 
 ### 2021/22 Registration
 The Rother Youth Football League is pleased to anounce that registration is now oepn for the 2021/22 season. This year we have added an under 17/18's division.
+
+[Registrations](https://www.rotherleague.org.uk/registration.html) 
