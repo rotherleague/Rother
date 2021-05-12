@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
 # use local theme gem for testing
- gem "jekyll-theme-cayman"
- gem "jekyll", "~> 3.8.5"
-
+gem "jekyll", "~> 3.8.5"
+gem "minima", "~> 2.5"
+gem "github-pages","~> 202" , group: :jekyll_plugins
 
 
 # Jekyll plugins
