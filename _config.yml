@@ -1,8 +1,4 @@
 # Welcome to Jekyll!
-# ------------------------------------------------
-# test the site if you get an error
-# https://travis-ci.org/github/rotherleague/Rother
-# ------------------------------------------------
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
@@ -43,33 +39,8 @@ algolia:
 liquid:
   error_mode: strict
 
-# Conversion
+# Build settings
 markdown: kramdown
-highlighter: rouge
-lsi: false
-incremental: false
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-# Outputting
-permalink: /:categories/:title/
-timezone: Europe/Dublin # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
 theme: jekyll-theme-basically-basic
 plugins: # previously gems
   - jekyll-feed
@@ -77,8 +48,6 @@ plugins: # previously gems
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-pwa-plugin
-  - jekyll-remote-theme
-  
 feed:
   path: atom.xml
 
@@ -89,15 +58,28 @@ paginate_path: /page:num/
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
+exclude:
+  - .asset-cache
+  - .bundle
+  - .codeclimate.yml
+  - .editorconfig
+  - .gitattributes
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .scss-lint.yml
+  - CHANGELOG
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules
+  - Rakefile
+  - README
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - /docs # ignore Basically Basic sample site
+  - /example # ignore Basically Basic dev site
 
 # Collections
 collections:
