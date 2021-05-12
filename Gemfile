@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll-theme-time-machine'
+gem 'jekyll-theme-time-machine', '~> 0.1.1'
 
 #Jekyll plugins
 group :jekyll_plugins do
