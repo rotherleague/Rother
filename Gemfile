@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # use local theme gem for testing
-gem "jekyll-theme-time-machine", path: "../"
+# gem "jekyll-theme-time-machine", path: "../"
 
 # Jekyll plugins
 group :jekyll_plugins do
