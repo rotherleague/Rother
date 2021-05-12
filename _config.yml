@@ -41,7 +41,7 @@ liquid:
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-time-machine
 plugins: # previously gems
   - jekyll-feed
   - jekyll-seo-tag
