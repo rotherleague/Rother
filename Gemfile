@@ -2,6 +2,8 @@ source "https://rubygems.org"
 
 # use local theme gem for testing
  gem "jekyll-theme-cayman"
+ gem "jekyll", "~> 3.8.5"
+
 
 
 # Jekyll plugins
