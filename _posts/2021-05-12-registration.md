@@ -3,7 +3,7 @@ title: "Registration for the 2021/22 Season is now open"
 excerpt: "The Rother Youth Football League is pleased to anounce that registration is now oepn for the 2021/22 season"
 date: 2021-05-12
 categories:
-  - Registration
+  - cup
 tags: 
   - 2021
   - Registration
