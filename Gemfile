@@ -8,5 +8,4 @@ group :jekyll_plugins do
     gem 'jekyll-feed'
     gem 'jekyll-seo-tag'
     gem 'jekyll-pdf'
-    gem 'jekyll-algolia'
 end
