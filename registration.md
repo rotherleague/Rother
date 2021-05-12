@@ -2,7 +2,7 @@
 title: "Registration"
 layout: page
 introduction: |
-  Register your club and team for the 2020/21 season.
+  Register your club and team for the 2021/22 season.
   - Please complete the following forms:
 
 
