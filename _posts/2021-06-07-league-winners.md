@@ -15,13 +15,13 @@ tags:
 ## League Winners
 Congratulations to this years Rother league winners and runners up.
 
-### U12 Blue
-1.	Willingdon Athletic U12
-2.  SC Pass Move U12 Black
-
 ### U12 Red
 1.	SC Pass Move U12 White
 2.	Heathfield & Horam U12 Outlaws
+
+### U12 Blue
+5.	Willingdon Athletic U12
+6.  SC Pass Move U12 Black
 
 ### U13 Red
 1.	AS Eastbourne U13 Blue
