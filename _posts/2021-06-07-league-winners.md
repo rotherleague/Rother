@@ -1,5 +1,5 @@
 ---
-title: "2021 Rother Youth League Winners"
+title: "2020/21 Rother Youth League Winners"
 excerpt: "Congratulations to this year's Rother league winners and runners-up.
 ."
 date: 2021-06-07
