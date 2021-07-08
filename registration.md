@@ -19,7 +19,9 @@ actions:
 ---
 
 **Registration is now closed.**
+
 Please email the league rotherleague 'at' gmail.com
+
 
 Please download and return the additional forms to complete your registration
 
