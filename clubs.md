@@ -36,6 +36,7 @@ actions:
 {% include clubs/junior_club_tackleway.html %}
 {% include clubs/kingston_village.html %}
 {% include clubs/little_common.html %}
+{% include clubs/luca_fc.html %}
 {% include clubs/polegate_panthers.html %}
 {% include clubs/premier_united.html %}
 {% include clubs/ringmer_rovers.html %}
