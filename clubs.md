@@ -26,7 +26,7 @@ actions:
 {% include clubs/hadlow_down_hawks.html %}
 {% include clubs/hastings_athletic.html %}
 {% include clubs/hastings_rangers.html %}
-{% include clubs/hastings_united.html %}
+{% include clubs/hastings_united_youth.html %}
 {% include clubs/hastings_wanderers.html %}
 {% include clubs/hawkhurst.html %}
 {% include clubs/hollington.html %}
