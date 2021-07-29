@@ -16,6 +16,7 @@ actions:
 
 {% include clubs/as_eastbourne.html %}
 {% include clubs/beckley.html %}
+{% include clubs/bexhill_amatuer_athletic_fc.html %}
 {% include clubs/bexhill.html %}
 {% include clubs/buckswood.html %}
 {% include clubs/burwash.html %}
