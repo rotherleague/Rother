@@ -46,5 +46,6 @@ actions:
 {% include clubs/sedlescombe.html %}
 {% include clubs/wadhurst.html %}
 {% include clubs/westfield.html %}
+{% include clubs/willingdon_athletic_fc.html %}
 {% include clubs/wittersham.html %}
 
