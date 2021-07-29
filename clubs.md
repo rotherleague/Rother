@@ -31,6 +31,8 @@ actions:
 <!---
 {% include clubs/eastbourne_borough.html %}
 -->
+
+{% include clubs/eastbourne_united_youth_afc.html %}
 {% include clubs/goudhurst.html %}
 <!---
 {% include clubs/hadlow_down_hawks.html %}
