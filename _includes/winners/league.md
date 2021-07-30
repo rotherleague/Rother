@@ -159,6 +159,8 @@
 | 2016/17                                  | St\. Leonards                           |
 | 2017/18                                  | See Under 12                            |
 | 2018/19                                  | Eastbourne Borough Youth U12 Orange     |
+| 2020/21                                  | Willingdon Athletic U12.                |
+
 
 
 | ** UNDER 12 RED  **                      ||
@@ -185,6 +187,8 @@
 | 2016/17                                  | AS Eastbourne                           |
 | 2017/18                                  | See Under 12                            |
 | 2018/19                                  | Sedlescombe Rangers U12 Blues           |
+| 2020/21                                  | SC Pass Move U12 White                  |
+
 
 
 | ** UNDER 12 DIVISION  **                 ||
@@ -214,6 +218,7 @@
 | 2006/7                                   | Junior Club Tackleway                   |
 | 2007/8                                   | Hastings Rangers                        |
 | 2008/9                                   | Hastings Town White                     |
+| 2020/21                                  | Little Common U13 Colts                 |
 
 
 | ** UNDER 13 RED  **                      ||
@@ -233,6 +238,8 @@
 | 2006/7                                   | Hastings Gunners Green                  |
 | 2007/8                                   | Hastings Gunners Red                    |
 | 2008/9                                   | Little Common Minors                    |
+| 2020/21                                  |AS Eastbourne U13 Blue                   |
+
 
 
 | ** UNDER 13 DIVISION  **                 ||
@@ -291,6 +298,8 @@
 | 2011/12                                  | Hastings Rangers                        |
 | 2012/13                                  | Westfield                               |
 | 2018/19                                  | Eastbourne Borough Youth Black          |
+| 2020/21                                  | Junior Club Tackleway Youth Trojans.    |
+
 
 
 | ** UNDER 15 BLUE  **                     ||
@@ -322,6 +331,8 @@
 | 2010/11                                  | Rye Bay                                 |
 | 2011/12                                  | Dynamo Hastings                         |
 | 2018/19                                  | Hastings Rangers Youth U15 Youth        |
+| 2020/21                                  | Junior Club Tackleway Youth Titans      |
+
 
 
 | ** UNDER 15/UNDER 16 COMBINATION DIVISION  ** ||
@@ -351,6 +362,8 @@
 |------------------------------------------|--|
 | 2009/10                                  | Hastings United                         |
 | 2012/13                                  | Bexhill United                          |
+| 2020/21                                  | Goudhurst Dynamos U16                   |
+
 
 
 | ** UNDER 17 DIVISION  **                 ||
