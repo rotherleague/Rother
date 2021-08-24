@@ -5,11 +5,15 @@ $(document).ready( function() {
     //2019
     //var code = '1Bu7pPIs72_I6ortPv-3APqOuSL3d4A8fRXOHyrnDdMY';
     //2020
-    var code = '1pgYS3CNDldYrmObJtmK1QDQgDLYRPUV-_w5TCqcqgD8';
+    //var code = '1pgYS3CNDldYrmObJtmK1QDQgDLYRPUV-_w5TCqcqgD8';
+    //2021
+    var teamCode = '1YT21jdv1kzfSMYWw7fhdH_KsFcDNljyO9iBO_vew3vY';
+
+    
 
     // loop through spreadsheet with Tabletop
     Tabletop.init({ 
-        key: code,
+        key: teamCode,
         callback: showInfo,
         wanted: [ "clubs" ],
         debug: true ,
@@ -21,13 +25,15 @@ $(document).ready( function() {
     // add var "code"
     //2019
     //var code = '1hWUOoG_-EpOk0Nay3VBHzG-yJiwkRaLEl2OJLmDsXP0';
-    
     //2020
-    var code = '1jKbx-IpvuiYahIxUj_MXy85tdp-mrV0oB8g-BSejsYE';
+    //var code = '1jKbx-IpvuiYahIxUj_MXy85tdp-mrV0oB8g-BSejsYE';
+    //2021
+    var clubCode = '174nZbIrF7JdBi2gRd00UGPs-SpUZH3aZvwgWVi026MA';
+
 
     // loop through spreadsheet with Tabletop
     Tabletop.init({ 
-        key: code,
+        key: clubCode,
         callback: showClubs,
         wanted: [ "clubs" ],
         debug: true ,
