@@ -40,3 +40,4 @@ layout: page
 {% include rules/34.md %}
 {% include rules/35.md %}
 {% include rules/36.md %}
+{% include rules/37.md %}
