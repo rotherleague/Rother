@@ -1,3 +1,5 @@
+
+
 # ROTHER YOUTH LEAGUE FOOTBALL LEAGUE
 
 
@@ -7,7 +9,7 @@
     This document contains the Standard Code of Rules developed by The Football Association for Mini Soccer and Youth Football Competitions (the “Standard Code”). 
 
 
-    Please note that from the 2021/22 season all players must be registered through [WGS](https://wholegame.thefa.com).
+    Please note that from the 2021/22 season all players must be registered through the FA Player Registration System.
 
 
 ## 1. DEFINITIONS
@@ -67,6 +69,9 @@
     “Player” means any Contract Player, Non Contract Player or other player who plays or who is eligible to play for a Club.
 
 
+    “Player Registration System” means The FA system to register players as determined by The FA from time to time.
+
+
     “Playing Season” means the period between the date on which the first competitive fixture in the Competition is played each year until the date on which the last competitive fixture in the Competition is played.
 
 
@@ -94,7 +99,7 @@
     	“The FA” means The Football Association Limited.
 
 
-    “WGS” means the Whole Game System and the procedures for the operation thereof as determined by The FA from time to time. “written” or “in writing” means the representation or reproduction of words or symbols  or other information in a visible form by any method or combination of methods, whether sent or supplied in electronic form or otherwise.
+    “written” or “in writing” means the representation or reproduction of words or symbols  or other information in a visible form by any method or combination of methods, whether sent or supplied in electronic form or otherwise.
 
 
     “Youth Football” means those participating at ages under 11s to under 18s.
@@ -151,6 +156,7 @@ COMPETITION NAME AND CONSTITUTION
 2. A Deposit of £100 shall be payable in accordance with the Fees Tariff per Club/Team (where a Club provides more than one Team in membership of the Competition) and shall be payable on or before 1<sup>st</sup> September in each year. Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff.
 3. A Club shall not participate in this Competition until the entry fee, annual subscription and Deposit (if required) have been paid.
 4. If requested by the Competition, Clubs must advise annually to the Secretary in writing by 1<sup>st</sup> September of its Sanctioning Authority affiliation number for the forthcoming Playing Season. Clubs must advise the Secretary in writing, or on the prescribed form, of details of its headquarters, its Officers and any other information required by the Competition. Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff.
+5. An all-female team can apply to the Competition to play an age group down in a mixed gender competition, subject to rule 8A(iii)&(iv) and provided the team has obtained approval from its Sanctioning Authority.
 
 
 ## 5. MANAGEMENT, NOMINATION, ELECTION
@@ -463,38 +469,32 @@ Position
 
 
 
-1. .
 1. A Player is one who, being in all other respects eligible, has:-
-1.  signed a fully and correctly completed Competition registration form  in ink, countersigned by his /her parent or guardian and by an Officer of the Club, and who has been registered with the (Registrations) Secretary 3 days prior to the Player playing and whose completed registration counterfoil has been received by the Club prior to playing in a Competition Match. The registration document must incorporate emergency contact details of the Player’s parents or guardians. These details must be available at matches and training events the Player attends within the management of the Club or Competition;
+1. Registered through the FA Player Registration System and received approval from the Competition.
 
-            _or_
-
-2. signed a fully and correctly completed Competition registration form  in ink on a match day prior to playing which is countersigned by his/   her parent or guardian and by an Officer of the Club and witnessed by  an Officer of the opposing Club, and submitted to the (Registrations) Secretary within two days (Sundays excluded) subsequent to the Competition Match. The Player shall not play again on a subsequent match day until the Club is in possession of the completed counterfoil. A maximum of double the team format of Players may be registered in accordance with this paragraph 18 (A) (i) (b). The registration document must incorporate emergency contact details of the Players’ parents or guardians. These details must be available at matches and training events the Player attends within the management of the Club or Competition;
-
-            _or_
-
-3. registered through WGS.
-
-        Any registration form which is sent by either of the means set out at Rules 18(A) (i)(a) or (b) above that is not fully and correctly completed will be returned to the Club unprocessed. If a Club attempts to register a player via WGS but does not fully and correctly complete the necessary information via WGS, the registration will not be processed.
+        For any players registered on the day of a match, a Club Officer must email the Competition with details of the registration 2 hours prior to the scheduled kick off time in order for the player to be eligible to play in that match.  The Player shall not play again in any subsequent match in the Competition until the Club has registered the player through The FA Player Registration system  and  is in possession of the approval from the Competition. A maximum of 2 Players may be registered in this manner
 
 
-        For Clubs registering Players under Rules 18 (A) (i) (a) or (b) registration forms will be provided in a format to be determined by the Competition. For Clubs registering Players via WGS (under Rule 18 (A) (i) (c)) Clubs must access WGS in order to complete the registration process.
+    or
 
-1. Registration forms may also be submitted to the (Registrations) Secretary by electronic mail or facsimile machine prior to the Player playing in a Competition Match. The original document must be forwarded by post to the appropriate Officer of the Competition within three days of the Competition Match. 
+2. signed a fully and correctly completed Competition registration form in ink on a match day prior to playing which is countersigned by his/her parent or guardian and by an Officer of the Club and witnessed by an Officer of the opposing Club, and submitted to the Competition within two days (Sundays excluded) subsequent to the Competition Match. The Player shall not play again in a subsequent match in the Competition day until the Club has registered the player through The FA Player Registration System and is in possession of the approval from the Competition. A maximum of 2 Players may be registered in) this manner. The registration document must incorporate emergency contact details of the Players’ parents or guardians. These details must be available at matches and training events the Player attends within the management of the Club or Competition;. 
 
-        _The registration document must incorporate a current passport-size photograph of the Player seeking registration together with confirmation that the Player’s proof of date of birth has been checked by the Club and is accurate._
+        Any registration that is not fully and correctly completed will be returned to the Club unprocessed and the player classed as unregistered. If a Club attempts to register a player via the Player Registration System but does not fully and correctly complete the necessary information via the Player Registration System, the registration will not be processed.
 
 
-    Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff.
+        For Clubs registering Players under Rule 18 (A) 2 registration forms will be provided in a format to be determined by the Competition. For Clubs registering Players via the Player Registration System Clubs must access the Player Registration System in order to complete the registration process. The registration document must incorporate a current passport-size photograph of the Player seeking registration together with confirmation that the Player’s proof of date of birth has been checked by the Club and is accurate.
+
+
+        Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff.
 
 2. 
 
         (i)	Contract Players are not permitted in this Competition with the exception of those Players who are registered under contract with the same Club who have a Team operating at Steps 1 to 6 of the National League System.
 
 
-    It is the responsibility of each Club to ensure that any Player registered to the Club has, where necessary, the required International Transfer Certificate. Clearance is required for any Player aged 10 and over crossing borders including Wales, Scotland and Ireland.
+        It is the responsibility of each Club to ensure that any Player registered to the Club has, where necessary, the required International Transfer Certificate. Clearance is required for any Player aged 10 and over crossing borders including Wales, Scotland and Ireland.
 
-2. A Player registered with a Premier League or English Football League Academy under the Elite Player Performance Plan contained within Youth Development Rules will not be permitted to play in this Competition. Details of the Youth Development Rules are published on The FA website. A Player registered with a FA Girls’ Regional Talent Club may play in this Competition subject to the FA Programme for Excellence (Female) Regulations.
+3. A Player registered with a Premier League or English Football League Academy under the Elite Player Performance Plan contained within Youth Development Rules will not be permitted to play in this Competition. Details of the Youth Development Rules are published on The FA website. A Player registered with a FA Girls’ Regional Talent Club may play in this Competition subject to the FA Programme for Excellence (Female) Regulations.
 
         Where a Club run both academy Teams and inclusive Teams the latter would be allowed entry.  In the Management Committee's view where a 'Club' has affiliated with SCFA both as an academy and also as a non-academy, no Players that have registered for the academy Team can register for the non-academy Team.
 
@@ -516,7 +516,7 @@ Position
 
         As per Competition Rules, if a Player falls within the above Clauses a, b, c and d and plays in a Rother Youth Football League Competition Match he/she will be classed as an ineligible Player and will be dealt with in accordance with Competition Rules, also if it is found that the Player has played in previous games the same rules will apply.
 
-3. Each Team must have the following number of Players registered 7 days before the start of each Playing Season and may not have more than the maximum permitted number of players:
+4. Each Team must have the following number of Players registered 7 days before the start of each Playing Season and may not have more than the maximum permitted number of players:
 
 <table>
   <tr>
@@ -578,17 +578,20 @@ FORMAT
 
 
 
-        Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff.
+         \
+Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff.
+
+
 
 3. A child who has not attained the age of 6 shall not play, and shall not be permitted or encouraged to play, in a match of any kind.
 
     The relevant age for each Player is determined by his or her age as at midnight on 31 August of the relevant Playing Season i.e. children who are aged 6 as at midnight on 31 August in a Playing Season (together with those who attain the age of 6 during the Playing Season) will be classed as Under 7 Players for that Playing Season. Children who are aged 7 as at midnight on 31 August in a Playing Season will be classed as Under 8 Players for that Playing Season, and so on.
 
 
-    Notwithstanding the above, a child is permitted to play up in the age group above his or her chronological age group, irrespective of any changes of format or competition structure, save that a child who attains the age of 6 after 31 August is permitted to play only in the Under 7 age group, and may not play in the Under 8 age group, for that Playing Season.
+    Notwithstanding the above, a child is permitted to play up in the age group above his or her chronological age group, irrespective of any changes of format or competition structure, save that a child who attains the age of 6 after 31 August is permitted to play only in the Under 7 age group, and may not play in the Under 8 age group, for that Playing Season. Girls in all female teams may also be permitted to play an age group down in accordance with Rule 4(F). 
 
 
-    The age groups that children are eligible to play in are set out in the table below, along with the permitted football formats for each of those age groups. Children shall not play, and shall not be permitted or encouraged to play, in a match between sides of more than the stated number of players, according to their age group:
+    The age groups that children are eligible to play in are set out in the table below, subject to Rule 4(F), along with the permitted football formats for each of those age groups. Children shall not play, and shall not be permitted or encouraged to play, in a match between sides of more than the stated number of players, according to their age group:
 
 
 <table>
@@ -1051,7 +1054,7 @@ And the Player meets the requirements in Rule 18(C).
 6. It shall be a breach of these Rules for a Player to:-
 1. Play for more than one Team in the same age group in the Competition in the same Playing Season without first being transferred.
 2. Having registered for one Club in the Competition, register for another Club in the Competition in that Playing Season, except if the provisions set out in Rule 18 (E)(iii) apply.
-3. Submit a signed registration form or submit a registration through WGS for registration that the Player had wilfully neglected to accurately or fully complete.
+3. Submit a signed registration form or submit a registration through the Player Registration System for registration that the Player had wilfully neglected to accurately or fully complete.
 
     Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff.
 
@@ -1111,10 +1114,16 @@ NOTE: Any suspension of a Player MUST commence 7 days after a sending-off, even 
 ## 19. CLUB COLOURS   
 
 
-    Every Club must register the colour of its shirts and shorts with the Secretary by [date] who shall decide as to their suitability.
+    Every Club Team must register the colour of its shirts and shorts with the Secretary by the close of registration who shall decide as to their suitability.
 
 
-    Any Club wishing to change its colours during the Playing Season must obtain permission from the Management Committee.
+    Any Club Team wishing to change its colours during the Playing Season must obtain permission from the Management Committee.
+
+
+    Shirts must all be numbered differently, failing which a fine will be levied in accordance with the Fines Tariff.
+
+
+    Names of Youth Players shall not appear on the shirts, failing which a fine will be levied in accordance with the Fines Tariff.
 
 
     Goalkeepers must wear colours which distinguish them from all other Players and the Match Officials.
@@ -1129,7 +1138,7 @@ NOTE: Any suspension of a Player MUST commence 7 days after a sending-off, even 
     If, in the opinion of the referee, two Teams have the same or similar colours, the _away/ home _Team shall make the change. Should a Team delay the scheduled time of kick-off for a Competition Match by not having a change of colours they will be fined in accordance with the Fines Tariff. 
 
 
-    _Shirts must be numbered, failing which a fine will be levied in accordance with the Fines Tariff._
+    Shirts must be numbered, failing which a fine will be levied in accordance with the Fines Tariff.
 
 
 ## 20. PLAYING SEASON.  CONDITIONS OF PLAY, TIMES OF KICK-OFF, POSTPONEMENTS, SUBSTITUTES
@@ -1158,14 +1167,142 @@ NOTE: Any suspension of a Player MUST commence 7 days after a sending-off, even 
 
 <table>
   <tr>
-   <td>
-    Age Group
+   <td rowspan="2" >
+    Age \
+ Group
    </td>
    <td>
-    Minimum duration of play per half (minutes)
+    Minimum Duration of play per quarter (minutes)
    </td>
    <td>
-    Maximum duration of play per half (minutes)
+    Maximum Duration of play per quarter (minutes)
+   </td>
+   <td>
+    Minimum Duration of play per half (minutes) 
+   </td>
+   <td>
+    Maximum Duration of play per half (minutes)
+   </td>
+  </tr>
+  <tr>
+   <td colspan="2" >
+    (Mini-Soccer only)
+   </td>
+   <td colspan="2" >
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Under 7  \
+and  \
+Under 8
+   </td>
+   <td>5
+   </td>
+   <td>10
+   </td>
+   <td>5
+   </td>
+   <td>
+    20
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Under 9 \
+ and  \
+Under 10
+   </td>
+   <td>10
+   </td>
+   <td>12.5
+   </td>
+   <td>10
+   </td>
+   <td>
+    25
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Under 11
+   </td>
+   <td>5
+   </td>
+   <td>10
+   </td>
+   <td>10
+   </td>
+   <td>20
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Under 12
+   </td>
+   <td>10
+   </td>
+   <td>12.5
+   </td>
+   <td>20
+   </td>
+   <td>25
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Under 13  \
+and  \
+Under 14
+   </td>
+   <td>N/A
+   </td>
+   <td>N/A
+   </td>
+   <td>20
+   </td>
+   <td>30
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Under 15  \
+and  \
+Under 16
+   </td>
+   <td>N/A
+   </td>
+   <td>N/A
+   </td>
+   <td>20
+   </td>
+   <td>30
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Under 17  \
+and  \
+Under 18
+   </td>
+   <td>N/A
+   </td>
+   <td>N/A
+   </td>
+   <td>25
+   </td>
+   <td>35
+   </td>
+  </tr>
+</table>
+
+
+
+<table>
+  <tr>
+   <td>
+    Age  \
+Group
    </td>
    <td>
     Maximum playing time in one day in all organised development fixtures (minutes)
@@ -1179,16 +1316,9 @@ NOTE: Any suspension of a Player MUST commence 7 days after a sending-off, even 
   </tr>
   <tr>
    <td>
-    Under 7 and
-<p>
-
-    Under 8
-   </td>
-   <td>
-    10
-   </td>
-   <td>
-    20
+    Under 7  \
+and  \
+Under 8
    </td>
    <td>
     40
@@ -1205,16 +1335,9 @@ NOTE: Any suspension of a Player MUST commence 7 days after a sending-off, even 
   </tr>
   <tr>
    <td>
-    Under 9 and
-<p>
-
-    Under 10
-   </td>
-   <td>
-    20
-   </td>
-   <td>
-    25
+    Under 9  \
+and  \
+Under 10
    </td>
    <td>
     60
@@ -1234,12 +1357,6 @@ NOTE: Any suspension of a Player MUST commence 7 days after a sending-off, even 
     Under 11
    </td>
    <td>
-    20
-   </td>
-   <td>
-    30
-   </td>
-   <td>
     80
    </td>
    <td>
@@ -1257,12 +1374,6 @@ NOTE: Any suspension of a Player MUST commence 7 days after a sending-off, even 
     Under 12
    </td>
    <td>
-    20
-   </td>
-   <td>
-    30
-   </td>
-   <td>
     80 (if applicable)
    </td>
    <td>
@@ -1274,16 +1385,9 @@ NOTE: Any suspension of a Player MUST commence 7 days after a sending-off, even 
   </tr>
   <tr>
    <td>
-    Under 13 and
-<p>
-
-    Under 14
-   </td>
-   <td>
-    25
-   </td>
-   <td>
-    35
+    Under 13  \
+and  \
+Under 14
    </td>
    <td>
     100
@@ -1297,16 +1401,9 @@ NOTE: Any suspension of a Player MUST commence 7 days after a sending-off, even 
   </tr>
   <tr>
    <td>
-    Under 15 and
-<p>
-
-    Under 16
-   </td>
-   <td>
-    25
-   </td>
-   <td>
-    40
+    Under 15  \
+and  \
+Under 16
    </td>
    <td>
     100
@@ -1320,16 +1417,9 @@ NOTE: Any suspension of a Player MUST commence 7 days after a sending-off, even 
   </tr>
   <tr>
    <td>
-    Under 17 and
-<p>
-
-    Under 18
-   </td>
-   <td>
-    25
-   </td>
-   <td>
-    45
+    Under 17  \
+and  \
+Under 18
    </td>
    <td>
     120
@@ -1343,6 +1433,9 @@ NOTE: Any suspension of a Player MUST commence 7 days after a sending-off, even 
   </tr>
 </table>
 
+
+
+    Competition Matches for age groups from U7 to U10 can be played in either quarters or halves. This Competition uses quarters/halves (delete as appropriate).
 
 
     For the purpose of this Competition, the maximum playing time per half as stated above will be used.
@@ -1460,7 +1553,7 @@ NOTE: Any suspension of a Player MUST commence 7 days after a sending-off, even 
     (A) The (_Registration/Fixtures_) Secretary must receive within 7 days of the date played, the result of each Competition Match in the prescribed manner. This must include the forename(s) and surname of the Team Players (in block letters) _and also the referee markings required by Rule 23, or any other information required by the Competition. _Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff.
 
 
-    The Home Club/both Clubs shall telephone/SMS/email to notify the result of each Competition Match to the Fixtures Secretary by 6pm on the following day. Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff_._
+    The Home Club/both Clubs shall use telephone/SMS/email/ FA Full Time / FA Matchday as directed by the Competition to notify the result of each Competition Match to the Fixtures Secretary by 6pm on the following day. Failure to comply with this Rule will result in a fine in accordance with the Fines Tariff.
 
 
 
@@ -1944,6 +2037,16 @@ NOTE: Any suspension of a Player MUST commence 7 days after a sending-off, even 
   </tr>
   <tr>
    <td>
+    19
+   </td>
+   <td colspan="2" >
+    NAMES ON SHIRTS
+   </td>
+   <td>£50.00
+   </td>
+  </tr>
+  <tr>
+   <td>
     20(A)
    </td>
    <td colspan="2" >
@@ -2228,7 +2331,7 @@ At the close of each Playing Season, the Management Committee will arrange a Tro
 
 The Competition shall supply ten (10) mementos at the Trophy Presentation event for each eligible Mini Soccer Team, fourteen (14) mementos for each eligible Team participating in 9-a-side Youth Football, and sixteen (16) mementos for each eligible Team participating in 11-a-side Youth Football.  Additional mementos may be purchased by eligible Teams, if required.
 
-**<span style="text-decoration:underline;">PROPOSED FEES – MATCH OFFICIALS – 2018/19 SEASON</span>**
+**<span style="text-decoration:underline;">MATCH OFFICIALS</span>**
 
 Note: The below fees apply to League-appointed Match Officials only.
 
@@ -2345,4 +2448,4 @@ Clubs are required to take all necessary precautions in regards to protecting pl
 
 1. All payments to and from the league are be to made by bank transfer
 2. Coaches and managers are aware of other guidance issued by the FA
-3. CLUBS are  advised to provide their OWN FLAGS FOR ASSISTANTS
+3. CLUBS are advised to provide their OWN FLAGS FOR ASSISTANTS
