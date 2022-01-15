@@ -41,7 +41,6 @@ plugins: # previously gems
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-pwa-plugin
 feed:
   path: atom.xml
 
