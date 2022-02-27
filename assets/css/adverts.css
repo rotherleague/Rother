@@ -1,7 +1,7 @@
 .ad {
   margin: 20px auto;
   max-width: 980px;
-  height: 120px;
+  max-height: 120px;
   background-image: url("/adverts/980x120.png");
   background-size: cover;
   background-position: left center;
