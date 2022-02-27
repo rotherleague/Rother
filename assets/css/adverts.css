@@ -4,7 +4,7 @@
   max-height: 120px;
   background-image: url("/adverts/980x120.png");
   background-size: cover;
-  background-position: left center;
+  background-position: center center;
   border: 1px solid #333;
 }
 .ad .container {
