@@ -1,5 +1,5 @@
 .ad {
-  margin: 20px auto;
+  margin: 20px auto 20px auto;
   max-width: 980px;
   max-height: 120px;
   background-image: url("/adverts/980x120.png");
@@ -9,7 +9,7 @@
 }
 .ad .container {
   clear: both;
-  padding: 1px 0 0 0;
+  padding: 1px;
 }
 
 .ad .container a {
