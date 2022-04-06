@@ -37,6 +37,7 @@
 | 2016/17                                                               | AS Eastbourne                  |
 | 2017/18                                                               |                                |
 | 2018/19                                                               | AS Eastbourne                  |
+| 2019/20                                                               | Crowhurst Youth / AS Eastbourne (Finalists)                  |
 
 
 |  UNDER 11 FUTON & PINE SHIELD Small\-sided \(7\-a\-side\) Competition ||
@@ -77,6 +78,7 @@
 | 2016/17                                                               | JC Tackleway Titans            |
 | 2017/18                                                               | Hastings United Youth          |
 | 2018/19                                                               | Ringmer Rovers                 |
+| 2019/20                                                               | SC Pass & Move Black / Hastings Wanders Lions (Finalists) |
 
 
 |  UNDER 12 WAYNE RUSSELL CUP                                           ||
@@ -106,6 +108,7 @@
 | 2016/17                                                               | Goudhurst Dynamos              |
 | 2017/18                                                               | Wadhurst United Juniors        |
 | 2018/19                                                               | Eastbourne Borough Orange      |
+| 2019/20	                                                              | Hastings United Youth Colts / Hawkhurst United (Finalists) |
 
 
 |  UNDER 13 TOP FLIGHT TROPHY                                           ||
@@ -132,6 +135,7 @@
 | 2016/17                                                               | Hastings Rangers Youth         |
 | 2017/18                                                               | Westfield Youth                |
 | 2018/19                                                               | Junior Club Tackleway          |
+| 2019/20                                                               | Sedlescombe Rangers Blue / SC Pass Move Black (Finalists) |
 
 
 |  UNDER 14 BESURE SECURITY SYSTEMS CUP                                 ||
@@ -159,6 +163,7 @@
 | 2016/17                                                               | Hastings Town Youth            |
 | 2017/18                                                               |  Hawkhurst United Cougars      |
 | 2018/19                                                               |  Eastbourne Borough Black      |
+| 2019/20                                                               |  Bexhill United / The Junior Club Tackleway Titans (Finalists) |
 
 
 |  UNDER 15 CHALLENGE CUP                                               ||
@@ -186,6 +191,7 @@
 | 2016/17                                                               |  N/A                           |
 | 2017/18                                                               |  N/A                           |
 | 2018/19                                                               | Hastings Rangers Youth         |
+| 2019/20                                                               | Hurst Green U15 / Goudhurst Dynamos (Finalists) |
  
 
 |  UNDER 16 LAURIE WEBBER CUP                                           ||
@@ -202,6 +208,7 @@
 | 2009/10                                                               | Hastings United Youth          |
 | 2012/13                                                               | Bexhill United                 |
 | 2013/14                                                               | Beckley Rangers                |
+| 2019/20                                                               | Hastings Rangers Youth / Hawkhurst United (Finalists) |
 
 
 | UNDER 17 LEAGUE CUP                                                   ||
