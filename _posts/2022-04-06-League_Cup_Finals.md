@@ -53,3 +53,37 @@ Congratulations to this year's Rother league cup final winners and runners-up.
 ***
 
 [The complete results for the 2021/22 season can be found on the Full Time Website](https://fulltime.thefa.com/news.html?league=681144&selectedSeason=518090106 "Full Time")
+
+
+<figure style="width: 1200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/cupfinals20222/20220327_093550.jpg" alt="cup final 2022 (1)">
+  <figcaption>Cup Final 2022 (1).</figcaption>
+</figure> 
+
+
+<figure style="width: 1200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/cupfinals20222/20220327_100252.jpg" alt="cup final 2022 (2)">
+  <figcaption>Cup Final 2022 (2).</figcaption>
+</figure> 
+
+<figure style="width: 1200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/cupfinals20222/20220327_100334.jpg" alt="cup final 2022 (3)">
+  <figcaption>Cup Final 2022 (3).</figcaption>
+</figure> 
+
+
+<figure style="width: 1200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/cupfinals20222/20220327_100405.jpg" alt="cup final 2022 (4)">
+  <figcaption>Cup Final 2022 (4).</figcaption>
+</figure> 
+
+<figure style="width: 1200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/cupfinals20222/20220327_100407.jpg" alt="cup final 2022 (5)">
+  <figcaption>Cup Final 2022 (5).</figcaption>
+</figure> 
+
+
+<figure style="width: 1200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/cupfinals20222/20220327_105649.jpg" alt="cup final 2022 (6)">
+  <figcaption>Cup Final 2022 (6).</figcaption>
+</figure> 
