@@ -24,7 +24,7 @@ Please download and return the additional forms to complete your registration. E
 
 * **Rother League** - [Club Agreement Form](https://drive.google.com/file/d/1JcKs9FvdYh6swI-hPcKHdJ0D-a_WT7m_/view?usp=sharing)
 
-* **Rother League** - [Club Membership Application Form](https://drive.google.com/file/d/1cjgObn0ZhrgwygBgkDNGZ4hO93ELkDrM/view?usp=sharing)
+* **Rother League** - [Club Membership Application Form](https://drive.google.com/file/d/1MMJzonYmrIqrZ8ByzlL8RJ7RDeGS5tow/view?usp=sharing)
 
 * **Rother League** - [Transfer Agreement Form](https://drive.google.com/file/d/1pEuOuHCQ_rTjU2HZxLg9eGTmk-fpn5XH/view?usp=sharing)
 
