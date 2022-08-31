@@ -8,6 +8,31 @@
 
 
 
+
+var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRF0IGMPN5alV0GPqtOE2QCJLgGb7X9QUFR6KiU--J61tKATgnOuo38kmueP5fWCVyDNz4jV4NMOjPo/pubhtml';
+
+      function init() {
+        Papa.parse(public_spreadsheet_url, {
+          download: true,
+          header: true,
+          complete: showInfo
+        })
+      }
+
+      window.addEventListener('DOMContentLoaded', init)
+
+      function showInfo(results) {
+        var data = results.data
+
+        // data comes through as a simple array since simpleSheet is turned on
+        alert("Successfully processed " + data.length + " rows!")
+        document.getElementById("food").innerHTML = "<strong>Foods:</strong> " + [ data[0].Name, data[1].Name, data[2].Name ].join(", ");
+        console.log(data);
+      }
+
+      document.write("The published spreadsheet is located at <a target='_new' href='" + public_spreadsheet_url + "'>" + public_spreadsheet_url + "</a>");        
+
+
 function init() {
     Tabletop.init( {        key: 'https://docs.google.com/spreadsheets/d/'+code+'/pubhtml',
                             callback: showInfo,
