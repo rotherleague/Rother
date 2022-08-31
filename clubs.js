@@ -125,8 +125,8 @@ function showInfo(data, tabletop) {
 
             
         });
-      }
-  }
+
+}
 
 
 
