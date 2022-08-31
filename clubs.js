@@ -7,9 +7,6 @@
     var code = '1TOKA1T7NDSSHNF2b1o9cSxbpSS_3VVcHndKOdQBTn4E';
 
 
-    
-    const Tabletop = require('tabletop');
-
 
 function init() {
     Tabletop.init( {        key: code,
