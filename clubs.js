@@ -24,7 +24,7 @@ var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR
 	   // loop to get the data from JSON and write it to the div's with the id's database and quicksearch 
        $.each(data, function(i, v) {
          // Parses the resulting JSON into the individual squares for each row
-         $container.append('<div id="element-item"><div class="category">' + v.Club_Name + '</div><div class="name">' + v.Name + '</div><div class="boldsubhed">' + v.Ground_Postcode + '</div><div class="boldsubhed">' + v.Ground_Name + '</div><div class="description">' + v.Date + '</div><div class="readmore"><a href="' + v.Age_Group + ' " target="_blank">Website</a></div></div>');
+         $container.append('<div id="element-item"><div class="category">' + v.Club_Name + '</div><div class="name">' + v.First_Name + '</div><div class="boldsubhed">' + v.Ground_Postcode + '</div><div class="boldsubhed">' + v.Ground_Name + '</div><div class="description">' + v.Date + '</div><div class="readmore"><a href="' + v.Age_Group + ' " target="_blank">Website</a></div></div>');
          // Gets all unique filtercategory values and puts them into an array
          if ($.inArray(v.Filter_category, result) == -1) {
            result.push(v.Filter_category);
