@@ -16,14 +16,10 @@ function init() {
                             debug: true ,
                             simpleSheet: true,
                             orderby: 'clubname',
-                            reverse: false } ).then(function(data, tabletop) { 
-    console.log(data)
+                            reverse: false } )
   }
 
- function showInfo(data, tabletop) {
-  // do something with the data
-  console.log(JSON.stringify(data, null, 2));
-}
+
 
 //initialise and kickstart the whole thing.
 window.addEventListener('DOMContentLoaded', init)
