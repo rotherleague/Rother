@@ -12,31 +12,9 @@ var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR
 
       window.addEventListener('DOMContentLoaded', init)
 
-      function showInfo(results) {
+
+ function showInfo(results) {
         var data = results.data
-
-        // data comes through as a simple array since simpleSheet is turned on
-        alert("Successfully processed " + data.length + " rows!")
-        document.getElementById("food").innerHTML = "<strong>Foods:</strong> " + [ data[0].Name, data[1].Name, data[2].Name ].join(", ");
-        console.log(data);
-      }
-
-      document.write("The published spreadsheet is located at <a target='_new' href='" + public_spreadsheet_url + "'>" + public_spreadsheet_url + "</a>");        
-
-/*
-function init() {
-    Tabletop.init( {        key: 'https://docs.google.com/spreadsheets/d/'+code+'/pubhtml',
-                            callback: showInfo,
-                            simpleSheet: false,
-                            wanted: [ "clubs" ],
-                            debug: true ,
-                            simpleSheet: true,
-                            orderby: 'clubname',
-                            reverse: false } )
-  }
-*/    
-
-function showInfo(data, tabletop) {
 
         var cat = '';
         var cat_li = '';
@@ -48,14 +26,14 @@ function showInfo(data, tabletop) {
         var i = 4;
 
         /*
-        $("#table_info").text("We found the tables " + tabletop.model_names.join(", "));
+        $("#table_info").text("We found the tables " + data.model_names.join(", "));
 
-        $.each( tabletop.sheets(), function(i, sheet) {
+        $.each( data.sheets(), function(i, sheet) {
         $("#table_info").append("<p>" + sheet.name + " has " + sheet.column_names.join(", ") + "</p>");
         });
         */
 
-       $.each( tabletop.sheets("clubs").all(), function(i, clubs) {
+       $.each( data.sheets("clubs").all(), function(i, clubs) {
 
             nav_li = $('<div></div>');
 
@@ -77,7 +55,7 @@ function showInfo(data, tabletop) {
 
         });
 
-        $.each( tabletop.sheets("clubs").all(), function(i, clubs) {
+        $.each( data.sheets("clubs").all(), function(i, clubs) {
 
             // Show category
             
@@ -143,6 +121,31 @@ function showInfo(data, tabletop) {
         });
 
 }
+
+      function showInfo(results) {
+        var data = results.data
+
+        // data comes through as a simple array since simpleSheet is turned on
+        alert("Successfully processed " + data.length + " rows!")
+        document.getElementById("food").innerHTML = "<strong>Foods:</strong> " + [ data[0].Name, data[1].Name, data[2].Name ].join(", ");
+        console.log(data);
+      }
+
+      document.write("The published spreadsheet is located at <a target='_new' href='" + public_spreadsheet_url + "'>" + public_spreadsheet_url + "</a>");        
+
+/*
+function init() {
+    Tabletop.init( {        key: 'https://docs.google.com/spreadsheets/d/'+code+'/pubhtml',
+                            callback: showInfo,
+                            simpleSheet: false,
+                            wanted: [ "clubs" ],
+                            debug: true ,
+                            simpleSheet: true,
+                            orderby: 'clubname',
+                            reverse: false } )
+  }
+*/    
+
 
 
 
