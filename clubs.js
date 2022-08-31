@@ -9,14 +9,15 @@
 
 
 function init() {
-    Tabletop.init( {        key: code,
+    Tabletop.init( {        key: 'https://docs.google.com/spreadsheets/d/'+code+'/pubhtml',
                             callback: showInfo,
                             simpleSheet: false,
                             wanted: [ "clubs" ],
                             debug: true ,
                             simpleSheet: true,
                             orderby: 'clubname',
-                            reverse: false } )
+                            reverse: false } ).then(function(data, tabletop) { 
+    console.log(data)
   }
 
  function showInfo(data, tabletop) {
@@ -25,7 +26,8 @@ function init() {
 }
 
 //initialise and kickstart the whole thing.
-init()
+window.addEventListener('DOMContentLoaded', init)
+
       
 
 function showInfo(data, tabletop) {
