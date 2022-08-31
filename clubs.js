@@ -29,7 +29,7 @@ var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR
          if ($.inArray(v.Filter_category, result) == -1) {
            result.push(v.Filter_category);
            // Creates the filter buttons
-           $('#filter').append('<button id="' + v.Filter_category + '" class="btn btn-default" data-value="choice' + count++ + '">' + v.Email + '</button>')
+           $('#filter').append('<div id="' + v.Email + '" class="btn btn-default" data-value="choice' + count++ + '">' + v.Email + '</div>')
          }
        });
       
@@ -57,7 +57,6 @@ var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR
         $("#table_info").append("<p>" + sheet.name + " has " + sheet.column_names.join(", ") + "</p>");
         });
         */
-
        $.each( data.sheets("clubs").all(), function(i, clubs) {
 
             nav_li = $('<div></div>');
@@ -147,17 +146,7 @@ var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR
 
 }
 
-      function showInfo(results) {
-        var data = results.data
-
-        // data comes through as a simple array since simpleSheet is turned on
-        alert("Successfully processed " + data.length + " rows!")
-        document.getElementById("food").innerHTML = "<strong>Foods:</strong> " + [ data[0].Name, data[1].Name, data[2].Name ].join(", ");
-        console.log(data);
-      }
-
-      document.write("The published spreadsheet is located at <a target='_new' href='" + public_spreadsheet_url + "'>" + public_spreadsheet_url + "</a>");        
-
+     
 /*
 function init() {
     Tabletop.init( {        key: 'https://docs.google.com/spreadsheets/d/'+code+'/pubhtml',
