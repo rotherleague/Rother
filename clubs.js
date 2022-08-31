@@ -146,21 +146,6 @@ var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR
 
 }
 
-     
-/*
-function init() {
-    Tabletop.init( {        key: 'https://docs.google.com/spreadsheets/d/'+code+'/pubhtml',
-                            callback: showInfo,
-                            simpleSheet: false,
-                            wanted: [ "clubs" ],
-                            debug: true ,
-                            simpleSheet: true,
-                            orderby: 'clubname',
-                            reverse: false } )
-  }
-*/    
-
-
 
 
 function titleCase(str){
