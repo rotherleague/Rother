@@ -18,13 +18,7 @@ function init() {
                             orderby: 'clubname',
                             reverse: false } )
   }
-
-
-
-//initialise and kickstart the whole thing.
-window.addEventListener('DOMContentLoaded', init)
-
-      
+     
 
 function showInfo(data, tabletop) {
 
@@ -132,6 +126,12 @@ function showInfo(data, tabletop) {
             
         });
       }
+  }
+
+
+
+//initialise and kickstart the whole thing.
+window.addEventListener('DOMContentLoaded', init)
 
 
 function titleCase(str){
