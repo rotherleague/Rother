@@ -1,5 +1,3 @@
-$(document).ready( function() {
-
 
     // add var "code"
     
@@ -8,17 +6,29 @@ $(document).ready( function() {
     //2020
     var code = '1TOKA1T7NDSSHNF2b1o9cSxbpSS_3VVcHndKOdQBTn4E';
 
-    // loop through spreadsheet with Tabletop
-    Tabletop.init({ 
-        key: code,
-        callback: showInfo,
-        wanted: [ "clubs" ],
-        debug: true ,
-        simpleSheet: true,
-        orderby: 'clubname',
-        reverse: false 
-    })
-})
+
+    
+    const Tabletop = require('tabletop');
+
+
+function init() {
+    Tabletop.init( {        key: code,
+                            callback: showInfo,
+                            simpleSheet: false,
+                            wanted: [ "clubs" ],
+                            debug: true ,
+                            simpleSheet: true,
+                            orderby: 'clubname',
+                            reverse: false } )
+  }
+
+ function showInfo(data, tabletop) {
+  // do something with the data
+  console.log(JSON.stringify(data, null, 2));
+}
+
+//initialise and kickstart the whole thing.
+init()
       
 
 function showInfo(data, tabletop) {
