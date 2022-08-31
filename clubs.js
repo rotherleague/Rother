@@ -1,13 +1,4 @@
 
-    // add var "code"
-    
-    //2019 
-    //var code = '1hWUOoG_-EpOk0Nay3VBHzG-yJiwkRaLEl2OJLmDsXP0';
-    //2020
-    var code = '1TOKA1T7NDSSHNF2b1o9cSxbpSS_3VVcHndKOdQBTn4E';
-
-
-
 
 var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRF0IGMPN5alV0GPqtOE2QCJLgGb7X9QUFR6KiU--J61tKATgnOuo38kmueP5fWCVyDNz4jV4NMOjPo/pubhtml';
 
@@ -32,7 +23,7 @@ var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR
 
       document.write("The published spreadsheet is located at <a target='_new' href='" + public_spreadsheet_url + "'>" + public_spreadsheet_url + "</a>");        
 
-
+/*
 function init() {
     Tabletop.init( {        key: 'https://docs.google.com/spreadsheets/d/'+code+'/pubhtml',
                             callback: showInfo,
@@ -43,7 +34,7 @@ function init() {
                             orderby: 'clubname',
                             reverse: false } )
   }
-     
+*/    
 
 function showInfo(data, tabletop) {
 
@@ -153,10 +144,6 @@ function showInfo(data, tabletop) {
 
 }
 
-
-
-//initialise and kickstart the whole thing.
-window.addEventListener('DOMContentLoaded', init)
 
 
 function titleCase(str){
