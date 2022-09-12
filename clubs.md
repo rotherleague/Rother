@@ -12,8 +12,8 @@ actions:
 ---   
 
 <hr>
-
-
+{% include clubs/afc_hastings.html %}
+{% include clubs/afc_langney.html %}
 {% include clubs/as_eastbourne.html %}
 <!---
 {% include clubs/beckley.html %}
@@ -56,6 +56,7 @@ actions:
 {% include clubs/kingston_village.html %}
 -->
 {% include clubs/little_common.html %}
+{% include clubs/langton_green.html %}
 {% include clubs/luca_fc.html %}
 <!---
 {% include clubs/polegate_panthers.html %}
@@ -66,6 +67,7 @@ actions:
 {% include clubs/rye_bay.html %}
 {% include clubs/sc_pass_move.html %}
 {% include clubs/sedlescombe.html %}
+{% include clubs/st_leonards.html %}
 <!---
 {% include clubs/wadhurst.html %}
 -->
