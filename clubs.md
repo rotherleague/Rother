@@ -11,7 +11,7 @@ actions:
     url: "https://drive.google.com/file/d/1UfsX9LwH04PQiqtYTvBSh7y9hGjX_VrU/view?usp=sharing"   
 ---   
 
-<hr><!--
+<hr>
 {% include clubs/afc_hastings.html %}
 {% include clubs/afc_langney.html %}
 {% include clubs/as_eastbourne.html %}
@@ -39,4 +39,3 @@ actions:
 {% include clubs/st_leonards.html %}
 {% include clubs/sussex_girls.html %}
 {% include clubs/westfield.html %}
--->
