@@ -68,6 +68,7 @@ actions:
 {% include clubs/sc_pass_move.html %}
 {% include clubs/sedlescombe.html %}
 {% include clubs/st_leonards.html %}
+{% include clubs/sussex_girls.html %}
 <!---
 {% include clubs/wadhurst.html %}
 -->
