@@ -22,9 +22,7 @@ actions:
 {% include clubs/bexhill.html %}
 <!---
 {% include clubs/buckswood.html %}
-
 {% include clubs/burwash.html %}
-
 {% include clubs/crowhurst.html %}
 -->
 {% include clubs/ds_hastings.html %}
@@ -57,8 +55,8 @@ actions:
 -->
 {% include clubs/little_common.html %}
 {% include clubs/langton_green.html %}
-{% include clubs/luca_fc.html %}
 <!---
+{% include clubs/luca_fc.html %}
 {% include clubs/polegate_panthers.html %}
 {% include clubs/premier_united.html %}
 -->
@@ -69,12 +67,12 @@ actions:
 {% include clubs/sedlescombe.html %}
 {% include clubs/st_leonards.html %}
 {% include clubs/sussex_girls.html %}
-<!---
+<!--
 {% include clubs/wadhurst.html %}
 -->
 {% include clubs/westfield.html %}
-{% include clubs/willingdon_athletic_fc.html %}
 <!---
+{% include clubs/willingdon_athletic_fc.html %}
 {% include clubs/wittersham.html %}
 -->
 
