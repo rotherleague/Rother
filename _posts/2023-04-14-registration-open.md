@@ -16,11 +16,16 @@ tags:
 ---
 
 ## Registration for 2023/24 Season now open
-  Register your club and team for the 2023/24 season.
+ 
+
+The Rother Youth Football League is pleased to anounce that registration is now open for the 2023/24 season.
+
+[Registrations](https://www.rotherleague.org.uk/registration.html) 
+
+
+ Register your club and team for the 2023/24 season.
   - Please complete the following forms:
-
-https://www.rotherleague.org.uk/registration.html
-
+ 
 actions:
   - label: "Club"
     icon: download
