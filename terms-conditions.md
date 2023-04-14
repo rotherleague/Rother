@@ -23,7 +23,7 @@ You agree to comply with all applicable laws and regulations, as well as our lea
 - use our website or services for any commercial or promotional purpose without our prior written consent.
 
 ### Intellectual Property
-Our website and all content and materials on our website, including text, graphics, logos, images, and software, are the property of [Youth Football League] or its licensors and are protected by copyright, trademark, and other intellectual property laws. You may not use our website or any content or materials on our website for any commercial purpose without our prior written consent.
+Our website and all content and materials on our website, including text, graphics, logos, images, and software, are the property of Rother Youth Football League or its licensors and are protected by copyright, trademark, and other intellectual property laws. You may not use our website or any content or materials on our website for any commercial purpose without our prior written consent.
 
 ### Disclaimer of Warranties
 We provide our website and services "as is" and without any warranty or condition, express, implied or statutory. We do not guarantee that our website or services will be error-free, uninterrupted, or secure. We disclaim all warranties of merchantability, fitness for a particular purpose, non-infringement, and any other warranties arising out of course of dealing or usage of trade.
