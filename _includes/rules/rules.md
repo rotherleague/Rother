@@ -2218,7 +2218,7 @@ Under 18
 
 Each Club shall be responsible for ensuring that its Players, officials and spectators conduct themselves in an orderly fashion and refrain from violent, threatening, abusive, obscene or provocative behaviour, conduct or language, whilst attending or taking part in a match, whether on its own ground or elsewhere.
 
-Any Club that fails to effectively discharge its said responsibility in any respect whatsoever may be guilty of misconduct and is liable to be dealt with by the appropriate County Football Association.
+Any Club that fails to effectively discharge its said responsibility in any respect whatsoever may be guilty of misconduct and is liable to be dealt with by the appropriate County Football Association. The management committee also reserves the right to expel clubs/teams from the league that fail in this responsibility.
 
 The Competition shall require all Players and Club officials to have signed the relevant FA Respect Code of Conduct or similar, and these must be produced to the Management Committee if so requested.
 
@@ -2231,7 +2231,6 @@ It is recognised, however, that the alignment of some public pitches does not al
 Following completion of a fixture, each Team shall award the opposing Team a sportsmanship mark, to reflect their view of how the opposition Players, officials and spectators conducted themselves before, during and after the game.  This sportsmanship mark shall be provided to the Competition in the prescribed manner (e.g.- via the online match return form).
 
 Any Team awarding a sportsmanship mark to its opposition of fifty (50) or below must provide in writing, to the Competition’s Registrations Secretary, an explanation of the reason for the marking within seven (7) days of the date that the fixture was played.   
-
 Clubs failing to comply with the sportsmanship obligations set-out in this Rule shall incur a fine as set-out in the Fines Tariff, increasing in multiples of the same for each subsequent offence.
 
 
