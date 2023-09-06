@@ -4,11 +4,7 @@ layout: clubs
 introduction: |
   Club contact details.
 
-<!--
- 
-  - Please complete the following forms:
-
--->
+---
 
 actions:
   - label: "Download Handbook"
@@ -24,7 +20,6 @@ Please download and return the any additional forms. Email the league: rotherlea
 
 <hr>
 
----
 
 <!--AS Eastbourne -->
 {% include clubs/as_eastbourne.html %}
