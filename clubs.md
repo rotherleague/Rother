@@ -15,7 +15,7 @@ actions:
     icon: download
     url: "https://drive.google.com/file/d/1XV24PwRCTFs-tSN3NzzCulsh-7pW5PdK/view?usp=sharing"
      
----
+
 
 Please download and return the any additional forms. Email the league: rotherleague 'at' gmail.com
 
@@ -23,6 +23,8 @@ Please download and return the any additional forms. Email the league: rotherlea
 
 
 <hr>
+
+---
 
 <!--AS Eastbourne -->
 {% include clubs/as_eastbourne.html %}
