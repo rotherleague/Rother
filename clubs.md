@@ -3,7 +3,6 @@ title: "Clubs & Teams"
 layout: clubs
 introduction: |
   Club contact details.
-  - Please download the current handbook:
 
 <!--
  
