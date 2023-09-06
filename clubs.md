@@ -8,7 +8,7 @@ introduction: |
 actions:
   - label: "Download Handbook"
     icon: download
-    url: "https://drive.google.com/file/d/1UfsX9LwH04PQiqtYTvBSh7y9hGjX_VrU/view?usp=sharing"   
+    url: "https://drive.google.com/file/d/1XV24PwRCTFs-tSN3NzzCulsh-7pW5PdK/view?usp=sharing"   
 ---   
 
 <hr>
