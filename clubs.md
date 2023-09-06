@@ -13,103 +13,103 @@ actions:
 
 <hr>
 
-AS Eastbourne
+<!--AS Eastbourne -->
 {% include clubs/as_eastbourne.html %}
 
-Battle Town FC CIC Youth
+<!--Battle Town FC CIC Youth -->
 {% include clubs/battle_town_youth.html %}
 
-Bexhill Amateur Athletic Football Club
+<!--Bexhill Amateur Athletic Football Club -->
 {% include clubs/bexhill_amatuer_athletic.html %}
 
-BEXHILL LIONS
+<!--BEXHILL LIONS -->
 {% include clubs/bexhill_lions.html %}
 
-BEXHILL UTD	
+<!--BEXHILL UTD	 -->
 {% include clubs/bexhill.html %}
 
-Crowhurst FC
+<!--Crowhurst FC -->
 {% include clubs/crowhurst.html %}
 
-DFM United FC
+<!--DFM United FC -->
 {% include clubs/dfm_united.html %}
 
-Eastbourne Town Youth
+<!--Eastbourne Town Youth -->
 {% include clubs/eastbourne_town_youth.html %}
 
-Eastbourne United Youth AFC
+<!--Eastbourne United Youth AFC -->
 {% include clubs/eastbourne_united_youth_afc.html %}
 
-EMC
+<!--EMC -->
 {% include clubs/emc.html %}
 
-Fairwarp FC
+<!--Fairwarp FC -->
 {% include clubs/fairwarp.html %}
 
-Goudhurst Dynamos
+<!--Goudhurst Dynamos -->
 {% include clubs/goudhurst.html %}
 
-Hastings Athletic FC
+<!--Hastings Athletic FC -->
 {% include clubs/hastings_athletic.html %}
 
-Hastings United
+<!--Hastings United -->
 {% include clubs/hastings_united_fc.html %}
 
-Hastings Wanderers
+<!--Hastings Wanderers -->
 {% include clubs/hastings_wanderers.html %}
 
-Hawkhurst United
+<!--Hawkhurst United -->
 {% include clubs/hawkhurst.html %}
 
-Heathfield & Horam FC
+<!--Heathfield & Horam FC -->
 {% include clubs/heathfield_and_horam.html %}
 
-Hollington United
+<!--Hollington United -->
 {% include clubs/hollington.html %}
 
-Hooe FC
+<!--Hooe FC -->
 {% include clubs/hooe.html %}
 
-Insulators FC
+<!--Insulators FC -->
 {% include clubs/insulators.html %}
 
-Little Common
+<!--Little Common -->
 {% include clubs/little_common.html %}
 
-Laugton Green
+<!--Laugton Green -->
 {% include clubs/langton_green.html %}
 
-Pevensey & Westham JFC
+<!--Pevensey & Westham JFC -->
 {% include clubs/pevensey_westham.html %}
 
-Play Sport FC
+<!--Play Sport FC -->
 {% include clubs/play_sport.html %}
 
-Ringmer Rovers Junior Football Club
+<!--Ringmer Rovers Junior Football Club -->
 {% include clubs/ringmer_rovers.html %}
 
-Robertsbridge United Juniors Football Club
+<!--Robertsbridge United Juniors Football Club -->
 {% include clubs/robertsbridge.html %}
 
-Rye Bay FC
+<!--Rye Bay FC -->
 {% include clubs/rye_bay.html %}
 
-S.C Pass+Move
+<!--S.C Pass+Move -->
 {% include clubs/sc_pass_move.html %}
 
-Sedlescombe Rangers Football Club
+<!--Sedlescombe Rangers Football Club -->
 {% include clubs/sedlescombe.html %}
 
-St Leonards FC
+<!--St Leonards FC -->
 {% include clubs/st_leonards.html %}
 
-The Junior Club Tackleway FC
+<!--The Junior Club Tackleway FC -->
 {% include clubs/junior_club_tackleway.html %}
 
-Wadhurst United Junior FC
+<!--Wadhurst United Junior FC -->
 {% include clubs/wadhurst.html %}
 
-Westfield Youth FC
+<!--Westfield Youth FC -->
 {% include clubs/westfield.html %}
 
 -->
