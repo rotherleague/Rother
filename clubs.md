@@ -12,6 +12,7 @@ actions:
 
 
   - Please download the player transfer form:
+
 actions:
   - label: "Transfer Form "
     icon: download
@@ -19,8 +20,7 @@ actions:
 
 
 
-
----   
+ 
 <hr>
 
 <!--AS Eastbourne -->
