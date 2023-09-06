@@ -13,19 +13,6 @@ introduction: |
 
 
 actions:
-  - label: "Club"
-    icon: download
-    url: "https://docs.google.com/forms/d/e/1FAIpQLSe9ydXRopiVihC8DwWinSV-OJvl_UQwUuDDglKmg4MiYtc2CQ/viewform?usp=sf_link"
-
-
-
-actions:
-  - label: "Team"
-    icon: download
-    url: "https://docs.google.com/forms/d/e/1FAIpQLSc0F6XULlbU21Hq0H2MCb2q5RH_B9P4JC0O8ySSdSHpzcrwAQ/viewform?usp=sf_link"
-
-
-actions:
   - label: "Download Handbook"
     icon: download
     url: "https://drive.google.com/file/d/1XV24PwRCTFs-tSN3NzzCulsh-7pW5PdK/view?usp=sharing"   
