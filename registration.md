@@ -6,18 +6,10 @@ layout: page
  Register your club and team for the 2024/25 season.
 
   - Please complete the following forms:
+ 
+[Club] (https://docs.google.com/forms/d/e/1FAIpQLScxnvPJo_OgJbbMV21Xydky174WlG1hCucTclS8gBE_tv6xVg/viewform?usp=sf_link)
 
-
-actions:
-  - label: "Club"
-    icon: download
-    url: "https://docs.google.com/forms/d/e/1FAIpQLScxnvPJo_OgJbbMV21Xydky174WlG1hCucTclS8gBE_tv6xVg/viewform?usp=sf_link"
-
-
-actions:
-  - label: "Team"
-    icon: download
-    url: "https://docs.google.com/forms/d/e/1FAIpQLSc1PZgaRFrg8DZMoYAXRFPpAQqlZnB3FgIqeE7MoOF7hFpv5g/viewform?usp=sf_link"
+[Team] (https://docs.google.com/forms/d/e/1FAIpQLSc1PZgaRFrg8DZMoYAXRFPpAQqlZnB3FgIqeE7MoOF7hFpv5g/viewform?usp=sf_link)
 
 
 **Registration for 24/25 Season.**
