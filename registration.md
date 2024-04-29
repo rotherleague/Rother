@@ -1,11 +1,10 @@
 ---
 title: "Registration"
 layout: page
-introduction: | 
-Register your club and team for the 2024/25 season.
 ---
 
- 
+ Register your club and team for the 2024/25 season.
+
   - Please complete the following forms:
 
 
