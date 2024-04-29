@@ -7,9 +7,9 @@ layout: page
 
 - Please complete the following forms:
  
-- [Club] (https://docs.google.com/forms/d/e/1FAIpQLScxnvPJo_OgJbbMV21Xydky174WlG1hCucTclS8gBE_tv6xVg/viewform?usp=sf_link)
+- [Club](https://docs.google.com/forms/d/e/1FAIpQLScxnvPJo_OgJbbMV21Xydky174WlG1hCucTclS8gBE_tv6xVg/viewform?usp=sf_link)
 
-- [Team] (https://docs.google.com/forms/d/e/1FAIpQLSc1PZgaRFrg8DZMoYAXRFPpAQqlZnB3FgIqeE7MoOF7hFpv5g/viewform?usp=sf_link)
+- [Team](https://docs.google.com/forms/d/e/1FAIpQLSc1PZgaRFrg8DZMoYAXRFPpAQqlZnB3FgIqeE7MoOF7hFpv5g/viewform?usp=sf_link)
 
 
 
