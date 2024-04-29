@@ -3,16 +3,14 @@ title: "Registration"
 layout: page
 ---
 
- Register your club and team for the 2024/25 season.
+ **Register your club and team for the 2024/25 season.**
 
-  - Please complete the following forms:
+- Please complete the following forms:
  
-[Club] (https://docs.google.com/forms/d/e/1FAIpQLScxnvPJo_OgJbbMV21Xydky174WlG1hCucTclS8gBE_tv6xVg/viewform?usp=sf_link)
+- [Club] (https://docs.google.com/forms/d/e/1FAIpQLScxnvPJo_OgJbbMV21Xydky174WlG1hCucTclS8gBE_tv6xVg/viewform?usp=sf_link)
 
-[Team] (https://docs.google.com/forms/d/e/1FAIpQLSc1PZgaRFrg8DZMoYAXRFPpAQqlZnB3FgIqeE7MoOF7hFpv5g/viewform?usp=sf_link)
+- [Team] (https://docs.google.com/forms/d/e/1FAIpQLSc1PZgaRFrg8DZMoYAXRFPpAQqlZnB3FgIqeE7MoOF7hFpv5g/viewform?usp=sf_link)
 
-
-**Registration for 24/25 Season.**
 
 
 Please download and return the additional forms to complete your registration. Email the league: rotherleague 'at' gmail.com
