@@ -15,4 +15,7 @@ tags:
   - Season
 ---
 
+##2024/25 Registration
 
+Please visit the registration page to register your interest in playing our youth leagues. 
+[Registrations](https://www.rotherleague.org.uk/registration.html) 
