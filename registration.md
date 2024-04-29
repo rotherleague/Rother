@@ -2,7 +2,7 @@
 title: "Registration"
 layout: page
 introduction: |
- Register your club and team for the 2023/24 season.
+ Register your club and team for the 2024/25 season.
 
 
  
@@ -21,7 +21,7 @@ actions:
     url: "https://docs.google.com/forms/d/e/1FAIpQLSc1PZgaRFrg8DZMoYAXRFPpAQqlZnB3FgIqeE7MoOF7hFpv5g/viewform?usp=sf_link"
 
 
-**Registration is now closed for 24/25 Season.**
+**Registration for 24/25 Season.**
 
 
 Please download and return the additional forms to complete your registration. Email the league: rotherleague 'at' gmail.com
