@@ -1,7 +1,8 @@
 ---
 title: "Registration"
 layout: page
-introduction: | Register your club and team for the 2024/25 season.
+introduction: | 
+Register your club and team for the 2024/25 season.
 ---
 
  
