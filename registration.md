@@ -14,7 +14,7 @@ layout: page
 - [Team](https://docs.google.com/forms/d/e/1FAIpQLSc1PZgaRFrg8DZMoYAXRFPpAQqlZnB3FgIqeE7MoOF7hFpv5g/viewform?usp=sf_link)
 -->
 
-<!--
+<!-- 
 Please download and return the additional forms to complete your registration. Email the league: rotherleague 'at' gmail.com
 
 * **Rother League** - [Club Agreement Form](https://drive.google.com/file/d/1UJWkEbWULesbU3r_o1FxtwX0-pKBnG3n/view?usp=sharing)
