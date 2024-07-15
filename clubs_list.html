@@ -62,6 +62,7 @@
       Papa.parse(clubs_spreadsheet_url, {
         download: true,
         header: true,
+        skipEmptyLines: true,
         complete: function (clubsResults) {
           Papa.parse(teams_spreadsheet_url, {
             download: true,
@@ -77,7 +78,7 @@
     window.addEventListener('DOMContentLoaded', init);
 
     function showInfo(clubsResults, teamsResults) {
-      var clubsData = clubsResults.data;
+      var clubsData = clubsResults.data.slice(1); // Skip the second row of the club data
       var teamsData = teamsResults.data;
       var $nav = $('#nav');
       var $clubs = $('#clubs');
