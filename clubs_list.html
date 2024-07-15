@@ -64,25 +64,41 @@
             margin: 20px 0; /* Add space around the divider */
             border-top: 2px solid #007bff; /* Blue color for the divider */
         }
+        /* Debug Mode Styles */
+        .debug-table {
+            display: none; /* Default to hidden */
+            margin-top: 20px;
+        }
+        .debug-table.show {
+            display: table; /* Show table when debug mode is on */
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1 class="header">Clubs</h1>
         
-        <h2>Column Names</h2>
-        <table id="columnNamesTable" class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Column Number</th>
-                    <th>Column Name</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Column names and numbers will be inserted here -->
-            </tbody>
-        </table>
-        
+        <!-- Debug Mode Toggle -->
+        <div class="text-center mb-3">
+            <button id="toggleDebug" class="btn btn-outline-primary">Show Column Names Table</button>
+        </div>
+
+        <!-- Debug Mode Table -->
+        <div id="debugTable" class="debug-table">
+            <h2>Column Names</h2>
+            <table id="columnNamesTable" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Column Number</th>
+                        <th>Column Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Column names and numbers will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+
         <div class="club-list">
             <h2>List of Clubs</h2>
             <ul id="clubList" class="list-unstyled">
@@ -96,6 +112,9 @@
     </div>
 
     <script>
+        // Debug mode flag
+        const debugMode = false;  // Set to true to show the column names table
+
         // URLs of the published Google Sheets in CSV format
         const clubsUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4VY_mJjSYwTf7n1xBWtsqvo3x4RIXErc4fhel4TRyEcAtG78pfsAfrLWTrXXTzigUJvT7nDUDWg0E/pub?output=csv';
         const teamsUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQE9OKbCoSfPuNGoCPiKzoMwlZHKt7T5fWDPDxfGVSOJkPpjVl7pPvTNh34TBDbe2h0MX7SVRpJvg5X/pub?output=csv';
@@ -169,8 +188,7 @@
                         <h3>Secretary</h3>
                         <p><strong>Name:</strong> ${clubData['First Name']} ${clubData['Surname']}<br/>
                         <strong>Email:</strong> <a href="mailto:${clubData['Email Address']}">${clubData['Email Address']}</a>
-                        ${clubData['Phone'] && clubData['Phone'] !== 'undefined' ? `<br/><p><strong>Phone:</strong> ${clubData['Phone']}` : ''}
-
+                        ${clubData['Phone'] && clubData['Phone'] !== 'undefined' ? `<br/><strong>Phone:</strong> ${clubData['Phone']}` : ''}
                         </p>
                     </div>
                     <div class="contact-info">
@@ -197,6 +215,26 @@
                 `;
                 sectionContainer.appendChild(section);
             });
+
+            // Toggle debug mode
+            if (debugMode) {
+                document.querySelector('#debugTable').classList.add('show');
+                document.querySelector('#toggleDebug').textContent = 'Hide Column Names Table';
+            }
+
+            // Add event listener for the debug mode button
+            document.querySelector('#toggleDebug').addEventListener('click', () => {
+                const debugTable = document.querySelector('#debugTable');
+                const isVisible = debugTable.classList.contains('show');
+                if (isVisible) {
+                    debugTable.classList.remove('show');
+                    document.querySelector('#toggleDebug').textContent = 'Show Column Names Table';
+                } else {
+                    debugTable.classList.add('show');
+                    document.querySelector('#toggleDebug').textContent = 'Hide Column Names Table';
+                }
+            });
+
         }).catch(error => {
             console.error('Error fetching or parsing CSV:', error);
         });
