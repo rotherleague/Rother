@@ -18,7 +18,7 @@
         .header {
             background-color: #007bff; /* Bootstrap primary blue color */
             color: #ffffff; /* White text color */
-            padding: 20px;
+            padding: 15px;
             text-align: center;
             margin-bottom: 20px;
         }
@@ -27,8 +27,8 @@
             color: #ffffff; /* White text color */
             padding: 15px;
             text-align: center;
-            margin-top: 20px;
-            margin-bottom: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
         .section-container {
             margin-top: 20px;
@@ -167,26 +167,29 @@
                     <h2>${club}</h2>
                     <div class="contact-info">
                         <h3>Secretary</h3>
-                        <p><strong>Name:</strong> ${clubData['First Name']} ${clubData['Surname']}</p>
-                        <p><strong>Email:</strong> <a href="mailto:${clubData['Email Address']}">${clubData['Email Address']}</a></p>
-                        ${clubData['Phone'] && clubData['Phone'] !== 'undefined' ? `<p><strong>Phone:</strong> ${clubData['Phone']}</p>` : ''}
+                        <p><strong>Name:</strong> ${clubData['First Name']} ${clubData['Surname']}<br/>
+                        <strong>Email:</strong> <a href="mailto:${clubData['Email Address']}">${clubData['Email Address']}</a>
+                        ${clubData['Phone'] && clubData['Phone'] !== 'undefined' ? `<br/><p><strong>Phone:</strong> ${clubData['Phone']}` : ''}
+
+                        </p>
                     </div>
                     <div class="contact-info">
                         <h3>Welfare</h3>
-                        <p><strong>Name:</strong> ${clubData['First Name_5']} ${clubData['Surname_5']}</p>
-                        <p><strong>Email:</strong> <a href="mailto:${clubData['Email_5']}">${clubData['Email_5']}</a></p>
-                        ${clubData['Phone_5'] && clubData['Phone_5'] !== 'undefined' ? `<p><strong>Phone:</strong> ${clubData['Phone_5']}</p>` : ''}
+                        <p><strong>Name:</strong> ${clubData['First Name_5']} ${clubData['Surname_5']}<br/>
+                        <strong>Email:</strong> <a href="mailto:${clubData['Email_5']}">${clubData['Email_5']}</a>
+                        ${clubData['Phone_5'] && clubData['Phone_5'] !== 'undefined' ? `<br/><strong>Phone:</strong> ${clubData['Phone_5']}` : ''}
+                        </p>
                     </div>
                     <div class="team-list">
                         <h3>Teams</h3>
                         ${relatedTeams.map(team => `
                             <div class="team-details">
                                 <h4>${team['Club Name']} ${team['Age Group in which team will participate this season']}</h4>
-                                <p><strong>Manager:</strong> ${team['First Name']} ${team['Last Name']}</p>
-                                <p><strong>Email:</strong> <a href="mailto:${team['Email']}">${team['Email']}</a></p>
-                                ${team['Phone'] && team['Phone'] !== 'undefined' ? `<p><strong>Phone:</strong> ${team['Phone']}</p>` : ''}
-                                <p><strong>Colours:</strong> ${team['Shirt Colour']} ${team['Shorts Colour']}</p>
-                                <p><strong>Ground:</strong> ${team['Ground Name']} ${team['Ground Postcode']}</p>
+                                <p><strong>Manager:</strong> ${team['First Name']} ${team['Last Name']}<br/>
+                                <strong>Email:</strong> <a href="mailto:${team['Email']}">${team['Email']}</a><br/>
+                                ${team['Phone'] && team['Phone'] !== 'undefined' ? `<strong>Phone:</strong> ${team['Phone']}<br/>` : ''}
+                                <strong>Colours:</strong> ${team['Shirt Colour']} ${team['Shorts Colour']}<br/>
+                                <strong>Ground:</strong> ${team['Ground Name']} ${team['Ground Postcode']}</p>
                             </div>
                             <hr class="divider"> <!-- Divider for separation -->
                         `).join('')}
