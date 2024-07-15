@@ -95,47 +95,9 @@
           var nav_li = $('<div></div>');
           var navlist_li = '';
 
-          if (club['Visible'].toLowerCase() === 'show') {
-            navlist_li = '<a href="#ref' + club['Name Of Club'].replace(/\s/g, '-').toLowerCase() + '" class="nav-link">' + club['Name Of Club'] + '</a>';
-            nav_li.append('<li class="list-group-item p-0">' + navlist_li + '</li>');
-            nav_li.appendTo($nav);
 
-            // Add to Table of Contents
-            var toc_li = '<li><a href="#ref' + club['Name Of Club'].replace(/\s/g, '-').toLowerCase() + '">' + club['Name Of Club'] + '</a></li>';
-            $toc.append('<ul>' + toc_li + '</ul>');
-          }
 
-          if (cat !== club['Name Of Club']) {
-            var cat_li = '<br><div class="list-group-item list-group-item-action active" id="ref' + club['Name Of Club'].replace(/\s/g, '-').toLowerCase() + '">' +
-              '<div class="d-flex w-100 justify-content-between">' +
-              '<h1>' + club['Name Of Club'] + '</h1>' +
-              '</div>' +
-              '</div>';
-            content_li += cat_li;
-          }
-
-          content_li += '<strong>Club Secretary:</strong> ' + club['First Name'] + ' ' + club['Surname'] + '<br>';
-          if (club['Visible'].toLowerCase() === 'show') {
-            if (club['Mobile']) {
-              content_li += '<strong>Tel:</strong> <a href="tel:' + club['Mobile'].replace(/\s/g, '') + '">' + club['Mobile'] + '</a><br>';
-            }
-            if (club['Email']) {
-              content_li += '<strong>Email:</strong> <a href="mailto:' + club['Email'] + '">' + club['Email'] + '</a><br>';
-            }
-          }
-
-          // Add teams for this club
-          content_li += '<h3>Teams</h3>';
-          var teamsList = teamsData.filter(team => team['Club Name'] === club['Name Of Club']);
-          if (teamsList.length > 0) {
-            content_li += '<ul>';
-            teamsList.forEach(team => {
-              content_li += '<li>' + team['Name Of Team'] + ' (' + team['Age Group in which team will participate this season'] + ')</li>';
-            });
-            content_li += '</ul>';
-          } else {
-            content_li += '<p>No teams available</p>';
-          }
+        
 
           var list_li = $('<div></div>');
           list_li.append('<div class="list-group-item list-group-item-action"><div class="d-flex w-100 justify-content-between"><h5 class="mb-1">' + club['Name Of Club'] + '</h5></div>' + content_li + '</div>');
