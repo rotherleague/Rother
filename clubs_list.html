@@ -87,7 +87,6 @@
             const columnNames = Object.keys(clubsData[0]);
 
             // Get the table body element for column names
-            /*
             const tbody = document.querySelector('#columnNamesTable tbody');
             columnNames.forEach((name, index) => {
                 const tr = document.createElement('tr');
@@ -99,7 +98,6 @@
                 tr.appendChild(tdName);
                 tbody.appendChild(tr);
             });
-            */
 
             // Extract the 'Name Of Club' column data
             const clubs = clubsData.map(row => row['Name Of Club']).filter(name => name); // Filter out any empty values
@@ -120,8 +118,8 @@
             clubs.forEach(club => {
                 const clubData = clubsData.find(row => row['Name Of Club'] === club);
 
-                // Find related teams for the current club
-                const relatedTeams = teamsData.filter(team => team['Club Name'] === club);
+                // Find related teams for the current club using 'Email Address'
+                const relatedTeams = teamsData.filter(team => team['Email Address'] === clubData['Email Address']);
 
                 const section = document.createElement('section');
                 section.id = club.replace(/\s+/g, '_'); // Replace spaces with underscores for section IDs
@@ -130,7 +128,7 @@
                     <div class="contact-info">
                         <h3>Secretary</h3>
                         <p><strong>Name:</strong> ${clubData['First Name']} ${clubData['Surname']}</p>
-                        <p><strong>Email:</strong> <a href="mailto:${clubData['Email']}">${clubData['Email']}</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:${clubData['Email Address']}">${clubData['Email Address']}</a></p>
                         <p><strong>Phone:</strong> ${clubData['Phone']}</p>
                     </div>
                     <div class="contact-info">
