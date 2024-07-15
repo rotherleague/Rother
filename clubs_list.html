@@ -141,12 +141,12 @@
                         <h3>Teams</h3>
                         ${relatedTeams.map(team => `
                             <div>
-                                <h4>${team['Age Group in which team will participate this season']}</h4>
-                                <p><strong>Manager Name:</strong> ${team['First Name']} ${team['Last Name']}</p>
+                                <h4>${team['Club Name']} ${team['Age Group in which team will participate this season']}</h4>
+                                <p><strong>Manager:</strong> ${team['First Name']} ${team['Last Name']}</p>
                                 <p><strong>Email:</strong> <a href="mailto:${team['Email']}">${team['Email']}</a></p>
                                 <p><strong>Phone:</strong> ${team['Phone']}</p>
-                                <p><strong>Ground Name:</strong> ${team['Ground Name']}</p>
-                                <p><strong>Ground Postcode:</strong> ${team['Ground Postcode']}</p>
+                                <p><strong>Colours:</strong> ${team['Shirt Colour']} ${team['Shorts Colour']}</p>
+                                <p><strong>Ground:</strong> ${team['Ground Name']} ${team['Ground Postcode']}</p>
                             </div>
                         `).join('')}
                     </div>
