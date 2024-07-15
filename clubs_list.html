@@ -40,8 +40,16 @@
             color: #007bff; /* Bootstrap primary blue color */
             font-weight: bold;
         }
+        h4 {
+            color: #003366; /* Dark blue color */
+            font-weight: bold;
+        }
         .team-details {
             margin-left: 20px;
+        }
+        .divider {
+            margin: 20px 0; /* Add space around the divider */
+            border-top: 2px solid #007bff; /* Blue color for the divider */
         }
     </style>
 </head>
@@ -106,6 +114,7 @@
             const columnNames = Object.keys(clubsData[0]);
 
             // Get the table body element for column names
+            /*
             const tbody = document.querySelector('#columnNamesTable tbody');
             columnNames.forEach((name, index) => {
                 const tr = document.createElement('tr');
@@ -117,6 +126,7 @@
                 tr.appendChild(tdName);
                 tbody.appendChild(tr);
             });
+            */
 
             // Extract the 'Name Of Club' column data
             const clubs = clubsData.map(row => row['Name Of Club']).filter(name => name); // Filter out any empty values
@@ -167,6 +177,7 @@
                                 <p><strong>Colours:</strong> ${team['Shirt Colour']} ${team['Shorts Colour']}</p>
                                 <p><strong>Ground:</strong> ${team['Ground Name']} ${team['Ground Postcode']}</p>
                             </div>
+                            <hr class="divider"> <!-- Divider for separation -->
                         `).join('')}
                     </div>
                 `;
