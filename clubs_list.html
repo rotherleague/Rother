@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Sheet Column Names</title>
+    <title>Google Sheet Club Names and Sections</title>
     <style>
         table {
             width: 100%;
@@ -17,10 +17,21 @@
             background-color: #f2f2f2;
             text-align: left;
         }
+        h1, h2 {
+            color: #333;
+        }
+        .section-container {
+            margin-top: 20px;
+        }
+        .club-list {
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
-    <h1>Google Sheet Column Names</h1>
+    <h1>Google Sheet Column Names and Club Sections</h1>
+    
+    <h2>Column Names</h2>
     <table id="columnNamesTable">
         <thead>
             <tr>
@@ -31,6 +42,17 @@
             <!-- Column names will be inserted here -->
         </tbody>
     </table>
+    
+    <div class="club-list">
+        <h2>List of Clubs</h2>
+        <ul id="clubList">
+            <!-- List of club names will be inserted here -->
+        </ul>
+    </div>
+
+    <div class="section-container" id="clubSections">
+        <!-- Sections for each club will be inserted here -->
+    </div>
 
     <!-- Load PapaParse library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.0/papaparse.min.js"></script>
@@ -41,21 +63,42 @@
         // Fetch the CSV data from the published Google Sheet
         Papa.parse(url, {
             download: true,
-            header: false,
+            header: true,
             complete: function(results) {
                 // Extract the column names from the first row
-                const columnNames = results.data[0];
+                const columnNames = Object.keys(results.data[0]);
 
-                // Get the table body element
+                // Get the table body element for column names
                 const tbody = document.querySelector('#columnNamesTable tbody');
-
-                // Populate the table with column names
                 columnNames.forEach(name => {
                     const tr = document.createElement('tr');
                     const td = document.createElement('td');
                     td.textContent = name;
                     tr.appendChild(td);
                     tbody.appendChild(tr);
+                });
+
+                // Extract the 'Name Of Club' column data
+                const clubs = results.data.map(row => row['Name Of Club']).filter(name => name); // Filter out any empty values
+
+                // Get the list element for club names
+                const clubList = document.querySelector('#clubList');
+                clubs.forEach(club => {
+                    const li = document.createElement('li');
+                    const anchor = document.createElement('a');
+                    anchor.href = `#${club.replace(/\s+/g, '_')}`; // Replace spaces with underscores for anchor links
+                    anchor.textContent = club;
+                    li.appendChild(anchor);
+                    clubList.appendChild(li);
+                });
+
+                // Get the section container element for club sections
+                const sectionContainer = document.querySelector('#clubSections');
+                clubs.forEach(club => {
+                    const section = document.createElement('section');
+                    section.id = club.replace(/\s+/g, '_'); // Replace spaces with underscores for section IDs
+                    section.innerHTML = `<h2>${club}</h2><p>Content for ${club} section.</p>`; // Placeholder content for each section
+                    sectionContainer.appendChild(section);
                 });
             },
             error: function(error) {
