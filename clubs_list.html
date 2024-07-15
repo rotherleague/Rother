@@ -4,21 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clubs</title>
+    <!-- Load Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Load PapaParse library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.0/papaparse.min.js"></script>
     <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-        }
-        th {
-            background-color: #f2f2f2;
-            text-align: left;
-        }
-        h1, h2, h3 {
-            color: #333;
+        /* Custom styles */
+        .header {
+            background-color: #007bff; /* Bootstrap primary blue color */
+            color: #ffffff; /* White text color */
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
         }
         .section-container {
             margin-top: 20px;
@@ -39,37 +36,44 @@
         .team-list li {
             margin-bottom: 10px;
         }
+        h3 {
+            color: #007bff; /* Bootstrap primary blue color */
+            font-weight: bold;
+        }
+        .team-details {
+            margin-left: 20px;
+        }
     </style>
 </head>
 <body>
-    <h1>Clubs</h1>
-    
-    <h2>Column Names</h2>
-    <table id="columnNamesTable">
-        <thead>
-            <tr>
-                <th>Column Number</th>
-                <th>Column Name</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Column names and numbers will be inserted here -->
-        </tbody>
-    </table>
-    
-    <div class="club-list">
-        <h2>List of Clubs</h2>
-        <ul id="clubList">
-            <!-- List of club names will be inserted here -->
-        </ul>
+    <div class="container">
+        <h1 class="header">Clubs</h1>
+        
+        <h2>Column Names</h2>
+        <table id="columnNamesTable" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Column Number</th>
+                    <th>Column Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Column names and numbers will be inserted here -->
+            </tbody>
+        </table>
+        
+        <div class="club-list">
+            <h2>List of Clubs</h2>
+            <ul id="clubList" class="list-unstyled">
+                <!-- List of club names will be inserted here -->
+            </ul>
+        </div>
+
+        <div class="section-container" id="clubSections">
+            <!-- Sections for each club will be inserted here -->
+        </div>
     </div>
 
-    <div class="section-container" id="clubSections">
-        <!-- Sections for each club will be inserted here -->
-    </div>
-
-    <!-- Load PapaParse library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.0/papaparse.min.js"></script>
     <script>
         // URLs of the published Google Sheets in CSV format
         const clubsUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4VY_mJjSYwTf7n1xBWtsqvo3x4RIXErc4fhel4TRyEcAtG78pfsAfrLWTrXXTzigUJvT7nDUDWg0E/pub?output=csv';
@@ -155,7 +159,7 @@
                     <div class="team-list">
                         <h3>Teams</h3>
                         ${relatedTeams.map(team => `
-                            <div>
+                            <div class="team-details">
                                 <h4>${team['Club Name']} ${team['Age Group in which team will participate this season']}</h4>
                                 <p><strong>Manager:</strong> ${team['First Name']} ${team['Last Name']}</p>
                                 <p><strong>Email:</strong> <a href="mailto:${team['Email']}">${team['Email']}</a></p>
@@ -172,5 +176,7 @@
             console.error('Error fetching or parsing CSV:', error);
         });
     </script>
+    <!-- Load Bootstrap JS (optional for advanced features) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
