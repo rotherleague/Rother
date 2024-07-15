@@ -57,10 +57,8 @@
     $('#navbar-clubs').affix({
       offset: { top: 25, bottom: 50 }
     });
-  </script>
-  <script type="text/javascript">
+
     var clubs_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4VY_mJjSYwTf7n1xBWtsqvo3x4RIXErc4fhel4TRyEcAtG78pfsAfrLWTrXXTzigUJvT7nDUDWg0E/pubhtml';
-    var teams_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQE9OKbCoSfPuNGoCPiKzoMwlZHKt7T5fWDPDxfGVSOJkPpjVl7pPvTNh34TBDbe2h0MX7SVRpJvg5X/pubhtml';
 
     function init() {
       Papa.parse(clubs_spreadsheet_url, {
@@ -68,22 +66,15 @@
         header: true,
         skipEmptyLines: true,
         complete: function (clubsResults) {
-          Papa.parse(teams_spreadsheet_url, {
-            download: true,
-            header: true,
-            complete: function (teamsResults) {
-              showInfo(clubsResults, teamsResults);
-            }
-          });
+          showInfo(clubsResults);
         }
       });
     }
 
     window.addEventListener('DOMContentLoaded', init);
 
-    function showInfo(clubsResults, teamsResults) {
+    function showInfo(clubsResults) {
       var clubsData = clubsResults.data.slice(1); // Skip the second row of the club data
-      var teamsData = teamsResults.data;
       var $nav = $('#nav');
       var $clubs = $('#clubs');
       var $toc = $('#table-of-contents');
@@ -92,15 +83,41 @@
 
       $.each(clubsData, function (i, club) {
         if (club['Name Of Club'] !== 'Name Of Club') {
+          var clubName = titleCase(club['Name Of Club']);
+          var anchorName = clubName.replace(/\s/g, '_');
+
+          // Add to navigation
           var nav_li = $('<div></div>');
-          var navlist_li = '';
+          var navlist_li = '<a href="#ref' + anchorName + '" class="nav-link">' + clubName + '</a>';
+          nav_li.append('<li class="list-group-item p-0">' + navlist_li + '</li>');
+          nav_li.appendTo($nav);
 
+          // Add to Table of Contents
+          var toc_li = '<li><a href="#ref' + anchorName + '">' + clubName + '</a></li>';
+          $toc.append('<ul>' + toc_li + '</ul>');
 
+          // Add club details
+          if (cat !== club['Name Of Club']) {
+            var cat_li = '<br><div class="list-group-item list-group-item-action active" id="ref' + anchorName + '">' +
+              '<div class="d-flex w-100 justify-content-between">' +
+              '<h1>' + clubName + '</h1>' +
+              '</div>' +
+              '</div>';
+            content_li += cat_li;
+          }
 
-        
+          content_li += '<strong>Club Secretary:</strong> ' + club['First Name'] + ' ' + club['Surname'] + '<br>';
+          if (club['Visible'].toLowerCase() === 'show') {
+            if (club['Mobile']) {
+              content_li += '<strong>Tel:</strong> <a href="tel:' + club['Mobile'].replace(/\s/g, '') + '">' + club['Mobile'] + '</a><br>';
+            }
+            if (club['Email']) {
+              content_li += '<strong>Email:</strong> <a href="mailto:' + club['Email'] + '">' + club['Email'] + '</a><br>';
+            }
+          }
 
           var list_li = $('<div></div>');
-          list_li.append('<div class="list-group-item list-group-item-action"><div class="d-flex w-100 justify-content-between"><h5 class="mb-1">' + club['Name Of Club'] + '</h5></div>' + content_li + '</div>');
+          list_li.append('<div class="list-group-item list-group-item-action"><div class="d-flex w-100 justify-content-between"><h5 class="mb-1">' + clubName + '</h5></div>' + content_li + '</div>');
           list_li.prepend(cat_li);
           list_li.appendTo($clubs);
 
