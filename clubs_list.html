@@ -6,10 +6,15 @@
     <title>Clubs</title>
     <!-- Load Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Load Google Font Raleway -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap">
     <!-- Load PapaParse library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.0/papaparse.min.js"></script>
     <style>
         /* Custom styles */
+        body {
+            font-family: 'Raleway', sans-serif; /* Apply Raleway font to the entire document */
+        }
         .header {
             background-color: #007bff; /* Bootstrap primary blue color */
             color: #ffffff; /* White text color */
@@ -65,7 +70,18 @@
     <div class="container">
         <h1 class="header">Clubs</h1>
         
-
+        <h2>Column Names</h2>
+        <table id="columnNamesTable" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Column Number</th>
+                    <th>Column Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Column names and numbers will be inserted here -->
+            </tbody>
+        </table>
         
         <div class="club-list">
             <h2>List of Clubs</h2>
@@ -107,7 +123,21 @@
                 throw new Error('Failed to retrieve valid data from CSV files.');
             }
 
+            // Extract the column names and their indices from the clubs data
+            const columnNames = Object.keys(clubsData[0]);
 
+            // Get the table body element for column names
+            const tbody = document.querySelector('#columnNamesTable tbody');
+            columnNames.forEach((name, index) => {
+                const tr = document.createElement('tr');
+                const tdNumber = document.createElement('td');
+                const tdName = document.createElement('td');
+                tdNumber.textContent = index + 1; // Column numbers are 1-based
+                tdName.textContent = name;
+                tr.appendChild(tdNumber);
+                tr.appendChild(tdName);
+                tbody.appendChild(tr);
+            });
 
             // Extract the 'Name Of Club' column data
             const clubs = clubsData.map(row => row['Name Of Club']).filter(name => name); // Filter out any empty values
@@ -139,13 +169,13 @@
                         <h3>Secretary</h3>
                         <p><strong>Name:</strong> ${clubData['First Name']} ${clubData['Surname']}</p>
                         <p><strong>Email:</strong> <a href="mailto:${clubData['Email Address']}">${clubData['Email Address']}</a></p>
-                        <p><strong>Phone:</strong> ${clubData['Phone']}</p>
+                        ${clubData['Phone'] && clubData['Phone'] !== 'undefined' ? `<p><strong>Phone:</strong> ${clubData['Phone']}</p>` : ''}
                     </div>
                     <div class="contact-info">
                         <h3>Welfare</h3>
                         <p><strong>Name:</strong> ${clubData['First Name_5']} ${clubData['Surname_5']}</p>
                         <p><strong>Email:</strong> <a href="mailto:${clubData['Email_5']}">${clubData['Email_5']}</a></p>
-                        <p><strong>Phone:</strong> ${clubData['Phone_5']}</p>
+                        ${clubData['Phone_5'] && clubData['Phone_5'] !== 'undefined' ? `<p><strong>Phone:</strong> ${clubData['Phone_5']}</p>` : ''}
                     </div>
                     <div class="team-list">
                         <h3>Teams</h3>
@@ -154,7 +184,7 @@
                                 <h4>${team['Club Name']} ${team['Age Group in which team will participate this season']}</h4>
                                 <p><strong>Manager:</strong> ${team['First Name']} ${team['Last Name']}</p>
                                 <p><strong>Email:</strong> <a href="mailto:${team['Email']}">${team['Email']}</a></p>
-                                <p><strong>Phone:</strong> ${team['Phone']}</p>
+                                ${team['Phone'] && team['Phone'] !== 'undefined' ? `<p><strong>Phone:</strong> ${team['Phone']}</p>` : ''}
                                 <p><strong>Colours:</strong> ${team['Shirt Colour']} ${team['Shorts Colour']}</p>
                                 <p><strong>Ground:</strong> ${team['Ground Name']} ${team['Ground Postcode']}</p>
                             </div>
