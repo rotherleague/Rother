@@ -66,8 +66,13 @@
         header: true,
         skipEmptyLines: true,
         complete: function (clubsResults) {
-          console.log('Column Names:', Object.keys(clubsResults.data[0]));
-          showInfo(clubsResults);
+          if (clubsResults && clubsResults.data && clubsResults.data.length > 0) {
+            console.log('Parsed Data:', clubsResults.data);
+            console.log('Column Names:', Object.keys(clubsResults.data[0]));
+            showInfo(clubsResults);
+          } else {
+            console.error('No data found or parsing error');
+          }
         }
       });
     }
