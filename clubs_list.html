@@ -75,13 +75,28 @@
         const clubsUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4VY_mJjSYwTf7n1xBWtsqvo3x4RIXErc4fhel4TRyEcAtG78pfsAfrLWTrXXTzigUJvT7nDUDWg0E/pub?output=csv';
         const teamsUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQE9OKbCoSfPuNGoCPiKzoMwlZHKt7T5fWDPDxfGVSOJkPpjVl7pPvTNh34TBDbe2h0MX7SVRpJvg5X/pub?output=csv';
 
+        // Function to fetch and parse CSV data
+        function fetchAndParseCSV(url) {
+            return new Promise((resolve, reject) => {
+                Papa.parse(url, {
+                    download: true,
+                    header: true,
+                    skipEmptyLines: true,
+                    complete: results => resolve(results.data),
+                    error: error => reject(error)
+                });
+            });
+        }
+
         // Fetch the CSV data from the published Google Sheets
         Promise.all([
-            Papa.parse(clubsUrl, { download: true, header: true, skipEmptyLines: true }),
-            Papa.parse(teamsUrl, { download: true, header: true, skipEmptyLines: true })
-        ]).then(results => {
-            const clubsData = results[0].data;
-            const teamsData = results[1].data;
+            fetchAndParseCSV(clubsUrl),
+            fetchAndParseCSV(teamsUrl)
+        ]).then(([clubsData, teamsData]) => {
+            // Check if the data is valid
+            if (!Array.isArray(clubsData) || !Array.isArray(teamsData)) {
+                throw new Error('Failed to retrieve valid data from CSV files.');
+            }
 
             // Extract the column names and their indices from the clubs data
             const columnNames = Object.keys(clubsData[0]);
