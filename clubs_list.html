@@ -65,18 +65,7 @@
     <div class="container">
         <h1 class="header">Clubs</h1>
         
-        <h2>Column Names</h2>
-        <table id="columnNamesTable" class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Column Number</th>
-                    <th>Column Name</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Column names and numbers will be inserted here -->
-            </tbody>
-        </table>
+
         
         <div class="club-list">
             <h2>List of Clubs</h2>
@@ -118,21 +107,7 @@
                 throw new Error('Failed to retrieve valid data from CSV files.');
             }
 
-            // Extract the column names and their indices from the clubs data
-            const columnNames = Object.keys(clubsData[0]);
 
-            // Get the table body element for column names
-            const tbody = document.querySelector('#columnNamesTable tbody');
-            columnNames.forEach((name, index) => {
-                const tr = document.createElement('tr');
-                const tdNumber = document.createElement('td');
-                const tdName = document.createElement('td');
-                tdNumber.textContent = index + 1; // Column numbers are 1-based
-                tdName.textContent = name;
-                tr.appendChild(tdNumber);
-                tr.appendChild(tdName);
-                tbody.appendChild(tr);
-            });
 
             // Extract the 'Name Of Club' column data
             const clubs = clubsData.map(row => row['Name Of Club']).filter(name => name); // Filter out any empty values
