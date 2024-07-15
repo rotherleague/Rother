@@ -208,7 +208,7 @@
                     </div>
                     <div class="team-list">
                         <h3>Teams</h3>
-                        ${relatedTeams.map(team => `
+                        ${relatedTeams.length > 0 ? relatedTeams.map(team => `
                             <div class="team-details">
                                 <h4>${toTitleCase(team['Club Name'])} ${toTitleCase(team['Age Group in which team will participate this season'])}</h4>
                                 <p><strong>Manager:</strong> ${toTitleCase(team['First Name'])} ${toTitleCase(team['Last Name'])}<br/>
@@ -218,7 +218,7 @@
                                 <strong>Ground:</strong> ${toTitleCase(team['Ground Name'])} ${team['Ground Postcode']}</p>
                             </div>
                             <hr class="divider"> <!-- Divider for separation -->
-                        `).join('')}
+                        `).join('') : '<p>No team data available.</p>'}
                     </div>
                 `;
                 sectionContainer.appendChild(section);
