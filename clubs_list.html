@@ -87,6 +87,7 @@
             const columnNames = Object.keys(clubsData[0]);
 
             // Get the table body element for column names
+            /*
             const tbody = document.querySelector('#columnNamesTable tbody');
             columnNames.forEach((name, index) => {
                 const tr = document.createElement('tr');
@@ -98,6 +99,7 @@
                 tr.appendChild(tdName);
                 tbody.appendChild(tr);
             });
+            */
 
             // Extract the 'Name Of Club' column data
             const clubs = clubsData.map(row => row['Name Of Club']).filter(name => name); // Filter out any empty values
