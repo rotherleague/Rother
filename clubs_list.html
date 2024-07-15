@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Sheet Club Names and Sections</title>
+    <title>Clubs</title>
     <style>
         table {
             width: 100%;
@@ -29,20 +29,31 @@
         .contact-info {
             margin-bottom: 15px;
         }
+        .team-list {
+            margin-top: 20px;
+        }
+        .team-list ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .team-list li {
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
-    <h1>Google Sheet Column Names and Club Sections</h1>
+    <h1>Clubs</h1>
     
     <h2>Column Names</h2>
     <table id="columnNamesTable">
         <thead>
             <tr>
-                <th>Column Names</th>
+                <th>Column Number</th>
+                <th>Column Name</th>
             </tr>
         </thead>
         <tbody>
-            <!-- Column names will be inserted here -->
+            <!-- Column names and numbers will be inserted here -->
         </tbody>
     </table>
     
@@ -60,69 +71,90 @@
     <!-- Load PapaParse library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.0/papaparse.min.js"></script>
     <script>
-        // URL of the published Google Sheet in CSV format
-        const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4VY_mJjSYwTf7n1xBWtsqvo3x4RIXErc4fhel4TRyEcAtG78pfsAfrLWTrXXTzigUJvT7nDUDWg0E/pub?output=csv';
+        // URLs of the published Google Sheets in CSV format
+        const clubsUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4VY_mJjSYwTf7n1xBWtsqvo3x4RIXErc4fhel4TRyEcAtG78pfsAfrLWTrXXTzigUJvT7nDUDWg0E/pub?output=csv';
+        const teamsUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQE9OKbCoSfPuNGoCPiKzoMwlZHKt7T5fWDPDxfGVSOJkPpjVl7pPvTNh34TBDbe2h0MX7SVRpJvg5X/pub?output=csv';
 
-        // Fetch the CSV data from the published Google Sheet
-        Papa.parse(url, {
-            download: true,
-            header: true,
-            complete: function(results) {
-                // Extract the column names from the first row
-                const columnNames = Object.keys(results.data[0]);
+        // Fetch the CSV data from the published Google Sheets
+        Promise.all([
+            Papa.parse(clubsUrl, { download: true, header: true, skipEmptyLines: true }),
+            Papa.parse(teamsUrl, { download: true, header: true, skipEmptyLines: true })
+        ]).then(results => {
+            const clubsData = results[0].data;
+            const teamsData = results[1].data;
 
-                // Get the table body element for column names
-                const tbody = document.querySelector('#columnNamesTable tbody');
-                columnNames.forEach(name => {
-                    const tr = document.createElement('tr');
-                    const td = document.createElement('td');
-                    td.textContent = name;
-                    tr.appendChild(td);
-                    tbody.appendChild(tr);
-                });
+            // Extract the column names and their indices from the clubs data
+            const columnNames = Object.keys(clubsData[0]);
 
-                // Extract the 'Name Of Club' column data
-                const clubs = results.data.map(row => row['Name Of Club']).filter(name => name); // Filter out any empty values
+            // Get the table body element for column names
+            const tbody = document.querySelector('#columnNamesTable tbody');
+            columnNames.forEach((name, index) => {
+                const tr = document.createElement('tr');
+                const tdNumber = document.createElement('td');
+                const tdName = document.createElement('td');
+                tdNumber.textContent = index + 1; // Column numbers are 1-based
+                tdName.textContent = name;
+                tr.appendChild(tdNumber);
+                tr.appendChild(tdName);
+                tbody.appendChild(tr);
+            });
 
-                // Get the list element for club names
-                const clubList = document.querySelector('#clubList');
-                clubs.forEach(club => {
-                    const li = document.createElement('li');
-                    const anchor = document.createElement('a');
-                    anchor.href = `#${club.replace(/\s+/g, '_')}`; // Replace spaces with underscores for anchor links
-                    anchor.textContent = club;
-                    li.appendChild(anchor);
-                    clubList.appendChild(li);
-                });
+            // Extract the 'Name Of Club' column data
+            const clubs = clubsData.map(row => row['Name Of Club']).filter(name => name); // Filter out any empty values
 
-                // Get the section container element for club sections
-                const sectionContainer = document.querySelector('#clubSections');
-                clubs.forEach(club => {
-                    const clubData = results.data.find(row => row['Name Of Club'] === club);
+            // Get the list element for club names
+            const clubList = document.querySelector('#clubList');
+            clubs.forEach(club => {
+                const li = document.createElement('li');
+                const anchor = document.createElement('a');
+                anchor.href = `#${club.replace(/\s+/g, '_')}`; // Replace spaces with underscores for anchor links
+                anchor.textContent = club;
+                li.appendChild(anchor);
+                clubList.appendChild(li);
+            });
 
-                    const section = document.createElement('section');
-                    section.id = club.replace(/\s+/g, '_'); // Replace spaces with underscores for section IDs
-                    section.innerHTML = `
-                        <h2>${club}</h2>
-                        <div class="contact-info">
-                            <h3>Secretary</h3>
-                            <p><strong>Name:</strong> ${clubData['First Name']} ${clubData['Surname']}</p>
-                            <p><strong>Email:</strong> <a href="mailto:${clubData['Email']}">${clubData['Email']}</a></p>
-                            <p><strong>Phone:</strong> ${clubData['Phone']}</p>
-                        </div>
-                        <div class="contact-info">
-                            <h3>Welfare</h3>
-                            <p><strong>Name:</strong> ${clubData['First Name_5']} ${clubData['Surname_5']}</p>
-                            <p><strong>Email:</strong> <a href="mailto:${clubData['Email_5']}">${clubData['Email_5']}</a></p>
-                            <p><strong>Phone:</strong> ${clubData['Phone_5']}</p>
-                        </div>
-                    `;
-                    sectionContainer.appendChild(section);
-                });
-            },
-            error: function(error) {
-                console.error('Error fetching or parsing CSV:', error);
-            }
+            // Get the section container element for club sections
+            const sectionContainer = document.querySelector('#clubSections');
+            clubs.forEach(club => {
+                const clubData = clubsData.find(row => row['Name Of Club'] === club);
+
+                // Find related teams for the current club
+                const relatedTeams = teamsData.filter(team => team['Club Name'] === club);
+
+                const section = document.createElement('section');
+                section.id = club.replace(/\s+/g, '_'); // Replace spaces with underscores for section IDs
+                section.innerHTML = `
+                    <h2>${club}</h2>
+                    <div class="contact-info">
+                        <h3>Secretary</h3>
+                        <p><strong>Name:</strong> ${clubData['First Name']} ${clubData['Surname']}</p>
+                        <p><strong>Email:</strong> <a href="mailto:${clubData['Email']}">${clubData['Email']}</a></p>
+                        <p><strong>Phone:</strong> ${clubData['Phone']}</p>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Welfare</h3>
+                        <p><strong>Name:</strong> ${clubData['First Name_5']} ${clubData['Surname_5']}</p>
+                        <p><strong>Email:</strong> <a href="mailto:${clubData['Email_5']}">${clubData['Email_5']}</a></p>
+                        <p><strong>Phone:</strong> ${clubData['Phone_5']}</p>
+                    </div>
+                    <div class="team-list">
+                        <h3>Teams</h3>
+                        ${relatedTeams.map(team => `
+                            <div>
+                                <h4>${team['Age Group in which team will participate this season']}</h4>
+                                <p><strong>Manager Name:</strong> ${team['First Name']} ${team['Last Name']}</p>
+                                <p><strong>Email:</strong> <a href="mailto:${team['Email']}">${team['Email']}</a></p>
+                                <p><strong>Phone:</strong> ${team['Phone']}</p>
+                                <p><strong>Ground Name:</strong> ${team['Ground Name']}</p>
+                                <p><strong>Ground Postcode:</strong> ${team['Ground Postcode']}</p>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+                sectionContainer.appendChild(section);
+            });
+        }).catch(error => {
+            console.error('Error fetching or parsing CSV:', error);
         });
     </script>
 </body>
