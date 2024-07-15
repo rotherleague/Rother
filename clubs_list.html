@@ -66,6 +66,7 @@
         header: true,
         skipEmptyLines: true,
         complete: function (clubsResults) {
+          console.log('Column Names:', Object.keys(clubsResults.data[0]));
           showInfo(clubsResults);
         }
       });
@@ -107,7 +108,7 @@
           }
 
           content_li += '<strong>Club Secretary:</strong> ' + club['First Name'] + ' ' + club['Surname'] + '<br>';
-          if (club['Visible'].toLowerCase() === 'show') {
+          if (club['Visible'] && club['Visible'].toLowerCase() === 'show') {
             if (club['Mobile']) {
               content_li += '<strong>Tel:</strong> <a href="tel:' + club['Mobile'].replace(/\s/g, '') + '">' + club['Mobile'] + '</a><br>';
             }
