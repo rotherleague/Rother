@@ -1,5 +1,9 @@
 
-var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4VY_mJjSYwTf7n1xBWtsqvo3x4RIXErc4fhel4TRyEcAtG78pfsAfrLWTrXXTzigUJvT7nDUDWg0E/pubhtml';
+// club
+//var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4VY_mJjSYwTf7n1xBWtsqvo3x4RIXErc4fhel4TRyEcAtG78pfsAfrLWTrXXTzigUJvT7nDUDWg0E/pubhtml';
+// team
+var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQE9OKbCoSfPuNGoCPiKzoMwlZHKt7T5fWDPDxfGVSOJkPpjVl7pPvTNh34TBDbe2h0MX7SVRpJvg5X/pubhtml';
+
 
       function init() {
         Papa.parse(public_spreadsheet_url, {
