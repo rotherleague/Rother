@@ -17,7 +17,7 @@
             background-color: #f2f2f2;
             text-align: left;
         }
-        h1, h2 {
+        h1, h2, h3 {
             color: #333;
         }
         .section-container {
@@ -25,6 +25,9 @@
         }
         .club-list {
             margin-bottom: 20px;
+        }
+        .contact-info {
+            margin-bottom: 15px;
         }
     </style>
 </head>
@@ -95,9 +98,27 @@
                 // Get the section container element for club sections
                 const sectionContainer = document.querySelector('#clubSections');
                 clubs.forEach(club => {
+                    const clubData = results.data.find(row => row['Name Of Club'] === club);
+
                     const section = document.createElement('section');
                     section.id = club.replace(/\s+/g, '_'); // Replace spaces with underscores for section IDs
-                    section.innerHTML = `<h2>${club}</h2><p>Content for ${club} section.</p>`; // Placeholder content for each section
+                    section.innerHTML = `
+                        <h2>${club}</h2>
+                        <div class="contact-info">
+                            <h3>Secretary</h3>
+                            <p><strong>First Name:</strong> ${clubData['First Name']}</p>
+                            <p><strong>Surname:</strong> ${clubData['Surname']}</p>
+                            <p><strong>Email:</strong> <a href="mailto:${clubData['Email']}">${clubData['Email']}</a></p>
+                            <p><strong>Phone:</strong> ${clubData['Phone']}</p>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Welfare</h3>
+                            <p><strong>First Name:</strong> ${clubData['7th First Name']}</p>
+                            <p><strong>Surname:</strong> ${clubData['7th Surname']}</p>
+                            <p><strong>Email:</strong> <a href="mailto:${clubData['7th Email']}">${clubData['7th Email']}</a></p>
+                            <p><strong>Phone:</strong> ${clubData['7th Phone']}</p>
+                        </div>
+                    `;
                     sectionContainer.appendChild(section);
                 });
             },
