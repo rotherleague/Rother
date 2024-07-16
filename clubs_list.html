@@ -205,6 +205,7 @@
                     .map(team => ({
                         ...team,
                         'Club Name': toTitleCase(team['Club Name']),
+                        'Name Of Team': toTitleCase(team['Name Of Team']),
                         'Shirt Colour': toTitleCase(team['Shirt Colour']),
                         'Shorts Colour': toTitleCase(team['Shorts Colour']),
                         'Ground Name': toTitleCase(team['Ground Name']),
@@ -236,7 +237,7 @@
                         <h3>Teams</h3>
                         ${relatedTeams.length > 0 ? relatedTeams.map(team => `
                             <div class="team-details">
-                                <h4>${team['Club Name']} ${team['Age Group in which team will participate this season']}</h4>
+                                <h4>${team['Club Name']} ${team['Name Of Team']} ${team['Age Group in which team will participate this season']}</h4>
                                 <p><strong>Manager:</strong> ${team['First Name']} ${team['Last Name']}<br/>
                                 <strong>Email:</strong> <a href="mailto:${team['Email']}">${team['Email']}</a><br/>
                                 ${team['Phone'] && team['Phone'] !== 'undefined' ? `<strong>Phone:</strong> ${team['Phone']}<br/>` : ''}
