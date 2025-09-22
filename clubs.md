@@ -62,7 +62,7 @@ Please download and return the any additional forms. Email the league: rotherlea
 {% include clubs/hastings_athletic.html %}
 
 <!--Hastings United -->
-{% include clubs/hastings_united_fc.html %}
+{% include clubs/hastings_united.html %}
 
 <!--Hastings Wanderers -->
 {% include clubs/hastings_wanderers.html %}
