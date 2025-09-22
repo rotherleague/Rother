@@ -56,11 +56,13 @@ Please download and return the any additional forms. Email the league: rotherlea
 <!--Fairwarp FC -->
 {% include clubs/fairwarp.html %}
 
-<!--Hailsham Town Youth -->
-{% include clubs/hailsham_town_youth.html %}
 
 <!--Goudhurst Dynamos -->
 {% include clubs/goudhurst.html %}
+
+
+<!--Hailsham Town Youth -->
+{% include clubs/hailsham_town_youth.html %}
 
 <!--Hastings Athletic FC -->
 {% include clubs/hastings_athletic.html %}
@@ -163,7 +165,7 @@ Please download and return the any additional forms. Email the league: rotherlea
 
 
 <!--Wittersham FC-->
-{% include clubs/wittersham_fc.html %}
+{% include clubs/wittersham.html %}
 
 
 
