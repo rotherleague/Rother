@@ -9,18 +9,17 @@ layout: page
 
 - Please complete the following forms:
  
-- [Club](https://forms.gle/jAGqA9wBdx1iSBvJ9)
+- [Club](https://forms.gle/JcUV5N6ix2kKcWs47)
 
-- [Team](https://forms.gle/XHc92AJsY9o76nTWA)
+- [Team](https://forms.gle/VYRfx8WmsLgUMdt38)
 
 Please download and return the additional forms to complete your registration. Email the league: rotherleague 'at' gmail.com
 
-* **Rother League** - [Club Agreement Form](https://drive.google.com/file/d/1iMgtSVQ3m4K03fM-s4t2WQ4J1Jd2IDur/view?usp=sharing)
+* **Rother League** - [Club Agreement Form](https://drive.google.com/file/d/1bLxkAGOU8eWPlXWYo1IosiPoZgFxaEBC/view?usp=sharing)
 
-* **Rother League** - [Club Membership Application Form](https://drive.google.com/file/d/1rxkw9kAPjnVbE-vmWek8LhtgelNqmsA7/view?usp=sharing)
+* **Rother League** - [Club Membership Application Form](https://drive.google.com/file/d/1q4du1NzGrw15J6Kr0kDmqFz0HomW7AXI/view?usp=sharing)
 
-
-* **Rother League** - [Transfer Agreement Form](https://drive.google.com/file/d/1WAeJwMwe7khrC_dwWjz-Pzr5eK2NU9_I/view?usp=sharing)
+* **Rother League** - [Transfer Agreement Form](https://drive.google.com/file/d/1c-0ZKj1C-dpswrQ5ScynJkJxbs04XnIV/view?usp=sharing)
 
 The club details are for Competition information and may be published online and in the League Handbook
 
